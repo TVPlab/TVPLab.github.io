@@ -107,7 +107,7 @@ img { display: block; max-width: 100%; }
 }
 
 /* ============================================================
-   HERO SECTION — inner pages (small)
+   HERO — inner pages (small)
    ============================================================ */
 
 .hero {
@@ -133,7 +133,6 @@ img { display: block; max-width: 100%; }
   color: #555;
 }
 
-/* Smaller hero variant (inner pages) */
 .hero--sm {
   padding: 70px 56px 72px;
 }
@@ -143,83 +142,56 @@ img { display: block; max-width: 100%; }
 }
 
 /* ============================================================
-   HERO SECTION — homepage full-bleed with photo + overlay
+   HERO — homepage full-bleed sticky photo (hero-home)
    ============================================================ */
 
-.hero--home {
-  position: relative;
-  background: #000;
+.hero-home {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   overflow: hidden;
-  padding: 0;
+  background: #000;
+  height: 600px;
 }
 
-.hero--home .hero-image {
+.hero-home .hero-image {
   width: 100%;
-  height: 600px;
+  height: 100%;
   display: block;
   object-fit: cover;
   object-position: center 28%;
-  opacity: 0.78;
-}
-
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  text-align: center;
-  padding: 0 56px 160px;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.70) 0%,
-    rgba(0, 0, 0, 0.15) 55%,
-    rgba(0, 0, 0, 0.00) 100%
-  );
-  pointer-events: none;
-}
-
-.hero-overlay h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: clamp(34px, 5vw, 58px);
-  font-weight: bold;
-  line-height: 1.18;
-  color: #fff;
-  margin-bottom: 20px;
-  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.35);
-}
-
-.hero-overlay p {
-  font-size: 17px;
-  max-width: 680px;
-  line-height: 1.78;
-  color: rgba(255, 255, 255, 0.88);
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
+  opacity: 0.88;
 }
 
 /* ============================================================
-   RESEARCH CARD — floats up over hero photo
+   RESEARCH CARD — scrolls over sticky hero photo
    ============================================================ */
 
 .card-section {
   background: #eef1f8;
   padding: 0 56px 72px;
   position: relative;
+  z-index: 2;
 }
 
 .white-card {
   background: #fff;
   width: 75%;
-  margin: -100px auto 0;
+  margin: -80px auto 0;
   padding: 64px 72px;
   text-align: center;
   border-radius: 20px 20px 0 0;
-  box-shadow:
-    0 -16px 56px rgba(0, 0, 0, 0.18),
-    0 4px 24px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 -20px 60px rgba(0,0,0,0.22), 0 4px 24px rgba(0,0,0,0.07);
   position: relative;
   z-index: 10;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.75s ease, transform 0.75s cubic-bezier(0.2, 0.8, 0.4, 1);
+}
+
+.white-card.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* ============================================================
