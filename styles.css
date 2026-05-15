@@ -63,6 +63,10 @@ img { display: block; max-width: 100%; }
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  border-bottom: 1px solid #000;
 }
 
 .site-logo {
@@ -101,9 +105,7 @@ img { display: block; max-width: 100%; }
 }
 
 .header-divider {
-  height: 1px;
-  background: #000;
-  width: 100%;
+  display: none; /* replaced by border-bottom on sticky header */
 }
 
 /* ============================================================
