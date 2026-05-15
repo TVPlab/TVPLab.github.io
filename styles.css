@@ -146,9 +146,7 @@ img { display: block; max-width: 100%; }
    ============================================================ */
 
 .hero-home {
-  position: sticky;
-  top: 0;
-  z-index: 1;
+  position: relative;
   overflow: hidden;
   background: #000;
   height: 600px;
@@ -171,13 +169,12 @@ img { display: block; max-width: 100%; }
   background: #eef1f8;
   padding: 0 56px 72px;
   position: relative;
-  z-index: 2;
 }
 
 .white-card {
   background: #fff;
   width: 75%;
-  margin: -80px auto 0;
+  margin: -52px auto 0;
   padding: 64px 72px;
   text-align: center;
   border-radius: 20px 20px 0 0;
