@@ -1067,6 +1067,15 @@ body.inner-page {
   max-width: 660px;
 }
 
+/* Centered masthead variant (used on people page) */
+.page-masthead--centered {
+  text-align: center;
+}
+.page-masthead--centered .page-lead {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Main content wrapper */
 .inner-wrap {
   max-width: 960px;
@@ -1739,13 +1748,14 @@ details[open] .tc-summary .tc-name::after {
   text-transform: uppercase;
   color: #4a5ab5;
   margin-bottom: 32px;
+  text-align: center;
 }
 
-/* Photo card grid */
+/* Photo card grid — uniform columns, 3-up on desktop */
 .photo-card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 32px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
 }
 
 /* Individual photo card */
@@ -1753,74 +1763,78 @@ details[open] .tc-summary .tc-name::after {
   background: #fff;
   border: 1px solid #e4e8f0;
   overflow: hidden;
-  transition: box-shadow 0.18s, border-color 0.18s;
+  transition: box-shadow 0.22s, border-color 0.22s;
+  display: flex;
+  flex-direction: column;
 }
 .photo-card:hover {
-  box-shadow: 0 4px 20px rgba(0,0,0,0.09);
-  border-color: #c5ccec;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.10);
+  border-color: #b0b9e8;
 }
 .photo-card--wide {
   grid-column: 1 / -1;
-  max-width: 560px;
+  max-width: 400px;
 }
 
 /* Remove default details/summary markers */
 .photo-card > summary {
   list-style: none;
   cursor: pointer;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .photo-card > summary::-webkit-details-marker { display: none; }
 
-/* Photo area */
+/* Photo area — square, consistent across all cards */
 .pc-photo-wrap {
   width: 100%;
   aspect-ratio: 1 / 1;
   overflow: hidden;
   background: #e8ebf5;
-  position: relative;
+  flex-shrink: 0;
 }
 .pc-photo-wrap img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center top;
-  transition: transform 0.3s ease;
+  transition: transform 0.35s ease;
 }
 .photo-card:hover .pc-photo-wrap img {
-  transform: scale(1.03);
+  transform: scale(1.04);
 }
 /* Placeholder when no photo */
-.pc-photo-wrap.photo-placeholder::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #dde2f0 0%, #c8ceea 100%);
+.pc-photo-wrap.photo-placeholder {
+  background: linear-gradient(145deg, #dde2f0 0%, #c8ceea 100%);
 }
 
-/* Card text */
+/* Card text — centered */
 .pc-info {
-  padding: 18px 20px 20px;
+  padding: 20px 16px 22px;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
 }
 .pc-role {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #4a5ab5;
-  margin-bottom: 6px;
 }
 .pc-name {
   font-family: Georgia, serif;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bold;
   color: #111;
-  line-height: 1.35;
+  line-height: 1.3;
 }
 .pc-name::after {
   content: " ↓";
-  font-size: 11px;
+  font-size: 12px;
   color: #4a5ab5;
   font-weight: 400;
   font-family: system-ui, sans-serif;
@@ -1831,12 +1845,12 @@ details[open] > summary .pc-name::after {
 
 /* Bio (expanded content) */
 .pc-bio {
-  padding: 0 20px 20px;
-  font-size: 13.5px;
+  padding: 14px 20px 20px;
+  font-size: 14px;
   color: #555;
   line-height: 1.78;
-  border-top: 1px solid #f0f2fa;
-  padding-top: 14px;
+  border-top: 1px solid #eef0fa;
+  text-align: left;
 }
 
 /* ——— PI FEATURED PHOTO CARD ——— */
@@ -1916,7 +1930,8 @@ details[open] > summary .pc-name::after {
   .team-cards { grid-template-columns: 1fr; }
   .pi-accordion summary { padding: 20px; }
   .pi-accordion-body { padding: 0 20px 24px; }
-  .photo-card-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 20px; }
+  .photo-card-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  .photo-card--wide { max-width: 100%; }
   .pi-photo-card { grid-template-columns: 1fr; }
   .pi-photo-wrap { width: 100%; aspect-ratio: 4 / 3; }
   .pi-photo-body { padding: 24px 20px; }
