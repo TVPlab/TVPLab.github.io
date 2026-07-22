@@ -1933,3 +1933,112 @@ details[open] > summary .pc-name::after {
   .pi-photo-body { padding: 24px 20px; }
   .pi-photo-body .pc-name { font-size: 18px; }
 }
+
+/* ============================================================
+   ZWICKER-STYLE TEAM LIST (photo left + text right, always visible)
+   ============================================================ */
+
+.zw-team-section {
+  padding: 52px 0 0;
+  border-top: 1px solid #e4e8f0;
+  margin-top: 52px;
+}
+.zw-team-section:first-of-type { margin-top: 0; border-top: none; }
+
+.zw-team-section-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #4a5ab5;
+  margin-bottom: 36px;
+}
+
+/* Person row */
+.zw-person {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 36px;
+  padding: 28px 0;
+  border-bottom: 1px solid #f0f2fa;
+  align-items: flex-start;
+  color: inherit;
+  text-decoration: none;
+}
+.zw-person:last-child { border-bottom: none; }
+
+/* PI row — slightly larger photo, hover effect */
+a.zw-person--pi {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 36px;
+  padding: 28px 0;
+  border-bottom: none;
+  align-items: flex-start;
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+a.zw-person--pi:hover { opacity: 0.82; }
+
+/* Photo */
+.zw-person-photo {
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  background: linear-gradient(145deg, #dde2f0, #c8ceea);
+  flex-shrink: 0;
+}
+.zw-person-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+/* Text */
+.zw-person-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 4px;
+}
+.zw-person-name {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+  line-height: 1.25;
+}
+.zw-person-role {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #4a5ab5;
+  margin-top: 4px;
+}
+.zw-person-bio {
+  font-size: 14.5px;
+  color: #444;
+  line-height: 1.78;
+  margin-top: 10px;
+  max-width: 620px;
+}
+.zw-person-link {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4a5ab5;
+}
+
+@media (max-width: 600px) {
+  .zw-person,
+  a.zw-person--pi {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .zw-person-photo { width: 120px; height: 120px; }
+}
