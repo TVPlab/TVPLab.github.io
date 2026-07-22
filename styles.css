@@ -1720,6 +1720,188 @@ details[open] .tc-summary .tc-name::after {
   margin-top: 24px;
 }
 
+/* ============================================================
+   PHOTO-CARD PEOPLE PAGE
+   ============================================================ */
+
+/* Section wrapper */
+.people-section {
+  padding: 48px 0 0;
+  border-top: 1px solid #e4e8f0;
+  margin-top: 48px;
+}
+.people-section:first-of-type { margin-top: 0; border-top: none; }
+
+.people-section-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #4a5ab5;
+  margin-bottom: 32px;
+}
+
+/* Photo card grid */
+.photo-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 32px;
+}
+
+/* Individual photo card */
+.photo-card {
+  background: #fff;
+  border: 1px solid #e4e8f0;
+  overflow: hidden;
+  transition: box-shadow 0.18s, border-color 0.18s;
+}
+.photo-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.09);
+  border-color: #c5ccec;
+}
+.photo-card--wide {
+  grid-column: 1 / -1;
+  max-width: 560px;
+}
+
+/* Remove default details/summary markers */
+.photo-card > summary {
+  list-style: none;
+  cursor: pointer;
+  display: block;
+}
+.photo-card > summary::-webkit-details-marker { display: none; }
+
+/* Photo area */
+.pc-photo-wrap {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #e8ebf5;
+  position: relative;
+}
+.pc-photo-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.3s ease;
+}
+.photo-card:hover .pc-photo-wrap img {
+  transform: scale(1.03);
+}
+/* Placeholder when no photo */
+.pc-photo-wrap.photo-placeholder::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #dde2f0 0%, #c8ceea 100%);
+}
+
+/* Card text */
+.pc-info {
+  padding: 18px 20px 20px;
+}
+.pc-role {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #4a5ab5;
+  margin-bottom: 6px;
+}
+.pc-name {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #111;
+  line-height: 1.35;
+}
+.pc-name::after {
+  content: " ↓";
+  font-size: 11px;
+  color: #4a5ab5;
+  font-weight: 400;
+  font-family: system-ui, sans-serif;
+}
+details[open] > summary .pc-name::after {
+  content: " ↑";
+}
+
+/* Bio (expanded content) */
+.pc-bio {
+  padding: 0 20px 20px;
+  font-size: 13.5px;
+  color: #555;
+  line-height: 1.78;
+  border-top: 1px solid #f0f2fa;
+  padding-top: 14px;
+}
+
+/* ——— PI FEATURED PHOTO CARD ——— */
+.pi-photo-card {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  background: #fff;
+  border: 1px solid #e4e8f0;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.18s, border-color 0.18s;
+  max-width: 800px;
+}
+.pi-photo-card:hover {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+  border-color: #4a5ab5;
+}
+.pi-photo-wrap {
+  width: 260px;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: #e8ebf5;
+  flex-shrink: 0;
+}
+.pi-photo-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.pi-photo-wrap.photo-placeholder {
+  background: linear-gradient(135deg, #dde2f0 0%, #c8ceea 100%);
+}
+.pi-photo-body {
+  padding: 36px 36px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.pi-photo-body .pc-role {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  margin-bottom: 4px;
+}
+.pi-photo-body .pc-name {
+  font-size: 22px;
+  line-height: 1.25;
+}
+.pi-photo-body .pc-name::after { content: ''; }
+.pc-title {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.65;
+  margin-top: 4px;
+}
+.pc-view-profile {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4a5ab5;
+}
+
 /* ——— RESPONSIVE ——— */
 
 @media (max-width: 720px) {
@@ -1734,4 +1916,9 @@ details[open] .tc-summary .tc-name::after {
   .team-cards { grid-template-columns: 1fr; }
   .pi-accordion summary { padding: 20px; }
   .pi-accordion-body { padding: 0 20px 24px; }
+  .photo-card-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 20px; }
+  .pi-photo-card { grid-template-columns: 1fr; }
+  .pi-photo-wrap { width: 100%; aspect-ratio: 4 / 3; }
+  .pi-photo-body { padding: 24px 20px; }
+  .pi-photo-body .pc-name { font-size: 18px; }
 }
