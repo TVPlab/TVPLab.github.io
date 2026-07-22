@@ -1771,10 +1771,6 @@ details[open] .tc-summary .tc-name::after {
   box-shadow: 0 6px 28px rgba(0,0,0,0.10);
   border-color: #b0b9e8;
 }
-.photo-card--wide {
-  grid-column: 1 / -1;
-  max-width: 400px;
-}
 
 /* Remove default details/summary markers */
 .photo-card > summary {
