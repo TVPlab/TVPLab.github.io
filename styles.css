@@ -1033,3 +1033,541 @@ img { display: block; max-width: 100%; }
   min-height: 130px;
   resize: vertical;
 }
+
+/* ============================================================
+   ZWICKER-INSPIRED INNER PAGES
+   Clean white, academic, text-first
+   ============================================================ */
+
+body.inner-page {
+  background: #fff;
+}
+
+/* Page masthead — title + optional lead */
+.page-masthead {
+  background: #fff;
+  padding: 72px 56px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.page-masthead h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(28px, 3.5vw, 44px);
+  font-weight: bold;
+  color: #111;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.page-masthead .page-lead {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.78;
+  max-width: 660px;
+}
+
+/* Main content wrapper */
+.inner-wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 56px;
+}
+
+/* Generic content section */
+.zw-section {
+  padding: 52px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+.zw-section:last-child {
+  border-bottom: none;
+  padding-bottom: 88px;
+}
+
+.zw-section-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #4a5ab5;
+  margin-bottom: 10px;
+}
+
+.zw-section h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.zw-section h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
+  color: #111;
+  margin-bottom: 12px;
+  line-height: 1.35;
+}
+
+.zw-section p {
+  font-size: 15px;
+  line-height: 1.88;
+  color: #444;
+  margin-bottom: 14px;
+}
+
+.zw-section p:last-child { margin-bottom: 0; }
+
+/* Inline link style */
+.zw-link {
+  color: #4a5ab5;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ——— ABOUT PAGE ——— */
+
+.about-pi-block {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.about-pi-block .pi-photo {
+  width: 160px;
+  height: 195px;
+  background: #d8dde8;
+  display: block;
+  object-fit: cover;
+}
+
+.about-pi-block h2 {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  color: #111;
+  margin-bottom: 6px;
+}
+
+.about-pi-block .pi-title-line {
+  font-size: 13px;
+  color: #4a5ab5;
+  font-weight: 600;
+  margin-bottom: 18px;
+  letter-spacing: 0.02em;
+}
+
+.about-pi-block p {
+  font-size: 15px;
+  line-height: 1.88;
+  color: #444;
+  margin-bottom: 13px;
+}
+
+/* ——— RESEARCH PAGE ——— */
+
+.research-topic {
+  padding: 44px 0;
+  border-bottom: 1px solid #e8e8e8;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 44px;
+  align-items: flex-start;
+}
+
+.research-topic:last-child { border-bottom: none; padding-bottom: 80px; }
+
+.research-topic-meta {
+  padding-top: 4px;
+}
+
+.research-topic-meta .topic-tag {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #4a5ab5;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.research-topic-meta .topic-area {
+  font-size: 13px;
+  color: #888;
+  line-height: 1.5;
+}
+
+.research-topic-body h2 {
+  font-family: Georgia, serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 14px;
+  line-height: 1.32;
+}
+
+.research-topic-body p {
+  font-size: 15px;
+  line-height: 1.88;
+  color: #444;
+  margin-bottom: 13px;
+}
+
+.research-topic-body p:last-child { margin-bottom: 0; }
+
+/* ——— PUBLICATIONS PAGE ——— */
+
+.pub-year-group {
+  padding: 44px 0 0;
+}
+
+.pub-year-heading {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #aaa;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 10px;
+  margin-bottom: 28px;
+}
+
+.pub-academic-entry {
+  padding: 0 0 28px 0;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pub-academic-entry:last-child {
+  border-bottom: none;
+}
+
+.pub-academic-entry h3 {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #111;
+  line-height: 1.45;
+  margin-bottom: 7px;
+}
+
+.pub-academic-entry .pub-authors {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.pub-academic-entry .pub-source {
+  font-size: 13px;
+  color: #4a5ab5;
+  font-style: italic;
+}
+
+.pub-academic-entry .pub-abstract {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.75;
+  margin-top: 10px;
+}
+
+/* ——— PEOPLE PAGE ——— */
+
+.pi-profile {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 44px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.pi-profile .pi-photo-box {
+  width: 170px;
+  height: 210px;
+  background: #d8dde8;
+  display: block;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.pi-profile h2 {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 4px;
+}
+
+.pi-profile .pi-title {
+  font-size: 13px;
+  color: #4a5ab5;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin-bottom: 18px;
+}
+
+.pi-profile p {
+  font-size: 14.5px;
+  line-height: 1.85;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.pi-profile .pi-links {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pi-link-btn {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4a5ab5;
+  border: 1px solid #c0c8e8;
+  padding: 5px 14px;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: background 0.15s;
+}
+
+.pi-link-btn:hover { background: #f0f2fa; }
+
+.people-group {
+  padding: 44px 0 0;
+  margin-bottom: 44px;
+}
+
+.people-group h3 {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #111;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+  margin-bottom: 28px;
+}
+
+.people-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.people-table tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.people-table tr:last-child { border-bottom: none; }
+
+.people-table td {
+  padding: 14px 0;
+  font-size: 14.5px;
+  color: #333;
+  vertical-align: top;
+}
+
+.people-table .pt-name {
+  font-weight: 600;
+  width: 240px;
+  color: #111;
+}
+
+.people-table .pt-role {
+  color: #666;
+}
+
+/* ——— NEWS PAGE ——— */
+
+.news-entry {
+  padding: 36px 0;
+  border-bottom: 1px solid #e8e8e8;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 36px;
+  align-items: flex-start;
+}
+
+.news-entry:last-child { border-bottom: none; padding-bottom: 80px; }
+
+.news-entry .news-date-col {
+  padding-top: 4px;
+}
+
+.news-entry .news-month {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #4a5ab5;
+}
+
+.news-entry h3 {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 10px;
+  line-height: 1.38;
+}
+
+.news-entry p {
+  font-size: 14.5px;
+  color: #555;
+  line-height: 1.78;
+}
+
+/* ——— CONTACT PAGE ——— */
+
+.contact-layout-zw {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  padding: 52px 0 80px;
+}
+
+.contact-layout-zw h2 {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 24px;
+}
+
+.contact-info-block {
+  margin-bottom: 28px;
+}
+
+.contact-info-block .ci-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #4a5ab5;
+  margin-bottom: 5px;
+}
+
+.contact-info-block p, .contact-info-block address {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.8;
+  font-style: normal;
+}
+
+/* ——— VACANCIES PAGE ——— */
+
+.vacancy-entry {
+  padding: 40px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.vacancy-entry:last-child { border-bottom: none; }
+
+.vacancy-entry h3 {
+  font-family: Georgia, serif;
+  font-size: 19px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 10px;
+  line-height: 1.35;
+}
+
+.vacancy-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 16px;
+}
+
+.vacancy-tag {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border: 1px solid #c0c8e8;
+  color: #4a5ab5;
+}
+
+.vacancy-entry p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.vacancy-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-apply {
+  display: inline-block;
+  background: #4a5ab5;
+  color: #fff;
+  padding: 10px 28px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.btn-apply:hover { background: #39499f; }
+
+.btn-jd {
+  display: inline-block;
+  border: 1px solid #c0c8e8;
+  color: #4a5ab5;
+  padding: 10px 24px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.btn-jd:hover { background: #f0f2fa; }
+
+/* ——— WHY JOIN GRID ——— */
+
+.why-join-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-bottom: 52px;
+}
+
+.why-join-card {
+  padding: 28px 24px;
+  border: 1px solid #e0e4f0;
+  background: #fff;
+}
+
+.why-join-card h4 {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.why-join-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.72;
+}
+
+/* ——— RESPONSIVE ——— */
+
+@media (max-width: 720px) {
+  .page-masthead { padding: 48px 24px 28px; }
+  .inner-wrap { padding: 0 24px; }
+  .research-topic { grid-template-columns: 1fr; gap: 16px; }
+  .news-entry { grid-template-columns: 1fr; gap: 8px; }
+  .about-pi-block { grid-template-columns: 1fr; }
+  .pi-profile { grid-template-columns: 1fr; }
+  .contact-layout-zw { grid-template-columns: 1fr; gap: 40px; }
+  .why-join-grid { grid-template-columns: 1fr; }
+}
