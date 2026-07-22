@@ -1559,6 +1559,124 @@ body.inner-page {
   line-height: 1.72;
 }
 
+/* ——— TEAM CARDS (Zwicker-inspired) ——— */
+
+.team-section {
+  padding: 44px 0 0;
+  border-top: 1px solid #e4e8f0;
+  margin-top: 44px;
+}
+.team-section:first-of-type { margin-top: 0; border-top: none; }
+
+.team-section-heading {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #4a5ab5;
+  margin-bottom: 32px;
+}
+
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.team-card {
+  padding: 28px 24px;
+  border: 1px solid #e4e8f0;
+  background: #fff;
+}
+
+.team-card .tc-role {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #4a5ab5;
+  background: #f0f2fa;
+  padding: 3px 9px;
+  margin-bottom: 12px;
+}
+
+.team-card .tc-name {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.team-card .tc-bio {
+  font-size: 13.5px;
+  color: #555;
+  line-height: 1.75;
+}
+
+/* PI accordion */
+.pi-accordion {
+  border: 1px solid #e4e8f0;
+  background: #fff;
+  margin-bottom: 44px;
+}
+
+.pi-accordion summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 32px;
+  cursor: pointer;
+  list-style: none;
+  gap: 20px;
+}
+.pi-accordion summary::-webkit-details-marker { display: none; }
+
+.pi-accordion-meta { flex: 1; }
+
+.pi-accordion-name {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 4px;
+}
+
+.pi-accordion-title {
+  font-size: 13px;
+  color: #4a5ab5;
+  font-weight: 500;
+}
+
+.pi-accordion-toggle {
+  font-size: 20px;
+  color: #4a5ab5;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+  user-select: none;
+}
+.pi-accordion[open] .pi-accordion-toggle { transform: rotate(180deg); }
+
+.pi-accordion-body {
+  padding: 0 32px 32px;
+  border-top: 1px solid #f0f2fa;
+}
+
+.pi-accordion-body p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #444;
+  margin-top: 20px;
+}
+
+.pi-accordion-body .pi-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
 /* ——— RESPONSIVE ——— */
 
 @media (max-width: 720px) {
@@ -1570,4 +1688,7 @@ body.inner-page {
   .pi-profile { grid-template-columns: 1fr; }
   .contact-layout-zw { grid-template-columns: 1fr; gap: 40px; }
   .why-join-grid { grid-template-columns: 1fr; }
+  .team-cards { grid-template-columns: 1fr; }
+  .pi-accordion summary { padding: 20px; }
+  .pi-accordion-body { padding: 0 20px 24px; }
 }
