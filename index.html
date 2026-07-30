@@ -544,6 +544,39 @@
       color: var(--color-muted);
     }
 
+    /* Footer logo strip */
+    .footer-logos {
+      border-top: 1px solid var(--color-border);
+      padding: 24px var(--gutter);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+      background: var(--color-footer);
+    }
+    .footer-logos img {
+      height: 36px;
+      width: auto;
+      opacity: 0.75;
+      filter: grayscale(30%);
+    }
+    .footer-logos span {
+      font-size: 0.78rem;
+      color: var(--color-muted);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+    .footer-contact {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px 48px;
+    }
+    @media (max-width: 600px) {
+      .footer-contact { grid-template-columns: 1fr; }
+    }
+    
     .footer-copy {
       max-width: var(--max-width);
       margin: 24px auto 0;
@@ -1106,15 +1139,38 @@
      FOOTER (shared)
 ═══════════════════════════════════════════════════════════════════ -->
 <footer class="site-footer">
+  <!-- Institutional logos strip -->
+  <div class="footer-logos">
+    <span>MRC Metabolic Diseases Unit</span>
+    <span>University of Cambridge</span>
+    <span>Medical Research Council</span>
+    <span>IMS · Metabolic Research Laboratories</span>
+    <span>NUH</span>
+    <span>Wellcome</span>
+    <span>ERC</span>
+    <span>LITMUS</span>
+    <span>BBSRC</span>
+  </div>
   <div class="footer-inner">
     <div>
       <div class="footer-brand">TVP Lab</div>
-      <div class="footer-address">
-        [Institution Name]<br>
-        [Department]<br>
-        [Address Line 1]<br>
-        [City, Country]<br>
-        <a href="mailto:contact@institution.edu" style="color:var(--color-accent);">contact@institution.edu</a>
+      <div class="footer-address" style="margin-top:10px;">
+        University of Cambridge Metabolic Research Laboratories<br>
+        Level 4, Institute of Metabolic Science<br>
+        Box 289, Addenbrooke's Hospital<br>
+        Cambridge, CB2 0QQ, United Kingdom
+      </div>
+    </div>
+    <div class="footer-contact" style="font-size:0.88rem; color:var(--color-muted); line-height:1.8;">
+      <div>
+        <strong style="color:var(--color-text);">Prof Toni Vidal-Puig</strong><br>
+        <a href="mailto:ajv22@medschl.cam.ac.uk" style="color:var(--color-accent);">ajv22@medschl.cam.ac.uk</a><br>
+        Tel: +44 (0)1223 762790
+      </div>
+      <div>
+        <strong style="color:var(--color-text);">Secretary (Katie Fisher)</strong><br>
+        <a href="mailto:klk30@medschl.cam.ac.uk" style="color:var(--color-accent);">klk30@medschl.cam.ac.uk</a><br>
+        Tel: +44 (0)1223 769095
       </div>
     </div>
     <div class="footer-links">
@@ -1125,7 +1181,7 @@
       <a href="#" onclick="showPage('contact')">Contact</a>
     </div>
   </div>
-  <div class="footer-copy">© YYYY TVP Lab · [Institution Name]</div>
+  <div class="footer-copy">© 2026 TVP Lab · University of Cambridge</div>
 </footer>
 
 
