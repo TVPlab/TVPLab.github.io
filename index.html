@@ -610,6 +610,111 @@
       .news-item { grid-template-columns: 1fr; gap: 4px; }
       .footer-inner { flex-direction: column; }
     }
+
+    /* ─── News page ────────────────────────────────────────────────── */
+    .news-hero {
+      position: relative;
+      width: 100%;
+      height: 340px;
+      background: #b0b0b0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .news-hero__bg {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, #8E9A98 0%, #6B7F8A 50%, #003B6F 100%);
+    }
+    .news-hero__card {
+      position: relative;
+      z-index: 2;
+      background: #fff;
+      padding: 40px 56px;
+      text-align: center;
+      box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+      max-width: 560px;
+    }
+    .news-hero__card h1 {
+      font-family: "Lora", Georgia, serif;
+      font-size: 2rem;
+      font-weight: 600;
+      margin: 0 0 12px;
+      color: #222;
+    }
+    .news-hero__card p {
+      font-size: 0.97rem;
+      color: #555;
+      margin: 0;
+      line-height: 1.6;
+    }
+    .news-grid-section {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 56px var(--gutter);
+    }
+    .news-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+    }
+    @media (max-width: 800px) {
+      .news-card-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 520px) {
+      .news-card-grid { grid-template-columns: 1fr; }
+    }
+    .news-card {
+      background: #fff;
+      border: 1px solid var(--color-border);
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      transition: box-shadow 0.18s, transform 0.18s;
+    }
+    .news-card:hover {
+      box-shadow: 0 6px 24px rgba(0,0,0,0.10);
+      transform: translateY(-2px);
+    }
+    .news-card__img {
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: var(--color-placeholder);
+      overflow: hidden;
+    }
+    .news-card__img img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .news-card__body {
+      padding: 18px 20px 22px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .news-card__date {
+      font-size: 0.78rem;
+      color: var(--color-muted);
+      margin-bottom: 8px;
+      letter-spacing: 0.02em;
+    }
+    .news-card__title {
+      font-family: "Lora", Georgia, serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #222;
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+    .news-card__desc {
+      font-size: 0.88rem;
+      color: #555;
+      line-height: 1.6;
+      flex: 1;
+    }
+
   </style>
 </head>
 <body>
@@ -1050,49 +1155,70 @@
      PAGE: NEWS
 ═══════════════════════════════════════════════════════════════════ -->
 <div id="page-news" class="page">
-  <div class="section">
-    <h1 class="section-title">News</h1>
-    <div class="news-list">
+  <!-- Hero banner -->
+  <div class="news-hero">
+    <div class="news-hero__bg"></div>
+    <div class="news-hero__card reveal-target">
+      <h1>News &amp; Updates</h1>
+      <p>Latest research highlights, lab announcements, and upcoming events from the TVP Lab.</p>
+    </div>
+  </div>
 
-      <div class="news-item">
-        <div class="news-date">Month DD, YYYY</div>
-        <div class="news-body">
-          <div class="news-headline">[News Headline One]</div>
-          <div class="news-desc">[Full description of the news item. Can be one to three sentences. Describe the event, award, paper, or announcement in plain language.]</div>
-          <a class="news-link" href="#">[Optional link text]</a>
+  <!-- Card grid -->
+  <div class="news-grid-section">
+    <div class="news-card-grid">
+
+      <div class="news-card">
+        <div class="news-card__img"></div>
+        <div class="news-card__body">
+          <div class="news-card__date">Month DD, YYYY</div>
+          <div class="news-card__title">[News Headline One]</div>
+          <div class="news-card__desc">Create a short subtitle that summarises this post in a few punchy sentences.</div>
         </div>
       </div>
 
-      <div class="news-item">
-        <div class="news-date">Month DD, YYYY</div>
-        <div class="news-body">
-          <div class="news-headline">[News Headline Two]</div>
-          <div class="news-desc">[Full description of the news item.]</div>
+      <div class="news-card">
+        <div class="news-card__img"></div>
+        <div class="news-card__body">
+          <div class="news-card__date">Month DD, YYYY</div>
+          <div class="news-card__title">[News Headline Two]</div>
+          <div class="news-card__desc">Create a short subtitle that summarises this post in a few punchy sentences.</div>
         </div>
       </div>
 
-      <div class="news-item">
-        <div class="news-date">Month DD, YYYY</div>
-        <div class="news-body">
-          <div class="news-headline">[News Headline Three]</div>
-          <div class="news-desc">[Full description of the news item.]</div>
-          <a class="news-link" href="#">[Optional link text]</a>
+      <div class="news-card">
+        <div class="news-card__img"></div>
+        <div class="news-card__body">
+          <div class="news-card__date">Month DD, YYYY</div>
+          <div class="news-card__title">[News Headline Three]</div>
+          <div class="news-card__desc">Create a short subtitle that summarises this post in a few punchy sentences.</div>
         </div>
       </div>
 
-      <div class="news-item">
-        <div class="news-date">Month DD, YYYY</div>
-        <div class="news-body">
-          <div class="news-headline">[News Headline Four]</div>
-          <div class="news-desc">[Full description of the news item.]</div>
+      <div class="news-card">
+        <div class="news-card__img"></div>
+        <div class="news-card__body">
+          <div class="news-card__date">Month DD, YYYY</div>
+          <div class="news-card__title">[News Headline Four]</div>
+          <div class="news-card__desc">Create a short subtitle that summarises this post in a few punchy sentences.</div>
         </div>
       </div>
 
-      <div class="news-item">
-        <div class="news-date">Month DD, YYYY</div>
-        <div class="news-body">
-          <div class="news-headline">[News Headline Five]</div>
-          <div class="news-desc">[Full description of the news item.]</div>
+      <div class="news-card">
+        <div class="news-card__img"></div>
+        <div class="news-card__body">
+          <div class="news-card__date">Month DD, YYYY</div>
+          <div class="news-card__title">[News Headline Five]</div>
+          <div class="news-card__desc">Create a short subtitle that summarises this post in a few punchy sentences.</div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card__img"></div>
+        <div class="news-card__body">
+          <div class="news-card__date">Month DD, YYYY</div>
+          <div class="news-card__title">[News Headline Six]</div>
+          <div class="news-card__desc">Create a short subtitle that summarises this post in a few punchy sentences.</div>
         </div>
       </div>
 
