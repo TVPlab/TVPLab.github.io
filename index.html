@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TVP Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <!-- Assets: logo_tvp.png and img_hero.jpg must be in the same folder as this file -->
   <style>
     /* ─── Reset & Base ───────────────────────────────────────────────── */
@@ -17,9 +20,9 @@
       --color-accent-hover: #BB8A52;
       --color-border:       #D6DDE2;
       --color-footer:       #F0F3F5;
-      --color-nav-bg:       #ffffff;
+      --color-nav-bg:       #003B6F;
       --color-placeholder:  #E4EAED;
-      --font-body:          "Helvetica Neue", Arial, sans-serif;
+      --font-body:          "Inter", "Helvetica Neue", Arial, sans-serif;
       --nav-height:         96px;
       --max-width:          1100px;
       --gutter:             24px;
@@ -40,6 +43,12 @@
     a:hover { color: var(--color-accent-hover); text-decoration: underline; }
 
     img { display: block; max-width: 100%; }
+
+
+    h1, h2, h3, .intro-card__title {
+      font-family: "Lora", Georgia, serif;
+      letter-spacing: -0.01em;
+    }
 
     /* ─── Navigation ─────────────────────────────────────────────────── */
     .site-nav {
@@ -66,11 +75,11 @@
     .nav-logo {
       font-size: 1.2rem;
       font-weight: 700;
-      color: var(--color-text);
+      color: #ffffff;
       letter-spacing: -0.02em;
       white-space: nowrap;
     }
-    .nav-logo:hover { text-decoration: none; color: var(--color-text); }
+    .nav-logo:hover { text-decoration: none; color: #ffffff; }
 
     .nav-links {
       display: flex;
@@ -89,13 +98,13 @@
       padding: 0 14px;
       line-height: var(--nav-height);
       font-size: 0.93rem;
-      color: var(--color-text);
+      color: #ffffff;
       cursor: pointer;
       white-space: nowrap;
       transition: color 0.15s;
     }
     .nav-links > li > a:hover,
-    .nav-links > li > span:hover { color: var(--color-accent-hover); text-decoration: none; }
+    .nav-links > li > span:hover { color: #BB8A52; text-decoration: none; }
 
     /* Dropdown trigger arrow */
     .nav-links > li > span::after {
