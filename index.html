@@ -1158,7 +1158,7 @@
   <!-- Hero banner -->
   <div class="news-hero">
     <div class="news-hero__bg"></div>
-    <div class="news-hero__card reveal-target">
+    <div class="news-hero__card">
       <h1>News &amp; Updates</h1>
       <p>Latest research highlights, lab announcements, and upcoming events from the TVP Lab.</p>
     </div>
@@ -1315,7 +1315,7 @@
     }
     document.querySelectorAll('.nav-dropdown').forEach(d => d.style.display = '');
     history.pushState(null, '', '#' + id);
-    if (id === 'home') resetReveal();
+    resetReveal();
     return false;
   }
 
