@@ -6,7 +6,7 @@
   <title>TVP Lab</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
   <!-- Assets: logo_tvp.png and img_hero.jpg must be in the same folder as this file -->
   <style>
     /* ─── Reset & Base ───────────────────────────────────────────────── */
@@ -16,13 +16,13 @@
       --color-bg:           #ffffff;
       --color-text:         #222222;
       --color-muted:        #6B7F8A;
-      --color-accent:       #003B6F;
-      --color-accent-hover: #BB8A52;
+      --color-accent:       #00897B;
+      --color-accent-hover: #26A69A;
       --color-border:       #D6DDE2;
       --color-footer:       #F0F3F5;
       --color-nav-bg:       #F5F0E8;
       --color-placeholder:  #E4EAED;
-      --font-body:          "Inter", "Helvetica Neue", Arial, sans-serif;
+      --font-body:          "Roboto", "Helvetica Neue", Arial, sans-serif;
       --nav-height:         96px;
       --max-width:          1100px;
       --gutter:             24px;
@@ -46,8 +46,9 @@
 
 
     h1, h2, h3, .intro-card__title {
-      font-family: "Lora", Georgia, serif;
+      font-family: "Roboto Condensed", "Roboto", Arial, sans-serif;
       letter-spacing: -0.01em;
+      font-weight: 700;
     }
 
     /* ─── Navigation ─────────────────────────────────────────────────── */
@@ -56,7 +57,7 @@
       top: 0;
       z-index: 100;
       background: var(--color-nav-bg);
-      border-bottom: 1px solid var(--color-border);
+      border-bottom: 2px solid rgba(0,0,0,0.08);
       height: var(--nav-height);
       overflow: visible;
     }
@@ -104,7 +105,7 @@
       transition: color 0.15s;
     }
     .nav-links > li > a:hover,
-    .nav-links > li > span:hover { color: #BB8A52; text-decoration: none; }
+    .nav-links > li > span:hover { color: #00897B; text-decoration: none; }
 
     /* Dropdown trigger arrow */
     .nav-links > li > span::after {
@@ -121,7 +122,7 @@
       left: 0;
       background: #fff;
       border: 1px solid var(--color-border);
-      border-top: 2px solid var(--color-accent);
+      border-top: 2px solid #00897B;
       min-width: 200px;
       box-shadow: 0 4px 16px rgba(0,0,0,0.08);
       list-style: none;
@@ -177,6 +178,45 @@
       color: #aaa;
       letter-spacing: 0.06em;
       text-transform: uppercase;
+    }
+
+
+    /* ─── Hero overlay text ─────────────────────────────────── */
+    .hero-photo {
+      position: relative;
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.55) 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 56px 72px;
+      z-index: 2;
+    }
+    .hero-overlay__title {
+      font-family: "Roboto", Arial, sans-serif;
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      margin-bottom: 12px;
+      text-shadow: 0 2px 16px rgba(0,0,0,0.3);
+    }
+    .hero-overlay__sub {
+      font-family: "Roboto", Arial, sans-serif;
+      font-size: clamp(0.95rem, 2vw, 1.2rem);
+      font-weight: 300;
+      color: rgba(255,255,255,0.88);
+      letter-spacing: 0.04em;
+      text-shadow: 0 1px 8px rgba(0,0,0,0.3);
+      max-width: 520px;
+    }
+    @media (max-width: 600px) {
+      .hero-overlay { padding: 32px 24px; }
     }
 
     /* ─── Intro reveal card ──────────────────────────────────────────── */
@@ -696,7 +736,7 @@
       max-width: 560px;
     }
     .news-hero__card h1 {
-      font-family: "Lora", Georgia, serif;
+      font-family: "Roboto Condensed", "Roboto", Arial, sans-serif;
       font-size: 2rem;
       font-weight: 600;
       margin: 0 0 12px;
@@ -760,7 +800,7 @@
       letter-spacing: 0.02em;
     }
     .news-card__title {
-      font-family: "Lora", Georgia, serif;
+      font-family: "Roboto Condensed", "Roboto", Arial, sans-serif;
       font-size: 1.05rem;
       font-weight: 600;
       color: #222;
