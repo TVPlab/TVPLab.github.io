@@ -113,6 +113,8 @@ ATTRS.update({
  'TVPlab members sharing a meal':'TVPlab成员聚餐',
  'Black-and-white team photograph from the TVPlab archive':'TVPlab早期团队黑白合照'
 })
+EXACT.update({'Meet our team':'认识我们的团队','View all':'全部成员','Administration':'行政管理','Researchers':'研究人员','Visitors':'访问成员','Read biography':'查看个人简介','Select a portrait to read more.':'点击人物照片，了解更多。','18 team members':'18 位团队成员'})
+ATTRS.update({'Team directory':'团队成员名录','Filter by role':'按团队角色筛选'})
 ALLOWED={'TVP','lab','☰','↗','EN','中文','TVPlab','X / Twitter','Twitter / X','LinkedIn','Google Scholar','PubMed','Nature Metabolism','Hills Road','Katie Fisher','Mark Campbell','Martin Dale','Nazuk Gupta','Milidili Maimaiti','Ruoqi Du','Possawee Prasertsuk','Iman Mali','Cherub Kaida Wu','.'}
 missing=set()
 def translate(text):
@@ -139,7 +141,7 @@ class Localize(HTMLParser):
   if tag=='title':self.title=True
   for key in ['src','href']:
    val=a.get(key,'')
-   if val.startswith(('images/','styles.css','refresh.css','site.js')):a[key]='../'+val
+   if val.startswith(('images/','styles.css','refresh.css','site.js','people.css','people.js')):a[key]='../'+val
   if 'srcset' in a:a['srcset']=re.sub(r'(^|,\s*)images/',r'\1../images/',a['srcset'])
   if 'data-language' in a:
    a['href']=('../' if a['data-language']=='en' else '')+self.name
