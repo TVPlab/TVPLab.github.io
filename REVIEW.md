@@ -8,7 +8,7 @@ The latest request restores the photographic hero and original homepage layout, 
 
 The supplied reference inspires powder blue (`#C1CEE6`), espresso (`#402F20`) and warm ivory (`#F8F6EB`). These supersede the earlier colour choices below. The header and research section use powder blue; news and footer use espresso with ivory type; content and gallery use ivory. Original photographic colours are unchanged.
 
-The hero returns to a full-width team photograph with a bottom-left caption and a dark gradient. Caption type is slightly smaller and lower than the first gallery version. The original mobile arrangement keeps the complete photograph above the caption. The TVPlab wordmark, bilingual pages, larger body type and swipeable galleries remain.
+The hero returns to a full-width team photograph with a bottom-left caption and a dark gradient. Caption type is slightly smaller and lower than the first gallery version. The original mobile arrangement keeps the complete photograph above the caption. The original TVP image logo, bilingual pages, larger body type and swipeable galleries remain.
 
 ## Preview
 
