@@ -2,6 +2,15 @@
 
 A reviewable refresh of https://github.com/tvplab/tvplab.github.io, based on commit `17628dd8a9f78f011d759ea30cc64bdfdcc9aea9`.
 
+## Current visual direction — 20 September 2026
+
+The current version uses warm beige (`#F6F1E7`) and deep indigo (`#29347A`), with a slightly darker beige surface and translucent indigo rules. This supersedes the earlier Cambridge-green / multicolour palette described in the historical notes below. Photos and institutional logos retain their original colours.
+
+The hero separates text from the full, uncropped team image: side by side on desktop, stacked on smaller screens. No caption or gradient overlays the team photo. The header now uses a text wordmark, and the lab name is consistently `TVPlab` in English and Chinese, including page titles, metadata, footer and contact labels. References to Professor Antonio Vidal-Puig as an individual are unchanged.
+
+
+Verification for this refinement: all 18 pages checked at desktop and mobile widths for overflow and branding. English and Chinese hero image/caption bounds do not intersect; the complete 3:2 photograph is shown with `object-fit: contain`. Additional homepage widths of 320, 768 and 1024 px checked. Research carousel navigation and gallery open/close remain functional.
+
 ## Preview
 
 Open `index.html` in a browser, or serve this folder with `python -m http.server 8000` and visit http://localhost:8000. No installation, build system or paid hosting is required.

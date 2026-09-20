@@ -108,7 +108,7 @@
     const form = e.currentTarget;
     if(!form.reportValidity()) return;
     const values = new FormData(form);
-    const subject = values.get('subject') || (isChinese ? 'TVP 实验室咨询' : 'TVP Lab enquiry');
+    const subject = values.get('subject') || (isChinese ? 'TVPlab咨询' : 'TVPlab enquiry');
     const body = String(values.get('message')) + (isChinese ? '\n\n姓名：' : '\n\nFrom: ') + values.get('name') + (isChinese ? '\n邮箱：' : '\nEmail: ') + values.get('email');
     const recipient = form.getAttribute('action');
     location.href = recipient + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);

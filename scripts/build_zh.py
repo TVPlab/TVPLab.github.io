@@ -8,15 +8,15 @@ import re
 ROOT=Path(__file__).resolve().parent.parent
 EXACT={
 'Skip to content':'跳转到正文','Menu':'菜单','About':'关于我们','Research':'研究方向','People':'团队成员','Publications':'研究论文','News & Events':'新闻与活动','Join Us':'加入我们','Contact':'联系我们',
-'University of Cambridge · Institute of Metabolic Science':'剑桥大学 · 代谢科学研究所','The science of':'探索代谢科学，','metabolic health.':'守护生命健康。','Vidal-Puig Laboratory':'Vidal-Puig 实验室','About TVP Lab':'关于 TVP 实验室','Understanding how':'理解身体如何','the body uses energy.':'利用能量。','Meet our laboratory':'了解我们的实验室',
+'University of Cambridge · Institute of Metabolic Science':'剑桥大学 · 代谢科学研究所','The science of':'探索代谢科学，','metabolic health.':'守护生命健康。','TVPlab':'TVPlab','About TVPlab':'关于 TVPlab','Understanding how':'理解身体如何','the body uses energy.':'利用能量。','Meet our laboratory':'了解我们的实验室',
 'Our research':'我们的研究','From adipose tissue':'从脂肪组织出发，','to metabolic disease.':'探索代谢疾病。','All research':'全部研究方向','Adipose tissue biology':'脂肪组织生物学','Explore this area':'了解研究方向','Lipotoxicity & organ health':'脂毒性与器官健康','Thermogenesis':'产热调控','Immunometabolism':'免疫代谢','From the laboratory':'实验室动态','News & events':'新闻与活动','All updates':'全部动态','Read update':'阅读动态',
-'Institute of Metabolic Science':'代谢科学研究所','University of Cambridge':'剑桥大学','Addenbrooke’s Hospital, Cambridge CB2 0QQ':'英国剑桥 Addenbrooke’s 医院，CB2 0QQ','Contact the lab':'联系实验室','© 2026 TVP Lab · University of Cambridge':'© 2026 TVP 实验室 · 剑桥大学',
+'Institute of Metabolic Science':'代谢科学研究所','University of Cambridge':'剑桥大学','Addenbrooke’s Hospital, Cambridge CB2 0QQ':'英国剑桥 Addenbrooke’s 医院，CB2 0QQ','Contact the lab':'联系实验室','© 2026 TVPlab · University of Cambridge':'© 2026 TVPlab · 剑桥大学',
 'Our People':'团队成员','Principal Investigator':'课题组负责人','Professor Antonio (Toni) Vidal-Puig':'Antonio（Toni）Vidal-Puig 教授','Professor Antonio Vidal-Puig':'Antonio Vidal-Puig 教授','View full profile →':'查看完整简介 →','Administration & Management':'行政与管理','Personal Assistant':'个人助理','Operations Scientific Management Lead':'实验室运营与科研管理负责人','Research Associates':'研究人员','Postdoctoral Research Associate':'博士后研究员','Assistant Research Professor':'助理研究教授','Research Assistants':'科研助理','Research Assistant':'科研助理','PhD Students':'博士研究生','PhD':'博士研究生','PhD · Lab Communication Director':'博士研究生 · 实验室传播负责人','Visiting Entrepreneur':'访问创业专家',
 'Our Mission':'我们的使命','Understanding Energy Metabolism at the Molecular Level':'从分子层面理解能量代谢','Location & Facilities':'地点与科研设施','Institute of Metabolic Science, Cambridge':'剑桥大学代谢科学研究所','We are based at the':'我们的实验室隶属于','MRC Metabolic Diseases Unit':'英国医学研究理事会代谢疾病研究部（MRC MDU）',
-'Find Us':'联系信息','Address':'地址','TVP Lab — Vidal-Puig Laboratory':'TVP 实验室 — Vidal-Puig 实验室',"Addenbrooke's Hospital":"Addenbrooke’s 医院",'Hills Road':'Hills Road','Cambridge CB2 0QQ':'剑桥 CB2 0QQ','United Kingdom':'英国','Email':'电子邮箱','Phone':'电话','Open Positions':'招聘机会','Vacancies':'招聘信息','for current openings.':'页面了解现有职位。','Media Enquiries':'媒体咨询','Write to the lab':'给实验室写信','directly.':'直接联系。','Name':'姓名','Subject':'主题','Message':'留言','Open email draft':'打开邮件草稿',
+'Find Us':'联系信息','Address':'地址','TVPlab':'TVPlab',"Addenbrooke's Hospital":"Addenbrooke’s 医院",'Hills Road':'Hills Road','Cambridge CB2 0QQ':'剑桥 CB2 0QQ','United Kingdom':'英国','Email':'电子邮箱','Phone':'电话','Open Positions':'招聘机会','Vacancies':'招聘信息','for current openings.':'页面了解现有职位。','Media Enquiries':'媒体咨询','Write to the lab':'给实验室写信','directly.':'直接联系。','Name':'姓名','Subject':'主题','Message':'留言','Open email draft':'打开邮件草稿',
 '← Our People':'← 返回团队成员','Biography':'个人简介','Current Appointments':'现任职务','2009 – present':'2009年至今','Education & Qualifications':'教育背景与专业资格','Selected Awards & Honours':'部分奖项与荣誉','Google Scholar':'Google Scholar','Publications page':'研究论文页面','A full list of publications is available on the':'完整论文列表可见','and via':'，也可通过','and':'及','profile.':'页面。','h-index: 117 · Total citations: >48,500 (June 2025)':'h 指数：117 · 总引用次数：超过 48,500（截至2025年6月）',
 'Our Research':'研究方向','Adipose Biology':'脂肪组织生物学','White fat · Energy storage · Obesity':'白色脂肪 · 能量储存 · 肥胖','White Adipose Tissue Expandability and Function':'白色脂肪组织的扩增能力与功能','Organ Dysfunction':'器官功能障碍','Liver · Heart · Beta cells':'肝脏 · 心脏 · 胰岛 β 细胞','Lipotoxicity in Peripheral Organs: Fatty Liver':'外周器官脂毒性与脂肪肝','Brown fat · Beige fat · UCP1':'棕色脂肪 · 米色脂肪 · UCP1','Brown Fat and Muscle Thermogenesis':'棕色脂肪与骨骼肌产热','Macrophages · Inflammation · Insulin resistance':'巨噬细胞 · 炎症 · 胰岛素抵抗','Macrophage Biology and Fibroinflammation':'巨噬细胞生物学与纤维炎症',
-'Why Join TVP Lab':'为什么加入我们','International Environment':'国际化科研环境','Cutting-Edge Science':'前沿科研平台','Career Development':'职业发展','Global Collaborations':'全球合作','Postdoctoral Positions':'博士后与研究岗位','Postdoctoral Research Associate — Brown Adipose Tissue Thermogenesis':'博士后研究员 — 棕色脂肪组织产热','Postdoctoral':'博士后','Full-time':'全职','3 Years':'3年','Open':'开放申请','Apply Now':'立即申请','Postdoctoral Research Associate — Adipose Tissue Immunology & Fibrosis':'博士后研究员 — 脂肪组织免疫与纤维化','2 Years':'2年','Senior Research Associate — Computational Metabolomics':'高级研究员 — 计算代谢组学','Senior Postdoctoral':'高级博士后','Closing Soon':'即将截止','PhD Opportunities':'博士招生','PhD Studentship — White Adipose Tissue Expandability and Lipotoxicity':'博士生项目 — 白色脂肪组织扩增能力与脂毒性','Fully Funded':'全额资助','4 Years':'4年','Enquire':'咨询项目','PhD Studentship — Single-Cell Genomics of Adipose Macrophages':'博士生项目 — 脂肪组织巨噬细胞的单细胞基因组学',
+'Why Join TVPlab':'为什么加入我们','International Environment':'国际化科研环境','Cutting-Edge Science':'前沿科研平台','Career Development':'职业发展','Global Collaborations':'全球合作','Postdoctoral Positions':'博士后与研究岗位','Postdoctoral Research Associate — Brown Adipose Tissue Thermogenesis':'博士后研究员 — 棕色脂肪组织产热','Postdoctoral':'博士后','Full-time':'全职','3 Years':'3年','Open':'开放申请','Apply Now':'立即申请','Postdoctoral Research Associate — Adipose Tissue Immunology & Fibrosis':'博士后研究员 — 脂肪组织免疫与纤维化','2 Years':'2年','Senior Research Associate — Computational Metabolomics':'高级研究员 — 计算代谢组学','Senior Postdoctoral':'高级博士后','Closing Soon':'即将截止','PhD Opportunities':'博士招生','PhD Studentship — White Adipose Tissue Expandability and Lipotoxicity':'博士生项目 — 白色脂肪组织扩增能力与脂毒性','Fully Funded':'全额资助','4 Years':'4年','Enquire':'咨询项目','PhD Studentship — Single-Cell Genomics of Adipose Macrophages':'博士生项目 — 脂肪组织巨噬细胞的单细胞基因组学',
 'New Paper Published in':'新论文发表于','Wellcome Trust Senior Investigator Award Renewed':'Wellcome Trust 高级研究员资助获续期','International Symposium on Adipose Biology — Cambridge':'脂肪生物学国际研讨会在剑桥举行',', revealing novel regulators of adipocyte plasticity.':'，揭示了调控脂肪细胞可塑性的新因子。','PhD Student Wins MRC Prize for Best Thesis':'博士生荣获 MRC 最佳博士论文奖','New Collaboration with Karolinska Institute Announced':'宣布与卡罗林斯卡医学院开展新合作','Prof. Vidal-Puig Delivers Keynote at EASD 2025':'Vidal-Puig 教授在 EASD 2025 作主旨报告',
 'Professor of Molecular Nutrition & Metabolism · Fellow, Academy of Medical Sciences · MRC Investigator. Leads research at the MRC Metabolic Diseases Unit and Wellcome Sanger Institute, Cambridge.':'分子营养与代谢学教授 · 英国医学科学院院士 · MRC 研究员。在剑桥 MRC 代谢疾病研究部及 Wellcome Sanger 研究所领导科研工作。',
 'Professor of Molecular Nutrition & Metabolism · Wellcome Trust Senior Investigator · Fellow, Academy of Medical Sciences':'分子营养与代谢学教授 · Wellcome Trust 高级研究员 · 英国医学科学院院士',
@@ -43,18 +43,18 @@ PREFIX={
 'Research focus: adipose tissue biology and molecular':'研究方向：脂肪组织生物学与肥胖的分子机制。',
 'Laboratory research assistant supporting':'科研助理，支持脂肪生物学与代谢组学研究项目。',
 'Laboratory research assistant.':'实验室科研助理。',
-'PhD research in adipose tissue':'在 TVP 实验室开展脂肪组织生物学博士研究。',
-'PhD research in metabolic disease':'在 TVP 实验室开展代谢疾病博士研究。',
+'PhD research in adipose tissue':'在 TVPlab开展脂肪组织生物学博士研究。',
+'PhD research in metabolic disease':'在 TVPlab开展代谢疾病博士研究。',
 'PhD research in adipose biology':'博士研究方向为脂肪生物学与免疫代谢。',
-'PhD candidate at the TVP Lab':'剑桥大学 TVP 实验室博士研究生，同时担任实验室全球传播负责人，协调国际科学传播与对外交流工作。',
-'Dr Rodrigo Santos is':'Rodrigo Santos 博士担任 TVP 实验室访问创业专家，致力于发掘团队的商业化与科研转化机会。他在细胞生物学，以及面向生物技术和制药行业的创新细胞技术开发与应用方面拥有丰富经验。',
+'PhD candidate at the TVPlab':'剑桥大学 TVPlab博士研究生，同时担任实验室全球传播负责人，协调国际科学传播与对外交流工作。',
+'Dr Rodrigo Santos is':'Rodrigo Santos 博士担任 TVPlab访问创业专家，致力于发掘团队的商业化与科研转化机会。他在细胞生物学，以及面向生物技术和制药行业的创新细胞技术开发与应用方面拥有丰富经验。',
 'Rodrigo is an Entrepreneur':'Rodrigo 是 Cambridge Innovation Capital（CIC）的驻点创业家。2026年加入 CIC 之前，他曾任 clock.bio 首席技术官，并曾在 Novo Holdings 担任驻点创业家、在 Mogrify 担任细胞技术总监、在 bit.bio 担任技术负责人，以及在 Horizon Discovery 担任首席科学家。',
 'He actively contributes':'他参与多个科学顾问委员会和创业指导项目，积极支持科学共同体的发展。Rodrigo 于剑桥大学干细胞研究所获得博士学位。',
-'The TVP Lab investigates':'TVP 实验室位于剑桥大学代谢科学研究所，研究脂肪组织生物学、能量代谢及代谢疾病的分子与细胞机制。',
-'Professor Antonio Vidal-Puig is':'Antonio Vidal-Puig 教授是剑桥大学分子营养与代谢学教授及 Wellcome Trust 高级研究员。他在剑桥 Addenbrooke’s 医院代谢科学研究所领导 TVP 实验室，并担任心肺研究所心脏代谢研究项目主任。',
+'The TVPlab investigates':'TVPlab位于剑桥大学代谢科学研究所，研究脂肪组织生物学、能量代谢及代谢疾病的分子与细胞机制。',
+'Professor Antonio Vidal-Puig is':'Antonio Vidal-Puig 教授是剑桥大学分子营养与代谢学教授及 Wellcome Trust 高级研究员。他在剑桥 Addenbrooke’s 医院代谢科学研究所领导 TVPlab，并担任心肺研究所心脏代谢研究项目主任。',
 'Professor Vidal-Puig received':'Vidal-Puig 教授在西班牙瓦伦西亚大学获得医学及博士学位，随后在哈佛医学院接受博士后训练。他于1999年加入剑桥大学，并建立了具有国际影响力的脂肪生物学与代谢疾病研究项目。',
 'He has published more than':'他已发表300余篇同行评审论文，并获得多项荣誉，包括营养学 Rank Prize、表彰糖尿病与代谢研究贡献的 Novo Nordisk Prize，以及内分泌学会奖章。',
-'The TVP Lab is dedicated':'TVP 实验室致力于理解机体储存与消耗能量的基本分子和细胞机制。我们认为，深入认识脂肪组织生物学，是开发肥胖、2型糖尿病及相关心脏代谢疾病有效治疗方法的重要基础。',
+'The TVPlab is dedicated':'TVPlab致力于理解机体储存与消耗能量的基本分子和细胞机制。我们认为，深入认识脂肪组织生物学，是开发肥胖、2型糖尿病及相关心脏代谢疾病有效治疗方法的重要基础。',
 'Our interdisciplinary team spans':'我们的跨学科团队包括分子生物学家、生理学家、生物信息学研究者和临床科学家，共同推动实验室发现向具有临床意义的认识转化。',
 'We are proud to be part':'实验室隶属于剑桥大学代谢科学研究所。该研究所位于 Addenbrooke’s 医院，是欧洲重要的代谢疾病研究中心之一，依托英国 NHS 教学医院开展研究。',
 'within the Institute of Metabolic Science':'，位于 Addenbrooke’s 医院内的代谢科学研究所。研究所汇聚临床与基础科研人员，推动对代谢及内分泌疾病的认识和治疗。',
@@ -64,9 +64,9 @@ PREFIX={
 'For press and media enquiries':'媒体咨询请联系剑桥大学传播办公室。',
 'Prepare your message below':'请在下方填写内容，然后在电子邮件应用中打开草稿，检查后自行发送。也可以通过邮箱',
 'As Professor of Molecular Nutrition':'作为剑桥大学分子营养与代谢学教授，Vidal-Puig 教授在英国医学研究理事会代谢疾病研究部（MRC MDU）及 Wellcome Sanger 研究所领导科研工作。他还担任剑桥表型组学中心科学主任，专注于先进的小鼠代谢表型分析，并担任 Addenbrooke’s 医院代谢医学荣誉顾问医师。',
-'The TVPLab explores':'TVP 实验室探索肥胖与胰岛素抵抗、糖尿病及心脏代谢并发症之间的分子联系，旨在发现新的治疗途径。Vidal-Puig 教授在西班牙瓦伦西亚接受医学教育，并在加入剑桥大学前于哈佛医学院开展博士后研究。',
+'The TVPlab explores':'TVPlab探索肥胖与胰岛素抵抗、糖尿病及心脏代谢并发症之间的分子联系，旨在发现新的治疗途径。Vidal-Puig 教授在西班牙瓦伦西亚接受医学教育，并在加入剑桥大学前于哈佛医学院开展博士后研究。',
 'He is a Fellow of the Academy':'他是英国医学科学院院士（FMedSci）及英国皇家内科医师学会会士（FRCP），获得欧洲研究理事会高级研究资助，并曾获内分泌学会奖章及希波克拉底国际营养研究奖。2025年，他当选欧洲科学院院士。',
-'Selected publications from the TVP Lab (':'TVP 实验室部分研究论文（h 指数117，引用超过48,500次）。完整列表请参阅 Vidal-Puig 教授的',
+'Selected publications from the TVPlab (':'TVPlab部分研究论文（h 指数117，引用超过48,500次）。完整列表请参阅 Vidal-Puig 教授的',
 'Our programme explores':'我们的研究探索调控能量消耗、脂肪沉积，以及能量在氧化利用和储存之间分配的分子机制。',
 'How the expansion of adipose tissue':'我们研究脂肪组织扩增与代谢综合征发生之间的关系，探索决定白色脂肪组织（WAT）扩增能力的基因、信号通路及表观遗传调控机制，理解脂肪细胞如何安全地增大和增生，以及超出这一能力后为何会在肝脏、心脏和骨骼肌中出现异位脂质沉积。',
 'Our central hypothesis is that adipose':'我们的核心假说是：推动肥胖相关心脏代谢并发症的关键在于脂肪组织功能失调，而不仅是脂肪量增加。理解扩增能力的限制因素及其恢复途径，是实验室的重要研究目标。',
@@ -86,20 +86,20 @@ PREFIX={
 'A senior position for an experienced':'该高级岗位面向具备丰富计算分析经验的研究人员，负责脂肪生物学项目中的多组学数据整合。申请者需具备 R／Python、代谢组学及蛋白质组学分析流程的相关经验。',
 'A fully-funded 4-year PhD':'该博士项目通过 MRC 代谢疾病研究部 DTP 培养计划提供四年全额资助，结合小鼠遗传学、脂肪细胞生物学及多组学方法，研究白色脂肪组织扩增的调控机制，以及扩增障碍引发外周器官脂毒性的后果。申请者须已获得或预计获得相关生物医学专业的一等或二等一级本科学位。',
 'In collaboration with the Wellcome Sanger':'该博士项目与 Wellcome Sanger 研究所合作，利用单细胞与空间转录组学解析肥胖脂肪组织中巨噬细胞的异质性。学生将接受单细胞测序、生物信息学及小鼠体内模型训练。申请者宜对免疫学或计算生物学具有浓厚兴趣。',
-'Latest updates from the TVP Lab':'TVP 实验室最新动态：论文发表、奖项、合作及活动。',
+'Latest updates from the TVPlab':'TVPlab最新动态：论文发表、奖项、合作及活动。',
 'Our latest study on adipose tissue remodelling':'我们关于长期代谢应激下脂肪组织重塑的最新研究已被接收并发表于',
 "The Wellcome Trust has renewed Professor":"Wellcome Trust 已续期支持 Vidal-Puig 教授的高级研究员资助，为未来五年的棕色脂肪组织产热及治疗策略研究提供支持。",
-'The TVP Lab co-hosted a two-day':'TVP 实验室在代谢科学研究所联合举办了为期两天的国际研讨会，邀请来自欧洲及亚洲的研究者共同交流。',
+'The TVPlab co-hosted a two-day':'TVPlab在代谢科学研究所联合举办了为期两天的国际研讨会，邀请来自欧洲及亚洲的研究者共同交流。',
 'Congratulations to Dr. Sophie':'祝贺 Sophie Clarke 博士！她关于肥胖脂肪组织中巨噬细胞极化的博士论文获得了 MRC 代谢科学最佳博士论文奖。',
-'The TVP Lab has announced':'TVP 实验室宣布与斯德哥尔摩卡罗林斯卡医学院开展新合作，利用 PET-CT 成像研究棕色脂肪在人类能量稳态中的作用。',
+'The TVPlab has announced':'TVPlab宣布与斯德哥尔摩卡罗林斯卡医学院开展新合作，利用 PET-CT 成像研究棕色脂肪在人类能量稳态中的作用。',
 'Professor Vidal-Puig delivered':'Vidal-Puig 教授在欧洲糖尿病研究协会年度会议上作开幕主旨报告，探讨脂肪组织研究的未来方向。',
 }
-TITLES={'index':'TVP 实验室 — 剑桥大学代谢科学研究','about':'关于我们 — TVP 实验室','research':'研究方向 — TVP 实验室','people':'团队成员 — TVP 实验室','publications':'研究论文 — TVP 实验室','news':'新闻与活动 — TVP 实验室','vacancies':'加入我们 — TVP 实验室','contact':'联系我们 — TVP 实验室','antonio-vidal-puig':'Antonio Vidal-Puig 教授 — TVP 实验室'}
-ATTRS={'Main navigation':'主导航','TVP Lab home':'TVP 实验室首页','Your name':'您的姓名','your@email.com':'您的电子邮箱','e.g. PhD enquiry, collaboration':'例如：博士项目咨询、科研合作','Your message…':'请输入您的留言……','The TVP Lab team together in the laboratory':'TVP 实验室团队合照','Language':'语言'}
+TITLES={'index':'TVPlab — 剑桥大学代谢科学研究','about':'关于我们 — TVPlab','research':'研究方向 — TVPlab','people':'团队成员 — TVPlab','publications':'研究论文 — TVPlab','news':'新闻与活动 — TVPlab','vacancies':'加入我们 — TVPlab','contact':'联系我们 — TVPlab','antonio-vidal-puig':'Antonio Vidal-Puig 教授 — TVPlab'}
+ATTRS={'Main navigation':'主导航','TVPlab home':'TVPlab首页','Your name':'您的姓名','your@email.com':'您的电子邮箱','e.g. PhD enquiry, collaboration':'例如：博士项目咨询、科研合作','Your message…':'请输入您的留言……','The TVPlab team together in the laboratory':'TVPlab团队合照','Language':'语言'}
 EXACT.update({
  'Swipe or use the arrows':'左右滑动，或点击箭头',
  'Adipocytes under the microscope':'显微镜下的脂肪细胞',
- 'Through our lens':'镜头里的实验室','Life at TVP Lab':'科研之外，同样精彩',
+ 'Through our lens':'镜头里的实验室','Life at TVPlab':'科研之外，同样精彩',
  'People, shared moments and a passion for discovery.':'记录相聚的时刻，也记录共同探索的热情。',
  'Our people':'我们的团队','Together in the laboratory':'相聚在实验室',
  'Beyond the bench':'实验之外','A moment together':'共享美好时光',
@@ -110,10 +110,10 @@ ATTRS.update({
  'Previous slide':'上一项','Next slide':'下一项','Research areas':'研究方向',
  'Laboratory photo gallery':'实验室相册',
  'Fluorescence microscopy image of adipocytes':'脂肪细胞荧光显微图',
- 'TVP Lab members sharing a meal':'TVP 实验室成员聚餐',
- 'Black-and-white team photograph from the TVP Lab archive':'TVP 实验室早期团队黑白合照'
+ 'TVPlab members sharing a meal':'TVPlab成员聚餐',
+ 'Black-and-white team photograph from the TVPlab archive':'TVPlab早期团队黑白合照'
 })
-ALLOWED={'☰','↗','EN','中文','TVP Lab','X / Twitter','Twitter / X','LinkedIn','Google Scholar','PubMed','Nature Metabolism','Hills Road','Katie Fisher','Mark Campbell','Martin Dale','Nazuk Gupta','Milidili Maimaiti','Ruoqi Du','Possawee Prasertsuk','Iman Mali','Cherub Kaida Wu','.'}
+ALLOWED={'TVP','lab','☰','↗','EN','中文','TVPlab','X / Twitter','Twitter / X','LinkedIn','Google Scholar','PubMed','Nature Metabolism','Hills Road','Katie Fisher','Mark Campbell','Martin Dale','Nazuk Gupta','Milidili Maimaiti','Ruoqi Du','Possawee Prasertsuk','Iman Mali','Cherub Kaida Wu','.'}
 missing=set()
 def translate(text):
  clean=' '.join(text.split())
@@ -148,7 +148,7 @@ class Localize(HTMLParser):
   if tag=='link' and a.get('rel')=='alternate':a['href']=('../' if a['hreflang']=='en' else '')+self.name
   for key in ['alt','aria-label','placeholder']:
    if a.get(key) in ATTRS:a[key]=ATTRS[a[key]]
-   elif a.get(key,'').startswith('Institutional and funder logos'):a[key]='TVP 实验室原网站所列机构与资助方标志'
+   elif a.get(key,'').startswith('Institutional and funder logos'):a[key]='TVPlab原网站所列机构与资助方标志'
   if tag=='meta' and a.get('name')=='description':a['content']=TITLES[self.name[:-5]]+'。了解我们的研究、团队及实验室动态。'
   self.out.append('<'+tag+''.join(' '+k+('="'+escape(v,quote=True)+'"' if v is not None else '') for k,v in a.items())+(' />' if closed else '>'))
  def handle_starttag(self,t,a):self.tag(t,a)
