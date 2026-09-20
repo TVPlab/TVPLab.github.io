@@ -38,5 +38,7 @@ Shared prompt specification: Remove background only, preserving the photographed
 | `images/team/ruoqi.webp` | RUOQI DU | https://static.wixstatic.com/media/7bd939_9b62412b45dc4c63b6f8cf0a04221758~mv2.jpeg |
 | `images/team/possawee.webp` | POSSAWEE PRASERTSUK | https://static.wixstatic.com/media/7bd939_22d5f80b7432413cb79a95945e5ffb84~mv2.jpg |
 | `images/team/iman.webp` | IMAN MALI | https://static.wixstatic.com/media/7bd939_260714cd118545e5a4de195e529630c4~mv2.png |
-| `images/team/kaida.webp` | CHERUB KAIDA WU | https://static.wixstatic.com/media/7bd939_0b22476d7dbc4e3a92e59424f691e6bc~mv2.jpg |
+| `images/team/kaida.webp` | CHERUB KAIDA WU | User-provided `IMG_1499.JPG`, 20 September 2026; replaces the previous Wix portrait. |
 | `images/team/rodrigo.webp` | DR. RODRIGO SANTOS | https://static.wixstatic.com/media/7bd939_d161bb9d573f4cecb6245259487ded70~mv2.png |
+
+Cherub's replacement uses the same built-in background-removal edit mode and WebP export settings. Prompt: extract the photographed woman in her white laboratory coat, preserving identity, expression, hair, earrings, clothing, warm lighting, posture and proportions; remove laboratory scenery and retain true alpha transparency, full head and available upper torso.
