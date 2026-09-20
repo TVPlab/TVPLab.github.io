@@ -7,6 +7,8 @@ from html import escape
 import re
 ROOT=Path(__file__).resolve().parent.parent
 EXACT={
+'Research Associate':'研究人员',
+'Research in adipose tissue biology at the TVPlab.':'在 TVPlab 开展脂肪组织生物学研究。',
 'Skip to content':'跳转到正文','Menu':'菜单','About':'关于我们','Research':'研究方向','People':'团队成员','Publications':'研究论文','News & Events':'新闻与活动','Join Us':'加入我们','Contact':'联系我们',
 'University of Cambridge · Institute of Metabolic Science':'剑桥大学 · 代谢科学研究所','The science of':'探索代谢科学，','metabolic health.':'守护生命健康。','TVPlab':'TVPlab','About TVPlab':'关于 TVPlab','Understanding how':'理解身体如何','the body uses energy.':'利用能量。','Meet our laboratory':'了解我们的实验室',
 'Our research':'我们的研究','From adipose tissue':'从脂肪组织出发，','to metabolic disease.':'探索代谢疾病。','All research':'全部研究方向','Adipose tissue biology':'脂肪组织生物学','Explore this area':'了解研究方向','Lipotoxicity & organ health':'脂毒性与器官健康','Thermogenesis':'产热调控','Immunometabolism':'免疫代谢','From the laboratory':'实验室动态','News & events':'新闻与活动','All updates':'全部动态','Read update':'阅读动态',
