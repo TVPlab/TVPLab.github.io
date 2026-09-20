@@ -2,14 +2,13 @@
 
 A reviewable refresh of https://github.com/tvplab/tvplab.github.io, based on commit `17628dd8a9f78f011d759ea30cc64bdfdcc9aea9`.
 
-## Current visual direction — 20 September 2026
+## Current visual direction — reference update, 20 September 2026
 
-The current version uses warm beige (`#F6F1E7`) and deep indigo (`#29347A`), with a slightly darker beige surface and translucent indigo rules. This supersedes the earlier Cambridge-green / multicolour palette described in the historical notes below. Photos and institutional logos retain their original colours.
+The latest request restores the photographic hero and original homepage layout, and moves News & Events directly above Life at TVPlab. The homepage now reads: hero, introduction, research, news, lab gallery, footer.
 
-The hero separates text from the full, uncropped team image: side by side on desktop, stacked on smaller screens. No caption or gradient overlays the team photo. The header now uses a text wordmark, and the lab name is consistently `TVPlab` in English and Chinese, including page titles, metadata, footer and contact labels. References to Professor Antonio Vidal-Puig as an individual are unchanged.
+The supplied reference inspires powder blue (`#C1CEE6`), espresso (`#402F20`) and warm ivory (`#F8F6EB`). These supersede the earlier colour choices below. The header and research section use powder blue; news and footer use espresso with ivory type; content and gallery use ivory. Original photographic colours are unchanged.
 
-
-Verification for this refinement: all 18 pages checked at desktop and mobile widths for overflow and branding. English and Chinese hero image/caption bounds do not intersect; the complete 3:2 photograph is shown with `object-fit: contain`. Additional homepage widths of 320, 768 and 1024 px checked. Research carousel navigation and gallery open/close remain functional.
+The hero returns to a full-width team photograph with a bottom-left caption and a dark gradient. Caption type is slightly smaller and lower than the first gallery version. The original mobile arrangement keeps the complete photograph above the caption. The TVPlab wordmark, bilingual pages, larger body type and swipeable galleries remain.
 
 ## Preview
 
