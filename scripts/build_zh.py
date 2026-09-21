@@ -126,6 +126,9 @@ EXACT.update({'Close biography':'收起简介','View profile':'查看个人主�
 NETWORK_I18N=json.loads((ROOT/'data/network-i18n.json').read_text())
 EXACT.update(NETWORK_I18N)
 ATTRS.update(NETWORK_I18N)
+NEWS_I18N=json.loads((ROOT/'data/news-i18n.json').read_text())
+EXACT.update(NEWS_I18N)
+ATTRS.update(NEWS_I18N)
 TITLES.update({'nanjing':'TVPlab 南京','valencia':'TVPlab 瓦伦西亚','collaborators':'合作伙伴'})
 ALLOWED={'TVP','lab','☰','↗','EN','中文','TVPlab','X / Twitter','Twitter / X','LinkedIn','Google Scholar','PubMed','Nature Metabolism','Hills Road','Katie Fisher','Mark Campbell','Martin Dale','Nazuk Gupta','Milidili Maimaiti','Ruoqi Du','Possawee Prasertsuk','Iman Mali','Cherub Kaida Wu','.'}
 missing=set()
@@ -153,7 +156,7 @@ class Localize(HTMLParser):
   if tag=='title':self.title=True
   for key in ['src','href']:
    val=a.get(key,'')
-   if val.startswith(('images/','styles.css','refresh.css','site.js','people.css','people.js','controls.css','navigation.css','navigation.js','network.css','network.js')):a[key]='../'+val
+   if val.startswith(('images/','styles.css','refresh.css','site.js','people.css','people.js','controls.css','navigation.css','navigation.js','network.css','network.js','news.css','news.js')):a[key]='../'+val
   if 'srcset' in a:a['srcset']=re.sub(r'(^|,\s*)images/',r'\1../images/',a['srcset'])
   if 'data-language' in a:
    a['href']=('../' if a['data-language']=='en' else '')+self.name
@@ -179,9 +182,13 @@ class Localize(HTMLParser):
  def handle_comment(self,t):self.out.append('<!--'+t+'-->')
  def handle_decl(self,t):self.out.append('<!'+t+'>')
 for p in sorted(ROOT.glob('*.html')):
+ if p.stem=='news':continue # Built directly in both languages by build_news.py.
  l=Localize(p.name);l.feed(p.read_text());s=''.join(l.out)
  if p.stem=='publications':s=s.replace('<div class="inner-wrap">','<div class="inner-wrap"><p class="bibliography-note">为便于准确检索，以下保留论文正式英文题名、作者姓名和期刊名称。</p>',1)
  (ROOT/'zh'/p.name).write_text(s)
 if missing:
  print('UNTRANSLATED:',*sorted(missing),sep='\n');raise SystemExit(1)
 print('Chinese pages generated; all narrative text covered.')
+
+import subprocess,sys
+subprocess.run([sys.executable,str(ROOT/'scripts/build_news.py')],check=True)

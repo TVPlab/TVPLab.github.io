@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TVPlab//Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:cipf-careers-20260925@tvplab.github.io
+DTSTAMP:20260921T120000Z
+DTSTART:20260925T143000Z
+SUMMARY:Exploring a research career at CIPF
+LOCATION:Centro de Investigacion Principe Felipe\, Valencia\, Spain
+DESCRIPTION:Career exploration for students and recent graduates. Starts a
+ t 16:30 Valencia local time. Check the source announcement for attendance
+  details.
+URL:https://www.linkedin.com/posts/toni-vidal-puig-md-phd-frcp-fmedsci-mae
+ -mba-43804113_carrerainvestigadora-biomedicalresearch-activity-7504670814
+ 835916801-ufE6
+END:VEVENT
+END:VCALENDAR
