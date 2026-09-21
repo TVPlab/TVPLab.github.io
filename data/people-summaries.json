@@ -1,0 +1,146 @@
+[
+  {
+    "id": "toni",
+    "source": "https://www.tvplab-cambridge.com/tvp",
+    "summary": "Investigates how obesity leads to insulin resistance, diabetes and cardiometabolic disease, with a focus on adipose tissue expandability, lipotoxicity and brown fat thermogenesis.",
+    "summary_zh": "研究肥胖如何引发胰岛素抵抗、糖尿病及心脏代谢疾病，重点关注脂肪组织扩增能力、脂毒性与棕色脂肪产热。",
+    "bio": "A physician-scientist trained in Valencia, Granada and Harvard, Toni joined Cambridge in 2000. His team combines experimental models, human samples and integrated omics to identify pathways for future metabolic therapies.",
+    "bio_zh": "Toni 曾在瓦伦西亚、格拉纳达及哈佛接受医学与科研训练，2000 年加入剑桥。团队结合实验模型、人体样本与组学研究，寻找代谢疾病的潜在治疗通路。"
+  },
+  {
+    "id": "katie",
+    "source": "https://www.tvplab-cambridge.com/kf",
+    "summary": "Personal assistant to Professor Toni Vidal-Puig at TVPlab.",
+    "summary_zh": "担任 TVPlab 负责人 Toni Vidal-Puig 教授的个人助理。",
+    "bio": "",
+    "bio_zh": ""
+  },
+  {
+    "id": "mark",
+    "source": "https://www.tvplab-cambridge.com/mc",
+    "summary": "Leads the scientific and operational management of mouse metabolic and cardiometabolic phenotyping programmes, coordinating resources and improving research workflows and quality.",
+    "summary_zh": "负责小鼠代谢及心脏代谢表型研究项目的科研与运营管理，统筹资源、优化实验流程并提升研究质量。",
+    "bio": "His research interests span adipose tissue biology, mitochondrial dysfunction and metabolic phenotyping in obesity, diabetes and fatty liver disease.",
+    "bio_zh": "研究兴趣涵盖脂肪组织生物学、线粒体功能障碍，以及肥胖、糖尿病与脂肪肝的代谢表型分析。"
+  },
+  {
+    "id": "vanessa",
+    "source": "https://www.tvplab-cambridge.com/vp",
+    "summary": "Studies how adipose tissue structure and extracellular matrix remodelling shape tissue plasticity and function, including fibro-inflammation and impaired brown fat thermogenesis.",
+    "summary_zh": "研究脂肪组织结构及细胞外基质重塑如何影响组织可塑性与功能，关注纤维炎症和棕色脂肪产热障碍。",
+    "bio": "An integrative physiologist with expertise in adipose biology and animal phenotyping, Vanessa combines in vivo and in vitro models with imaging and systems biology to investigate tissue dysfunction.",
+    "bio_zh": "Vanessa 具有整合生理学、脂肪生物学及动物表型研究经验，结合体内外模型、成像与系统生物学解析组织功能障碍。"
+  },
+  {
+    "id": "sergio",
+    "source": "https://www.tvplab-cambridge.com/src",
+    "summary": "Explores lipid remodelling, mitochondrial function, peroxisomes and lipid droplets to understand adipose tissue metabolism and insulin resistance in obesity and metabolic disease.",
+    "summary_zh": "围绕脂质重塑、线粒体功能、过氧化物酶体和脂滴，研究肥胖及代谢疾病中的脂肪组织代谢与胰岛素抵抗。",
+    "bio": "Sergio earned his PhD in Biochemistry at the University of the Balearic Islands and joined TVPlab in 2006 with a Marie Curie fellowship. His work includes membrane phospholipids, sphingolipids and ether lipids.",
+    "bio_zh": "Sergio 获巴利阿里群岛大学生物化学博士学位，2006 年获玛丽·居里资助加入 TVPlab，研究涉及膜磷脂、鞘脂与醚脂。"
+  },
+  {
+    "id": "sonia",
+    "source": "https://www.tvplab-cambridge.com/srf",
+    "summary": "Investigates the molecular steps that control human brown adipocyte differentiation and activation, seeking pathways that could increase brown fat recruitment and thermogenesis.",
+    "summary_zh": "研究调控人类棕色脂肪细胞分化与激活的分子过程，寻找促进棕色脂肪细胞形成和产热的潜在通路。",
+    "bio": "With training in biology, clinical oncology and biosciences in Spain, Sonia joined TVPlab in 2019 through a Ramón Areces Foundation fellowship and subsequently became a Sir Henry Wellcome Postdoctoral Fellow.",
+    "bio_zh": "Sonia 在西班牙接受生物学、临床肿瘤学及生物科学训练，2019 年获 Ramón Areces 基金会资助加入团队，随后获得 Sir Henry Wellcome 博士后奖学金。"
+  },
+  {
+    "id": "guillaume",
+    "source": "https://www.tvplab-cambridge.com/gb",
+    "summary": "Studies how macrophage lipid synthesis and remodelling regulate inflammation, and how these immune-cell processes contribute to the cardiometabolic complications of obesity.",
+    "summary_zh": "研究巨噬细胞的脂质合成与重塑如何调控炎症，以及这些免疫细胞过程如何参与肥胖的心脏代谢并发症。",
+    "bio": "Guillaume joined TVPlab in 2013. His work connects immunology and metabolism, with particular interests in macrophages, lipids, obesity and cardiovascular disease.",
+    "bio_zh": "Guillaume 于 2013 年加入 TVPlab，研究连接免疫学与代谢科学，重点关注巨噬细胞、脂质、肥胖和心血管疾病。"
+  },
+  {
+    "id": "ioannis",
+    "source": "https://www.tvplab-cambridge.com/gk",
+    "summary": "Uses transcriptomics, machine learning and integrated multi-omics to understand liver and adipose tissue dysfunction, particularly the progression of MASLD and MASH.",
+    "summary_zh": "利用转录组学、机器学习与多组学整合，研究肝脏和脂肪组织功能障碍，重点关注代谢功能障碍相关脂肪性肝病（MASLD）及脂肪性肝炎（MASH）的进展。",
+    "bio": "Trained in computer engineering and bioinformatics at Patras, Ioannis completed his Cambridge PhD in collaboration with EMBL-EBI, studying disease mechanisms and how well rodent models represent human MASLD.",
+    "bio_zh": "Ioannis 在帕特雷大学学习计算机工程与生物信息学，随后在剑桥与 EMBL-EBI 合作完成博士研究，探索疾病机制及啮齿动物模型对人类 MASLD 的代表性。"
+  },
+  {
+    "id": "isabel",
+    "source": "https://www.tvplab-cambridge.com/copy-of-sonia",
+    "summary": "Investigates how macrophages sense excess lipids and adapt their metabolism, exploring their roles in inflammation, fibrosis and metabolic syndrome and their potential as therapeutic targets.",
+    "summary_zh": "研究巨噬细胞如何感知过量脂质并调整自身代谢，探索其在炎症、纤维化及代谢综合征中的作用与治疗潜力。",
+    "bio": "Isabel trained in biochemistry and biomedical sciences at Valencia, where her PhD examined treatments in mouse models of MASLD. She joined TVPlab as a research associate in 2024.",
+    "bio_zh": "Isabel 在瓦伦西亚学习生物化学与生物医学科学，博士期间研究 MASLD 小鼠模型的治疗干预，2024 年以研究人员身份加入 TVPlab。"
+  },
+  {
+    "id": "hao",
+    "source": "https://www.tvplab-cambridge.com/copy-of-sonia-1",
+    "summary": "Studies how lipid metabolism in different macrophage populations influences the progression of fatty liver disease, focusing on membrane remodelling and new lipid synthesis in MASLD and MASH.",
+    "summary_zh": "研究不同巨噬细胞群的脂质代谢如何影响脂肪肝进展，重点关注 MASLD 与 MASH 中的细胞膜脂质重塑和从头脂质合成。",
+    "bio": "Hao completed a Biomedical Engineering PhD at Beihang University and joined TVPlab in 2024 with a Royal Society Newton International Fellowship. The project combines human liver samples with mouse models.",
+    "bio_zh": "Hao 获北京航空航天大学生物医学工程博士学位，2024 年获英国皇家学会牛顿国际奖学金加入团队，结合人肝组织样本与小鼠模型开展研究。"
+  },
+  {
+    "id": "ruoqi",
+    "source": "https://www.tvplab-cambridge.com/copy-of-possawee-prasertsuk",
+    "summary": "Studies adipose tissue expansion and lipotoxicity, focusing on zinc-finger proteins that regulate adipogenesis and their potential as targets for obesity and related metabolic complications.",
+    "summary_zh": "研究脂肪组织扩增与脂毒性，重点探索调控脂肪细胞生成的锌指蛋白，以及其作为肥胖及相关代谢并发症治疗靶点的潜力。",
+    "bio": "Ruoqi trained in medicine at Fudan University and worked in Qi-qun Tang's laboratory before joining TVPlab. She is now a Research Associate in the team.",
+    "bio_zh": "Ruoqi 在复旦大学接受医学教育，并曾在唐其群实验室从事科研，随后加入 TVPlab，现任团队 Research Associate。"
+  },
+  {
+    "id": "martin",
+    "source": "https://www.tvplab-cambridge.com/md",
+    "summary": "Research assistant in the TVPlab team at Cambridge.",
+    "summary_zh": "剑桥大学 TVPlab 团队的科研助理。",
+    "bio": "",
+    "bio_zh": ""
+  },
+  {
+    "id": "nazuk",
+    "source": "https://www.tvplab-cambridge.com/copy-of-nazuk",
+    "summary": "Investigates nutrient signalling and metabolic dysfunction, with interests in how diet shapes immune function and host–microbe interactions in the gut.",
+    "summary_zh": "研究营养信号与代谢功能障碍，关注饮食如何影响免疫功能及肠道宿主与微生物之间的相互作用。",
+    "bio": "Nazuk studied biotechnology at Northumbria and molecular biomedicine at Copenhagen. She brings molecular biology expertise and experience with mouse models of gut disease to research connecting nutrition and chronic disease.",
+    "bio_zh": "Nazuk 在诺森比亚大学学习生物技术，在哥本哈根大学学习分子生物医学，具有分子生物学及肠道疾病小鼠模型经验，关注营养与慢性疾病的联系。"
+  },
+  {
+    "id": "milidili",
+    "source": "https://www.tvplab-cambridge.com/copy-of-martin",
+    "summary": "Supports studies of adipose tissue and lipid metabolism, with interests in lipid droplets, mitochondrial function and macrophage lipid remodelling in obesity and type 2 diabetes.",
+    "summary_zh": "参与脂肪组织与脂质代谢研究，关注肥胖和 2 型糖尿病中的脂滴动态、线粒体功能及巨噬细胞脂质重塑。",
+    "bio": "With a background in biomedical sciences, Milidili brings experience in stem cell culture, molecular biology, ELISA, microscopy and metabolic phenotyping to experiments on cellular and systemic lipid flux.",
+    "bio_zh": "Milidili 具有生物医学科学背景，以及干细胞培养、分子生物学、ELISA、显微成像和代谢表型分析经验，参与细胞与全身脂质流动的实验研究。"
+  },
+  {
+    "id": "kaida",
+    "source": "https://www.tvplab-cambridge.com/copy-of-petra",
+    "summary": "Investigates brown adipose tissue dysfunction in obesity, with broader interests in energy metabolism and cellular organisation. Cherub also serves as the lab's Communication Director.",
+    "summary_zh": "研究肥胖中的棕色脂肪组织功能障碍，并关注能量代谢与细胞组织方式，同时担任实验室传播负责人。",
+    "bio": "Cherub's interdisciplinary research background spans neuroscience, cellular and molecular immunology, autoimmune disease and nanotechnology. Her PhD explores metabolic mechanisms within TVPlab at Cambridge.",
+    "bio_zh": "Cherub 的跨学科研究经历涵盖神经科学、细胞与分子免疫学、自身免疫疾病及纳米技术，目前在剑桥 TVPlab 开展代谢机制相关博士研究。"
+  },
+  {
+    "id": "possawee",
+    "source": "https://www.tvplab-cambridge.com/copy-of-renata-risi",
+    "summary": "Explores the signalling pathways that govern human brown adipocyte differentiation, aiming to identify ways to enhance brown fat formation and improve metabolic health.",
+    "summary_zh": "探索调控人类棕色脂肪细胞分化的信号通路，寻找促进棕色脂肪形成、改善代谢健康的潜在方法。",
+    "bio": "Possawee studied chemistry at Mahidol University and novel therapies at Imperial College London, developing interests in stem cells and gene therapy before beginning a Cambridge PhD in 2021.",
+    "bio_zh": "Possawee 在玛希隆大学学习化学，在帝国理工学院学习新型疗法，逐步形成对干细胞及基因治疗的兴趣，并于 2021 年开始剑桥博士研究。"
+  },
+  {
+    "id": "iman",
+    "source": "https://www.tvplab-cambridge.com/dea",
+    "summary": "Uses human induced pluripotent stem cells to study brown fat development, improving brown adipocyte differentiation and characterisation through transcriptomics and biological cryoimaging.",
+    "summary_zh": "利用人诱导多能干细胞研究棕色脂肪发育，结合转录组学与生物冷冻成像，改进棕色脂肪细胞的分化效率和特征鉴定。",
+    "bio": "Iman previously worked at the Sanger Institute, gaining experience in cancer cell lines, organoids, high-throughput drug screening and automation. This experience and an interest in data science inform Iman’s stem cell research.",
+    "bio_zh": "Iman 曾在 Sanger 研究所工作，具有癌细胞系、类器官、高通量药物筛选和自动化平台经验，并将这些技能与数据科学兴趣应用于干细胞研究。"
+  },
+  {
+    "id": "rodrigo",
+    "source": "https://www.tvplab-cambridge.com/copy-of-ruoqi-du",
+    "summary": "Helps identify opportunities to translate TVPlab discoveries into commercial applications, drawing on experience in cell biology and cell technologies across biotechnology and pharmaceutical research.",
+    "summary_zh": "凭借细胞生物学及生物技术、制药领域的细胞技术经验，协助发掘 TVPlab 科研成果的转化与商业应用机会。",
+    "bio": "Rodrigo completed his PhD at Cambridge's Stem Cell Institute. His career includes technology leadership at clock.bio, Mogrify and bit.bio, alongside entrepreneurship and investment roles including Cambridge Innovation Capital.",
+    "bio_zh": "Rodrigo 在剑桥干细胞研究所完成博士学位，曾在 clock.bio、Mogrify 和 bit.bio 担任技术领导职务，并在 Cambridge Innovation Capital 等机构从事创业与投资相关工作。"
+  }
+]

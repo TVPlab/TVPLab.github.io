@@ -97,3 +97,9 @@ Bilingual verification: all 18 pages checked at desktop (1440 px) and mobile (39
 - See `IMAGE_SOURCES.md` for source assets. Original research stock previews with watermarks were not used in this update.
 
 Gallery verification: English and Chinese homepages checked at 1440, 768 and 390 px. Confirmed arrow navigation, first/last boundaries, counters, keyboard navigation, lightbox image loading, wraparound, Escape/close, modal focus and focus restoration. A simulated native touchscreen swipe moved the mobile photo track; reduced-motion scrolling and JavaScript-disabled scrolling/photo links also passed. All local links and assets resolved.
+
+## People cards and profile review — 21 September 2026
+
+The People directory now uses the existing ivory, powder blue and espresso colours, a subtle paper texture, portrait panels with heads rising above the background, and flat, borderless name blocks. All 18 research summaries were checked against the lab’s individual profile pages; source links accompany the biographies. See `PEOPLE_SOURCES.md` for missing source biographies and role corrections. This supersedes the earlier People content and image caveats above, but does not verify unrelated pages.
+
+Verification: English and Chinese People pages checked at 1440 and 390 px, plus English at 320 px and Chinese at 768 px. No overflow or missing portraits. Confirmed unchanged palette, borderless captions, role filters, Cherub first among PhD students, keyboard expansion and original-profile links.

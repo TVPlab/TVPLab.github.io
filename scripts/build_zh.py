@@ -5,6 +5,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from html import escape
 import re
+import json
 ROOT=Path(__file__).resolve().parent.parent
 EXACT={
 'Research Associate':'研究人员',
@@ -117,6 +118,11 @@ ATTRS.update({
 })
 EXACT.update({'Meet our team':'认识我们的团队','View all':'全部成员','Administration':'行政管理','Researchers':'研究人员','Visitors':'访问成员','Read biography':'查看个人简介','Select a portrait to read more.':'点击人物照片，了解更多。','18 team members':'18 位团队成员'})
 ATTRS.update({'Team directory':'团队成员名录','Filter by role':'按团队角色筛选'})
+# Verified People summaries share one source with the English directory.
+for person in json.loads((ROOT/'data/people-summaries.json').read_text()):
+ for key in ['summary','bio']:
+  if person[key]:EXACT[person[key]]=person[key+'_zh']
+EXACT.update({'Close biography':'收起简介','View profile':'查看个人主页','Explore our research interests and backgrounds.':'了解团队的研究方向与专业背景。'})
 ALLOWED={'TVP','lab','☰','↗','EN','中文','TVPlab','X / Twitter','Twitter / X','LinkedIn','Google Scholar','PubMed','Nature Metabolism','Hills Road','Katie Fisher','Mark Campbell','Martin Dale','Nazuk Gupta','Milidili Maimaiti','Ruoqi Du','Possawee Prasertsuk','Iman Mali','Cherub Kaida Wu','.'}
 missing=set()
 def translate(text):
