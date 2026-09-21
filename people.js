@@ -19,6 +19,8 @@
   }));
   // A direct member link opens the profile, including after changing language.
   function showLinkedMember() {
+    const role = buttons.find(b => '#role-' + b.dataset.teamFilter === location.hash);
+    if (role) { role.click(); filters.scrollIntoView({block:'start'}); return; }
     const card = cards.find(item => '#' + item.id === location.hash);
     if (card) {
       buttons[0].click();

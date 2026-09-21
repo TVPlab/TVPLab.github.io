@@ -123,6 +123,10 @@ for person in json.loads((ROOT/'data/people-summaries.json').read_text()):
  for key in ['summary','bio']:
   if person[key]:EXACT[person[key]]=person[key+'_zh']
 EXACT.update({'Close biography':'收起简介','View profile':'查看个人主页','Explore our research interests and backgrounds.':'了解团队的研究方向与专业背景。'})
+NETWORK_I18N=json.loads((ROOT/'data/network-i18n.json').read_text())
+EXACT.update(NETWORK_I18N)
+ATTRS.update(NETWORK_I18N)
+TITLES.update({'nanjing':'TVPlab 南京','valencia':'TVPlab 瓦伦西亚','collaborators':'合作伙伴'})
 ALLOWED={'TVP','lab','☰','↗','EN','中文','TVPlab','X / Twitter','Twitter / X','LinkedIn','Google Scholar','PubMed','Nature Metabolism','Hills Road','Katie Fisher','Mark Campbell','Martin Dale','Nazuk Gupta','Milidili Maimaiti','Ruoqi Du','Possawee Prasertsuk','Iman Mali','Cherub Kaida Wu','.'}
 missing=set()
 def translate(text):
@@ -149,7 +153,7 @@ class Localize(HTMLParser):
   if tag=='title':self.title=True
   for key in ['src','href']:
    val=a.get(key,'')
-   if val.startswith(('images/','styles.css','refresh.css','site.js','people.css','people.js','controls.css')):a[key]='../'+val
+   if val.startswith(('images/','styles.css','refresh.css','site.js','people.css','people.js','controls.css','navigation.css','navigation.js','network.css','network.js')):a[key]='../'+val
   if 'srcset' in a:a['srcset']=re.sub(r'(^|,\s*)images/',r'\1../images/',a['srcset'])
   if 'data-language' in a:
    a['href']=('../' if a['data-language']=='en' else '')+self.name
@@ -180,4 +184,4 @@ for p in sorted(ROOT.glob('*.html')):
  (ROOT/'zh'/p.name).write_text(s)
 if missing:
  print('UNTRANSLATED:',*sorted(missing),sep='\n');raise SystemExit(1)
-print('Chinese pages generated: 9; all narrative text covered.')
+print('Chinese pages generated; all narrative text covered.')
