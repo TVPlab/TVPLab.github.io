@@ -149,7 +149,7 @@ class Localize(HTMLParser):
   if tag=='title':self.title=True
   for key in ['src','href']:
    val=a.get(key,'')
-   if val.startswith(('images/','styles.css','refresh.css','site.js','people.css','people.js')):a[key]='../'+val
+   if val.startswith(('images/','styles.css','refresh.css','site.js','people.css','people.js','controls.css')):a[key]='../'+val
   if 'srcset' in a:a['srcset']=re.sub(r'(^|,\s*)images/',r'\1../images/',a['srcset'])
   if 'data-language' in a:
    a['href']=('../' if a['data-language']=='en' else '')+self.name

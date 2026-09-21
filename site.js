@@ -60,6 +60,9 @@
     update();
   });
 
+  const cellPaths = {'next': 'M17 24h15m-6-6 6 6-6 6', 'prev': 'M32 24H17m6-6-6 6 6 6', 'close': 'm19 19 10 10m0-10L19 29'};
+  const cellIcon = direction => `<svg class="cell-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path class="cell-membrane" d="M25 3C37 2 45 12 45 24c1 12-9 21-21 21C12 46 3 37 3 25 2 13 12 3 25 3Z"/><path class="cell-lipid" d="M26 9c9-1 14 6 13 15 0 9-6 15-15 15-9 0-15-6-14-15 0-8 7-15 16-15Z"/><ellipse class="cell-nucleus" cx="9" cy="32" rx="2.3" ry="4" transform="rotate(-27 9 32)"/><path class="cell-arrow" d="${cellPaths[direction]}"/></svg>`;
+
   // Photo links still open the image when JavaScript or <dialog> is unavailable.
   const photographs = [...document.querySelectorAll('[data-gallery]')];
   if (photographs.length && typeof HTMLDialogElement !== 'undefined') {
@@ -69,7 +72,7 @@
     const labels = isChinese
       ? ['实验室相册', '关闭相册', '上一张照片', '下一张照片']
       : ['Laboratory photo gallery', 'Close gallery', 'Previous photograph', 'Next photograph'];
-    dialog.innerHTML = `<div class="lightbox-top"><p id="lightbox-title">${labels[0]}</p><button type="button" data-close aria-label="${labels[1]}" autofocus>×</button></div><figure><img alt="" /><div class="lightbox-bottom"><figcaption aria-live="polite"></figcaption><div class="carousel-buttons"><button type="button" data-prev aria-label="${labels[2]}">←</button><span class="carousel-count"></span><button type="button" data-next aria-label="${labels[3]}">→</button></div></div></figure>`;
+    dialog.innerHTML = `<div class="lightbox-top"><p id="lightbox-title">${labels[0]}</p><button type="button" data-close aria-label="${labels[1]}" autofocus>${cellIcon("close")}</button></div><figure><img alt="" /><div class="lightbox-bottom"><figcaption aria-live="polite"></figcaption><div class="carousel-buttons"><button type="button" data-prev aria-label="${labels[2]}">${cellIcon("prev")}</button><span class="carousel-count"></span><button type="button" data-next aria-label="${labels[3]}">${cellIcon("next")}</button></div></div></figure>`;
     document.body.append(dialog);
     let selected = 0, opener;
     const show = i => {
