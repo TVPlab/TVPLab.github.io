@@ -1,7 +1,8 @@
-/* Adipocyte-inspired controls. Reuse the site's ivory, blue and espresso. */
+/* Warm adipocyte accents; the surrounding page palette is unchanged. */
+:root{--cell-peach:#EDC4A7;--cell-yellow:#F7E4A7}
 .cell-icon{display:block;width:100%;height:100%;overflow:visible;color:var(--ink);pointer-events:none}
-.cell-membrane{fill:var(--blue);stroke:currentColor;stroke-width:1.25;transition:fill .22s}
-.cell-lipid{fill:var(--paper);stroke:currentColor;stroke-opacity:.18;stroke-width:.8}
+.cell-membrane{fill:var(--cell-peach);stroke:currentColor;stroke-width:1.25;transition:fill .22s}
+.cell-lipid{fill:var(--cell-yellow);stroke:currentColor;stroke-opacity:.18;stroke-width:.8}
 .cell-nucleus{fill:currentColor}
 .cell-arrow{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transform-origin:24px 24px;transition:transform .25s}
 .cell-emblem{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;flex:0 0 44px;vertical-align:middle;transition:transform .25s cubic-bezier(.2,.8,.3,1.3)}
@@ -26,7 +27,7 @@
 .btn-apply .cell-emblem,.btn-blue .cell-emblem,.btn-jd .cell-emblem,.pi-link-btn .cell-emblem{width:40px;height:40px;flex-basis:40px}
 .team-filters button{border:1px solid var(--line);border-radius:24px 28px 23px 27px;background:var(--paper);transition:background .2s,border-color .2s,transform .2s}
 .team-filters button:before{content:"";display:inline-block;width:7px;height:10px;border:1px solid currentColor;border-radius:50%;transform:rotate(-25deg);margin-right:9px;vertical-align:middle}
-.team-filters button[aria-pressed="true"]:before{background:var(--blue);border-color:var(--blue)}
+.team-filters button[aria-pressed="true"]:before{background:var(--cell-yellow);border-color:var(--cell-yellow)}
 .team-filters button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
 .language-switch{border-radius:25px 29px 24px 28px}
 .language-switch a,.language-switch a[aria-current="true"]{border-radius:20px 23px 19px 22px}
