@@ -128,6 +128,7 @@ EXACT.update(NETWORK_I18N)
 ATTRS.update(NETWORK_I18N)
 NEWS_I18N=json.loads((ROOT/'data/news-i18n.json').read_text())
 EXACT.update(NEWS_I18N)
+EXACT.update(json.loads((ROOT/'data/alumni-i18n.json').read_text()))
 ATTRS.update(NEWS_I18N)
 TITLES.update({'nanjing':'TVPlab 南京','valencia':'TVPlab 瓦伦西亚','collaborators':'合作伙伴'})
 ALLOWED={'TVP','lab','☰','↗','EN','中文','TVPlab','X / Twitter','Twitter / X','LinkedIn','Google Scholar','PubMed','Nature Metabolism','Hills Road','Katie Fisher','Mark Campbell','Martin Dale','Nazuk Gupta','Milidili Maimaiti','Ruoqi Du','Possawee Prasertsuk','Iman Mali','Cherub Kaida Wu','.'}
