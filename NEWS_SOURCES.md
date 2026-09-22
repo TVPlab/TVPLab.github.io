@@ -38,3 +38,6 @@ LinkedIn image downloads returned HTTP 403. Relevant existing CIPF, Nanjing and 
 - Run `python scripts/build_navigation.py` and `python scripts/build_zh.py`. The latter invokes `build_news.py`; homepage highlights are selected from the latest three publication dates.
 - `build_news.py` creates both archive pages, both homepage news sections, and the small homepage translation map. No feed scraping occurs in visitors’ browsers.
 - Search, topic/year filters, ordering, load-more and story deep links are progressive enhancements. All 53 stories remain available without JavaScript through native details elements.
+
+## Cambridge visit — 22 September 2026 update
+TVPlab supplied Toni’s invitation and two visit photographs (808.JPG, 816.JPG). Recap published 22 September; visit 15 September 2026 at 13:15 BST, IMS. No formal partnership agreement is claimed. LinkedIn publication dates and event display times now use Europe/London. CIPF calendar instant remains 14:30 UTC (15:30 BST); the location remains Valencia.

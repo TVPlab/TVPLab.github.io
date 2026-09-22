@@ -63,7 +63,7 @@
   render(false); revealHash();
   // Dated announcements never retain an "upcoming" claim after the event.
   const event = document.querySelector('[data-event-date]');
-  if (event && new Date().toLocaleDateString('en-CA',{timeZone:'Europe/Madrid'}) > event.dataset.eventDate) {
+  if (event && new Date().toLocaleDateString('en-CA',{timeZone:'Europe/London'}) > event.dataset.eventDate) {
     event.querySelector('.eyebrow').textContent = zh ? '活动回顾' : 'From the event calendar';
     event.querySelector('.calendar-download').hidden = true;
   }
