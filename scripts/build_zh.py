@@ -193,3 +193,6 @@ print('Chinese pages generated; all narrative text covered.')
 
 import subprocess,sys
 subprocess.run([sys.executable,str(ROOT/'scripts/build_news.py')],check=True)
+
+# Regenerate member homepages and direct directory links after localization.
+subprocess.run([sys.executable,str(ROOT/'scripts/build_profiles.py')],check=True)

@@ -17,7 +17,6 @@
     cards.forEach(card => {
       card.hidden = isAlumni || (category !== 'all' && card.dataset.teamCategory !== category);
       if (!card.hidden) visible++;
-      else card.open = false;
     });
     buttons.forEach(item => item.setAttribute('aria-pressed', String(item.dataset.teamFilter === category)));
     if (isAlumni) visible = alumni.querySelectorAll('.alumni-card').length;
@@ -38,7 +37,7 @@
     if (former) { select('alumni'); former.scrollIntoView({block:'start'}); return; }
     const card = cards.find(item => '#' + item.id === location.hash);
     select('all');
-    if (card) { card.open = true; card.scrollIntoView({block:'start'}); }
+    if (card) { card.scrollIntoView({block:'start'}); }
   }
   showLinkedMember();
   window.addEventListener('hashchange', showLinkedMember);

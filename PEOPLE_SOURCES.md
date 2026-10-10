@@ -1,5 +1,26 @@
 # People biography sources
 
+## Local member homepages — 10 October 2026
+
+All 18 current members and 20 alumni now have static English and Chinese
+homepages at `people/<name>.html` and `zh/people/<name>.html`. Directory portraits,
+names and profile links open those local pages. Source URLs remain in the JSON
+records for editorial reference. No new personal information was added.
+
+`data/member-profiles.json` records the existing names, roles, portrait assets,
+categories and stable slugs. Biographies come from `data/people-summaries.json`;
+alumni content comes from `data/alumni.json`, retaining the historical-affiliation
+qualification. Toni's existing longer academic biography remains accessible.
+
+Rebuild with `python scripts/build_navigation.py` followed by
+`python scripts/build_zh.py`; the latter also runs `scripts/build_profiles.py`.
+For profile-data-only edits, run `python scripts/build_profiles.py` directly.
+Alumni remain opt-in, and legacy directory anchors are preserved.
+
+Validation: all 76 generated profile pages, local links and assets, fragment
+targets, unique IDs, language counterparts, directory counts, menu order and
+deterministic rebuild checked. Browser visual QA was unavailable in this session.
+
 Reviewed 21 September 2026. Every linked individual page was opened and its displayed name and biography checked; copied URL slugs were not treated as identity evidence. Cards paraphrase research interests and background from those pages, in English and Chinese. The structured copy is in `data/people-summaries.json`; the translated pages are generated with `scripts/build_zh.py`.
 
 ## Limits and corrections
