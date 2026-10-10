@@ -1,0 +1,1371 @@
+{
+  "toni": {
+    "source": "https://www.tvplab-cambridge.com/tvp",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "ajv22@medschl.cam.ac.uk"
+    ],
+    "links": [
+      {
+        "label": "Institutional profile",
+        "label_zh": "机构主页",
+        "url": "https://www.mrl.ims.cam.ac.uk/research/principal-investigators/antonio-vidal-puig/"
+      },
+      {
+        "label": "Google Scholar",
+        "label_zh": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=Z-B7RdUAAAAJ&hl=en"
+      }
+    ],
+    "sections": [
+      {
+        "id": "focus",
+        "heading": "Research focus",
+        "heading_zh": "研究方向",
+        "items": [
+          {
+            "source_block": 13,
+            "text": "The research of my laboratory, the TVPLab (TVPLab, http://tvp.mrl.ims.cam.ac.uk/) focuses on elucidating the molecular mechanisms linking obesity with insulin resistance, diabetes and cardiometabolic complications and on the development of related therapeutic strategies.",
+            "source_text": "The research of my laboratory, the TVPLab (TVPLab, http://tvp.mrl.ims.cam.ac.uk/) focuses on elucidating the molecular mechanisms linking obesity with insulin resistance, diabetes and cardiometabolic complications and on the development of related therapeutic strategies.",
+            "text_zh": "我的实验室 TVPLab（http://tvp.mrl.ims.cam.ac.uk/）致力于阐明连接肥胖与胰岛素抵抗、糖尿病及心脏代谢并发症的分子机制，并开发相关治疗策略。"
+          },
+          {
+            "source_block": 14,
+            "text": "The Vision of the group is to lead the discovery of “the new biological concepts/molecular mechanism s that are going to transform the treatment of obesity and diabetes”.",
+            "source_text": "The Vision of the group is to lead the discovery of “the new biological concepts/molecular mechanism s that are going to transform the treatment of obesity and diabetes”.",
+            "text_zh": "团队的愿景是引领发现“将改变肥胖与糖尿病治疗方式的新生物学概念与分子机制”。"
+          },
+          {
+            "source_block": 15,
+            "text": "Our Mission is to unravel the mechanisms controlling energy homeostasis and understand how they fail and cause obesity and diabetes. Our mission is not to find specific drugs. The reason for our existence is to identify the biochemical paths that these drugs should target.",
+            "source_text": "Our Mission is to unravel the mechanisms controlling energy homeostasis and understand how they fail and cause obesity and diabetes. Our mission is not to find specific drugs. The reason for our existence is to identify the biochemical paths that these drugs should target.",
+            "text_zh": "我们的使命是揭示调控能量稳态的机制，并理解这些机制如何失效、进而引发肥胖与糖尿病。我们的使命并不是寻找某一种特定药物，而是确定这些药物应当作用的生化通路。"
+          },
+          {
+            "source_block": 16,
+            "text": "The group is well known by its creativity reflected in the “adipose tissue expandability hypothesis” and the concept of “lipotoxicity” to explain the association between obesity and insulin resistance. We are also leaders in the field of thermogenesis and brown adipose tissue. Here at the Sanger Institute we will be working on a project related to Brown adipose tissue and human iPs cells, funded by an ERC advanced award and will also contribute to the characterization of animal models related to obesity and diabetes modelling human and systems biology derived data.",
+            "source_text": "The group is well known by its creativity reflected in the “adipose tissue expandability hypothesis” and the concept of “lipotoxicity” to explain the association between obesity and insulin resistance. We are also leaders in the field of thermogenesis and brown adipose tissue. Here at the Sanger Institute we will be working on a project related to Brown adipose tissue and human iPs cells, funded by an ERC advanced award and will also contribute to the characterization of animal models related to obesity and diabetes modelling human and systems biology derived data.",
+            "text_zh": "团队以创造性提出“脂肪组织扩增能力假说”及“脂毒性”概念而闻名，用以解释肥胖与胰岛素抵抗之间的联系。我们也在产热和棕色脂肪组织研究领域处于领先位置。在 Sanger 研究所，我们将开展由 ERC 高级研究资助支持的棕色脂肪组织与人类诱导多能干细胞项目，并参与肥胖及糖尿病动物模型的特征鉴定，以模拟人类研究与系统生物学数据所反映的疾病过程。"
+          },
+          {
+            "source_block": 17,
+            "text": "Our research strategies include a combination of hypothesis driven and non-biased systems approaches that make use of purposely genetically modified animal models, stem cell biology, human biological samples (including induced pluripotent stem cells), and sophisticated omics technologies and bioinformatics integration of large datasets.",
+            "source_text": "Our research strategies include a combination of hypothesis driven and non-biased systems approaches that make use of purposely genetically modified animal models, stem cell biology, human biological samples (including induced pluripotent stem cells), and sophisticated omics technologies and bioinformatics integration of large datasets.",
+            "text_zh": "我们的研究策略结合假说驱动与无偏倚的系统研究方法，使用专门构建的基因修饰动物模型、干细胞生物学、人类生物样本（包括诱导多能干细胞）、先进组学技术，以及大型数据集的生物信息学整合分析。"
+          },
+          {
+            "source_block": 18,
+            "text": "Besides doing research I am also interested in management of talent in research intensive institutions. Over the years I have become fascinated by the highly talented PhD students and post docs I came across and on many occasions how their talent was wasted. So I believe a major problem in academic science is the poor management of this great talent to realise its value. Thus I am interested in better understanding and developing innovative approaches to talent management in academic research-intensive institutions. How it is best to manage the talent of academic scientists is an area under researched. However I am confident that some of the insights I have gained from current business management practices may be transferable and contribute to obtain the full value of science.",
+            "source_text": "Besides doing research I am also interested in management of talent in research intensive institutions. Over the years I have become fascinated by the highly talented PhD students and post docs I came across and on many occasions how their talent was wasted. So I believe a major problem in academic science is the poor management of this great talent to realise its value. Thus I am interested in better understanding and developing innovative approaches to talent management in academic research-intensive institutions. How it is best to manage the talent of academic scientists is an area under researched. However I am confident that some of the insights I have gained from current business management practices may be transferable and contribute to obtain the full value of science.",
+            "text_zh": "除科学研究之外，我也关注研究密集型机构的人才管理。多年来，我接触到许多极具才华的博士生和博士后，他们的才能令我着迷，但我也多次看到这些才能未能得到充分发挥。因此，我认为学术科学面临的重要问题之一，是未能通过有效管理充分实现优秀人才的价值。我希望更深入地理解并发展适用于研究密集型学术机构的创新人才管理方法。如何更好地管理科研人员的才能，仍是研究不足的领域。不过，我相信从现代商业管理实践中获得的一些认识可以迁移到学术环境，并有助于充分实现科学的价值。"
+          }
+        ]
+      },
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 5,
+            "text": "Prof Vidal-Puig obtained his medical degree from Valencia Medical School before training in clinical endocrinology at Granada Medical School, where he obtained his PhD based on clinical and physiological studies of the relationship between insulin resistance and hyperandrogenism. The award of the Paul Dudley White Fellowship from the American Heart Association funded postdoctoral training at Harvard University. In 2000 he moved to the University of Cambridge, where he developed the obesity, diabetes and cardiometabolic complications programme.",
+            "source_text": "Prof Vidal-Puig obtained his medical degree from Valencia Medical School before training in clinical endocrinology at Granada Medical School, where he obtained his PhD based on clinical and physiological studies of the relationship between insulin resistance and hyperandrogenism. The award of the Paul Dudley White Fellowship from the American Heart Association funded postdoctoral training at Harvard University. In 2000 he moved to the University of Cambridge, where he developed the obesity, diabetes and cardiometabolic complications programme.",
+            "text_zh": "Vidal-Puig 教授在瓦伦西亚医学院取得医学学位，随后在格拉纳达医学院接受临床内分泌学训练，并通过胰岛素抵抗与高雄激素血症关系的临床及生理学研究取得博士学位。他获得美国心脏协会 Paul Dudley White 奖学金，赴哈佛大学接受博士后训练。2000 年，他加入剑桥大学，建立了肥胖、糖尿病及心脏代谢并发症研究项目。"
+          },
+          {
+            "source_block": 6,
+            "text": "Prof Vidal-Puig is currently the Professor of Molecular Nutrition and Metabolism at Cambridge University and Honorary Consultant in Metabolic Medicine at Addenbrooke’s Hospital, Cambridge. Deputy Director of the Wellcome Trust-MRC Institute of Metabolic Science Director of the Cambridge Phenomics Centre, and Scientific Director of cardiometabolic medicine at Cambridge Heart and Lung Research Institute.",
+            "source_text": "Prof Vidal-Puig is currently the Professor of Molecular Nutrition and Metabolism at Cambridge University and Honorary Consultant in Metabolic Medicine at Addenbrooke’s Hospital, Cambridge. Deputy Director of the Wellcome Trust-MRC Institute of Metabolic Science Director of the Cambridge Phenomics Centre, and Scientific Director of cardiometabolic medicine at Cambridge Heart and Lung Research Institute.",
+            "text_zh": "Vidal-Puig 教授现任剑桥大学分子营养与代谢学教授，以及剑桥 Addenbrooke’s 医院代谢医学荣誉顾问医师，并担任 Wellcome Trust–MRC 代谢科学研究所副所长、剑桥表型组学中心主任，以及剑桥心肺研究所心脏代谢医学科学主任。"
+          },
+          {
+            "source_block": 7,
+            "text": "Vidal-Puig maintains a close relationship with Spain, as a researcher at the Príncipe Felipe Research Center in Valencia (Spain) and Rey Juan Carlos University collaborator. He is a member of the SABs of CIBERob, CIBERDem, and Health Research Institutes in Spain. He serves as Chair of the ERC Medicine LS4 panel and participated in evaluation committees of Severo Ochoa, and Jaime I awards.",
+            "source_text": "Vidal-Puig maintains a close relationship with Spain, as a researcher at the Príncipe Felipe Research Center in Valencia (Spain) and Rey Juan Carlos University collaborator. He is a member of the SABs of CIBERob, CIBERDem, and Health Research Institutes in Spain. He serves as Chair of the ERC Medicine LS4 panel and participated in evaluation committees of Severo Ochoa, and Jaime I awards.",
+            "text_zh": "Vidal-Puig 与西班牙保持密切联系，在瓦伦西亚 Príncipe Felipe 研究中心从事研究，并与胡安卡洛斯国王大学合作。他是 CIBERob、CIBERDem 及西班牙多家健康研究机构科学顾问委员会的成员，担任欧洲研究理事会（ERC）医学 LS4 评审组主席，并参与 Severo Ochoa 和 Jaime I 奖的评审工作。"
+          },
+          {
+            "source_block": 8,
+            "text": "Vidal-Puig directs the biomedicine program at the Center for Technology and Innovation at the University of Cambridge in Nanjing. Vidal-Puig is a concurrent professor at Nanjing University (China), Soochow University (China), and Chiba University (Japan). Vidal-Puig is a member of the Center for AI Technology of Humankind at the National University of Singapore Business School.",
+            "source_text": "Vidal-Puig directs the biomedicine program at the Center for Technology and Innovation at the University of Cambridge in Nanjing. Vidal-Puig is a concurrent professor at Nanjing University (China), Soochow University (China), and Chiba University (Japan). Vidal-Puig is a member of the Center for AI Technology of Humankind at the National University of Singapore Business School.",
+            "text_zh": "Vidal-Puig 负责剑桥大学南京科技创新中心的生物医学项目，并兼任南京大学、中国苏州大学及日本千叶大学教授。他也是新加坡国立大学商学院人类人工智能技术中心的成员。"
+          },
+          {
+            "source_block": 9,
+            "text": "His research program focuses on the molecular mechanisms of lipid-induced insulin resistance and lipotoxicity modulating fatty acid oxidation and thermogenic mechanisms. Prof. Vidal-Puig is the author of 260 scientific articles and has trained many PhDs, and postdoctoral, many of them established in Spain",
+            "source_text": "His research program focuses on the molecular mechanisms of lipid-induced insulin resistance and lipotoxicity modulating fatty acid oxidation and thermogenic mechanisms. Prof. Vidal-Puig is the author of 260 scientific articles and has trained many PhDs, and postdoctoral, many of them established in Spain",
+            "text_zh": "他的研究围绕脂质诱导的胰岛素抵抗与脂毒性的分子机制，关注脂肪酸氧化及产热机制的调控。Vidal-Puig 教授已发表 260 篇科学论文，并培养了多名博士生和博士后，其中许多人已在西班牙建立自己的科研事业。"
+          },
+          {
+            "source_block": 10,
+            "text": "Vidal-Puig has received important awards such as the International Hippocrates Award for Research in Nutrition (RAM Principality Asturias), FEBS National Lecturer, Medal of the British Endocrinology Society and the Lilly Foundation Distinguished Career Award. Sir Philip Randle Lecture Award from the British Biochemical Society, among others.",
+            "source_text": "Vidal-Puig has received important awards such as the International Hippocrates Award for Research in Nutrition (RAM Principality Asturias), FEBS National Lecturer, Medal of the British Endocrinology Society and the Lilly Foundation Distinguished Career Award. Sir Philip Randle Lecture Award from the British Biochemical Society, among others.",
+            "text_zh": "Vidal-Puig 获得的重要奖项包括国际希波克拉底营养研究奖（阿斯图里亚斯公国皇家医学科学院）、FEBS National Lecturer、英国内分泌学会奖章、Lilly 基金会杰出职业成就奖，以及英国生物化学学会 Sir Philip Randle 讲座奖等。"
+          },
+          {
+            "source_block": 11,
+            "text": "In his current role as a member of the Scientific Advisory Board of Argonaute RNA, Prof. Vidal-Puig continues to advance the translation of molecular discoveries into novel therapeutic approaches for cardiometabolic disorders.",
+            "source_text": "In his current role as a member of the Scientific Advisory Board of Argonaute RNA, Prof. Vidal-Puig continues to advance the translation of molecular discoveries into novel therapeutic approaches for cardiometabolic disorders.",
+            "text_zh": "作为 Argonaute RNA 科学顾问委员会成员，Vidal-Puig 教授继续推动分子研究发现向心脏代谢疾病新型治疗方法的转化。"
+          }
+        ]
+      }
+    ]
+  },
+  "katie": {
+    "source": "https://www.tvplab-cambridge.com/kf",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "klk30@medschl.cam.ac.uk"
+    ],
+    "links": [],
+    "sections": []
+  },
+  "martin": {
+    "source": "https://www.tvplab-cambridge.com/md",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "md215@cam.ac.uk"
+    ],
+    "links": [],
+    "sections": []
+  },
+  "mark": {
+    "source": "https://www.tvplab-cambridge.com/mc",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "mjc97@medschl.cam.ac.uk"
+    ],
+    "links": [],
+    "sections": [
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "The primary focus of my position is the scientific and operational management of our murine metabolic and/or cardio metabolic phenotyping programmes. This involves ongoing assessment and optimisation of the teams’ resources (financial, technological, and human) required to carry out our research according to appropriate timelines and defined budgetary targets.",
+            "source_text": "The primary focus of my position is the scientific and operational management of our murine metabolic and/or cardio metabolic phenotyping programmes. This involves ongoing assessment and optimisation of the teams’ resources (financial, technological, and human) required to carry out our research according to appropriate timelines and defined budgetary targets.",
+            "text_zh": "我的岗位主要负责小鼠代谢及／或心脏代谢表型研究项目的科学与运营管理。这包括持续评估和优化团队开展研究所需的财务、技术及人员资源，以确保研究按照适当的时间安排和既定预算目标推进。"
+          },
+          {
+            "source_block": 5,
+            "text": "Through the use and dissemination of scientific evidence, appropriate metrics, key performance indicators, knowledge, and experience, my role is involved in the identification and mitigation of process failures in order to improve workflow and productivity, ensure incorporation of best practices, maximize research quality, and ultimately oversee and increase the capabilities for the scientific output of the team.",
+            "source_text": "Through the use and dissemination of scientific evidence, appropriate metrics, key performance indicators, knowledge, and experience, my role is involved in the identification and mitigation of process failures in order to improve workflow and productivity, ensure incorporation of best practices, maximize research quality, and ultimately oversee and increase the capabilities for the scientific output of the team.",
+            "text_zh": "通过运用和传播科学证据、适当的衡量指标、关键绩效指标、知识与经验，我的工作涉及识别并减少流程中的问题，以改善工作流程和生产效率，确保采用最佳实践、最大程度提升研究质量，并最终监督和增强团队的科研产出能力。"
+          }
+        ]
+      },
+      {
+        "id": "interests",
+        "heading": "Current research interests",
+        "heading_zh": "具体研究兴趣",
+        "items": [
+          {
+            "source_block": 7,
+            "text": "Key interests in the context of obesity, diabetes and non-alcoholic fatty liver disease:",
+            "source_text": "Key interests in the context of obesity, diabetes and non-alcoholic fatty liver disease:",
+            "text_zh": "在肥胖、糖尿病和非酒精性脂肪性肝病背景下，我主要关注："
+          },
+          {
+            "source_block": 8,
+            "text": "Characterisation of murine metabolic phenotypes",
+            "source_text": "Characterisation of murine metabolic phenotypes",
+            "text_zh": "小鼠代谢表型的特征鉴定"
+          },
+          {
+            "source_block": 9,
+            "text": "Adipose tissue biology",
+            "source_text": "Adipose tissue biology",
+            "text_zh": "脂肪组织生物学"
+          },
+          {
+            "source_block": 10,
+            "text": "Mitochondrial dysfunction",
+            "source_text": "Mitochondrial dysfunction",
+            "text_zh": "线粒体功能障碍"
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "heading": "Key publications",
+        "heading_zh": "代表性论文与成果",
+        "items": [
+          {
+            "source_block": 12,
+            "text": "Rodriguez-Cuenca S, Carobbio S, Barceló-Coblijn G, Prieur X, Relat J, Amat R, Campbell M, Dias AR, Bahri M, Gray SL, Vidal-Puig A. P465L-PPARγ mutation confers partial resistance to the hypolipidaemic action of fibrates. Diabetes Obes Metab. 2018",
+            "source_text": "Rodriguez-Cuenca S, Carobbio S, Barceló-Coblijn G, Prieur X, Relat J, Amat R, Campbell M, Dias AR, Bahri M, Gray SL, Vidal-Puig A. P465L-PPARγ mutation confers partial resistance to the hypolipidaemic action of fibrates. Diabetes Obes Metab. 2018"
+          },
+          {
+            "source_block": 13,
+            "text": "Rodriguez-Cuenca S, Pellegrinelli V, Campbell M, Oresic M, Vidal-Puig A. Sphingolipids and glycerophospholipids - The \"ying and yang\" of lipotoxicity in metabolic diseases. Prog Lipid Res. 2017",
+            "source_text": "Rodriguez-Cuenca S, Pellegrinelli V, Campbell M, Oresic M, Vidal-Puig A. Sphingolipids and glycerophospholipids - The \"ying and yang\" of lipotoxicity in metabolic diseases. Prog Lipid Res. 2017"
+          }
+        ]
+      }
+    ]
+  },
+  "vanessa": {
+    "source": "https://www.tvplab-cambridge.com/vp",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "vp332@medschl.cam.ac.uk"
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "label_zh": "LinkedIn",
+        "url": "https://www.linkedin.com/in/vanessa-pellegrinelli-890769161/"
+      },
+      {
+        "label": "Institutional profile",
+        "label_zh": "机构主页",
+        "url": "https://www.mrl.ims.cam.ac.uk/staff/dr-vanessa-pellegrinelli"
+      }
+    ],
+    "sections": [
+      {
+        "id": "focus",
+        "heading": "Research focus",
+        "heading_zh": "研究方向",
+        "items": [
+          {
+            "source_block": 6,
+            "text": "By combining in vivo and in vitro models mimicking pathophysiological conditions with imaging and systems biology approaches, I am investigating how impaired adipose tissue plasticity may influence tissue functionality.",
+            "source_text": "By combining in vivo and in vitro models mimicking pathophysiological conditions with imaging and systems biology approaches, I am investigating how impaired adipose tissue plasticity may influence tissue functionality.",
+            "text_zh": "我结合模拟病理生理状态的体内和体外模型、成像及系统生物学方法，研究脂肪组织可塑性受损如何影响组织功能。"
+          }
+        ]
+      },
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "I am a Research Associate working on different aspects of adipose tissue structural networks including extracellular matrix remodelling. An integrative physiologist with considerable experience in adipose tissue biology and animal phenotyping. Responsible, hardworking and highly organized with a problem-solving attitude. Easily adaptable to multicultural environments, holding a strong commitment to scientific collaboration.",
+            "source_text": "I am a Research Associate working on different aspects of adipose tissue structural networks including extracellular matrix remodelling. An integrative physiologist with considerable experience in adipose tissue biology and animal phenotyping. Responsible, hardworking and highly organized with a problem-solving attitude. Easily adaptable to multicultural environments, holding a strong commitment to scientific collaboration.",
+            "text_zh": "我是一名 Research Associate，研究脂肪组织结构网络的不同方面，包括细胞外基质重塑。我具有整合生理学背景，在脂肪组织生物学和动物表型研究方面积累了丰富经验。我工作负责、勤勉、组织能力强，注重解决问题，能够迅速适应多元文化环境，并始终致力于科学合作。"
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "heading": "Key publications",
+        "heading_zh": "代表性论文与成果",
+        "items": [
+          {
+            "source_block": 8,
+            "text": "Pellegrinelli, V., Figueroa-Juarez, E., Samuelson, I., U-Din, M., Rodriguez-Fdez, S., Virtue, S., Leggat, J., Cubuk, C., Peirce, V.J., Niemi, T. and Campbell, M., 2023. Defective extracellular matrix remodeling in brown adipose tissue is associated with fibro-inflammation and reduced diet-induced thermogenesis. Cell Reports, 42(6).",
+            "source_text": "Pellegrinelli, V., Figueroa-Juarez, E., Samuelson, I., U-Din, M., Rodriguez-Fdez, S., Virtue, S., Leggat, J., Cubuk, C., Peirce, V.J., Niemi, T. and Campbell, M., 2023. Defective extracellular matrix remodeling in brown adipose tissue is associated with fibro-inflammation and reduced diet-induced thermogenesis. Cell Reports, 42(6)."
+          },
+          {
+            "source_block": 9,
+            "text": "Pellegrinelli, V., Rodriguez-Cuenca, S., Rouault, C., Figueroa-Juarez, E., Schilbert, H., Virtue, S., Moreno-Navarrete, J.M., Bidault, G., Vázquez-Borrego, M.C., Dias, A.R. and Pucker, B., 2022. Dysregulation of macrophage PEPD in obesity determines adipose tissue fibro-inflammation and insulin resistance. Nature metabolism, 4(4), pp.476-494.",
+            "source_text": "Pellegrinelli, V., Rodriguez-Cuenca, S., Rouault, C., Figueroa-Juarez, E., Schilbert, H., Virtue, S., Moreno-Navarrete, J.M., Bidault, G., Vázquez-Borrego, M.C., Dias, A.R. and Pucker, B., 2022. Dysregulation of macrophage PEPD in obesity determines adipose tissue fibro-inflammation and insulin resistance. Nature metabolism, 4(4), pp.476-494."
+          },
+          {
+            "source_block": 10,
+            "text": "Pellegrinelli V, Peirce VJ, Howard L, Virtue S, Türei D, Senzacqua M, Frontini A, Dalley JW, Horton AR, Bidault G, Severi I, Whittle A, Rahmouni K, Saez-Rodriguez J, Cinti S, Davies AM, Vidal-Puig A. Nat Commun, 2018.",
+            "source_text": "Pellegrinelli V, Peirce VJ, Howard L, Virtue S, Türei D, Senzacqua M, Frontini A, Dalley JW, Horton AR, Bidault G, Severi I, Whittle A, Rahmouni K, Saez-Rodriguez J, Cinti S, Davies AM, Vidal-Puig A. Nat Commun, 2018."
+          },
+          {
+            "source_block": 11,
+            "text": "Pellegrinelli V, Rouault C, Rodriguez-Cuenca S, Albert V, Edom-Vovard F, Vidal-Puig A, Clément K, Butler-Browne G, Lacasa D. Human adipocytes induce inflammation and atrophy in muscle cells during obesity. Diabetes, 2015.",
+            "source_text": "Pellegrinelli V, Rouault C, Rodriguez-Cuenca S, Albert V, Edom-Vovard F, Vidal-Puig A, Clément K, Butler-Browne G, Lacasa D. Human adipocytes induce inflammation and atrophy in muscle cells during obesity. Diabetes, 2015."
+          },
+          {
+            "source_block": 12,
+            "text": "Pellegrinelli V, Heuvingh J, du Roure O, Rouault C, Devulder A, Klein C, Lacasa M, Clément E, Lacasa D, Clément K. Human adipocyte function is impacted by mechanical cues.J Pathol, 2014.",
+            "source_text": "Pellegrinelli V, Heuvingh J, du Roure O, Rouault C, Devulder A, Klein C, Lacasa M, Clément E, Lacasa D, Clément K. Human adipocyte function is impacted by mechanical cues.J Pathol, 2014."
+          },
+          {
+            "source_block": 13,
+            "text": "Pellegrinelli V, Rouault C, Veyrie N, Clément K and Lacasa D.Endothelial Cells From Visceral Adipose Tissue Disrupt Adipocyte Functions In A 3D Setting: Partial Rescue By Angiopoietin-1. Diabetes, 2014.",
+            "source_text": "Pellegrinelli V, Rouault C, Veyrie N, Clément K and Lacasa D.Endothelial Cells From Visceral Adipose Tissue Disrupt Adipocyte Functions In A 3D Setting: Partial Rescue By Angiopoietin-1. Diabetes, 2014."
+          },
+          {
+            "source_block": 14,
+            "text": "Lacasa D, Pellegrinelli V, Keophiphath M, Clement K. International patent UPMC N°PCT/IB2011/O52241, WO2011148310-A1; FR2960549-A1; AU2011259756-A1; CA2800667-A1; EP2576770-A1; CN102985533-A; JP2013526291-W; US2013183706-A1.« Culture procedure of human mature adipocytes »",
+            "source_text": "Lacasa D, Pellegrinelli V, Keophiphath M, Clement K. International patent UPMC N°PCT/IB2011/O52241, WO2011148310-A1; FR2960549-A1; AU2011259756-A1; CA2800667-A1; EP2576770-A1; CN102985533-A; JP2013526291-W; US2013183706-A1.« Culture procedure of human mature adipocytes »"
+          }
+        ]
+      }
+    ]
+  },
+  "sergio": {
+    "source": "https://www.tvplab-cambridge.com/src",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "sr441@medschl.cam.ac.uk"
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "label_zh": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sergio-rodriguez-cuenca-29b84927/"
+      },
+      {
+        "label": "Institutional profile",
+        "label_zh": "机构主页",
+        "url": "https://www.mrl.ims.cam.ac.uk/staff/dr-sergio-rodriguez-cuenca"
+      }
+    ],
+    "sections": [
+      {
+        "id": "focus",
+        "heading": "Research focus",
+        "heading_zh": "研究方向",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "I am interested in exploring the molecular mechanisms involved in controlling adipose tissue metabolism in health and disease.",
+            "source_text": "I am interested in exploring the molecular mechanisms involved in controlling adipose tissue metabolism in health and disease.",
+            "text_zh": "我感兴趣的是探索在健康和疾病状态下调控脂肪组织代谢的分子机制。"
+          }
+        ]
+      },
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 6,
+            "text": "I obtained my bachelor degrees in Biology and Biochemistry at the University of Balearic Islands, Spain. In 2005, I completed my PhD in Biochemistry at the same university. In 2006 I was awarded a Marie Curie Intra-European Fellowship (FP7) and joined the TVP Lab as Research Associate. I continued working in the IMS-MRL and was promoted to Senior Research Associate in 2013.",
+            "source_text": "I obtained my bachelor degrees in Biology and Biochemistry at the University of Balearic Islands, Spain. In 2005, I completed my PhD in Biochemistry at the same university. In 2006 I was awarded a Marie Curie Intra-European Fellowship (FP7) and joined the TVP Lab as Research Associate. I continued working in the IMS-MRL and was promoted to Senior Research Associate in 2013.",
+            "text_zh": "我在西班牙巴利阿里群岛大学取得生物学和生物化学学士学位，并于 2005 年在该校完成生物化学博士学位。2006 年，我获得 Marie Curie Intra-European Fellowship（FP7）资助，以 Research Associate 身份加入 TVP Lab。此后我继续在 IMS-MRL 工作，并于 2013 年晋升为 Senior Research Associate。"
+          }
+        ]
+      },
+      {
+        "id": "interests",
+        "heading": "Current research interests",
+        "heading_zh": "具体研究兴趣",
+        "items": [
+          {
+            "source_block": 8,
+            "text": "To investigate the qualitative aspects of glycerophospholipids and sphingolipids remodelling and their relevance in the context of obesity/T2D and NAFLD. Particularly, I am interested in the plasticity of the molecular pathways responsible for the remodelling of the cellular membranes.",
+            "source_text": "1) To investigate the qualitative aspects of glycerophospholipids and sphingolipids remodelling and their relevance in the context of obesity/T2D and NAFLD. Particularly, I am interested in the plasticity of the molecular pathways responsible for the remodelling of the cellular membranes.",
+            "text_zh": "研究甘油磷脂和鞘脂重塑的组成与性质变化，以及这些变化在肥胖、2 型糖尿病和非酒精性脂肪性肝病中的意义。我尤其关注负责细胞膜重塑的分子通路所具有的可塑性。"
+          },
+          {
+            "source_block": 9,
+            "text": "To explore the role of mitochondrial dysfunction in the development of insulin resistance and other metabolic disturbances associated to obesity and vice versa, how insulin resistance/diabetes impacts on mitochondrial biology. I am also interested in strategies aimed to increase mitochondrial performance as a possible therapy to fight against Metabolic Syndrome.",
+            "source_text": "2) To explore the role of mitochondrial dysfunction in the development of insulin resistance and other metabolic disturbances associated to obesity and vice versa, how insulin resistance/diabetes impacts on mitochondrial biology. I am also interested in strategies aimed to increase mitochondrial performance as a possible therapy to fight against Metabolic Syndrome.",
+            "text_zh": "探索线粒体功能障碍在胰岛素抵抗及其他肥胖相关代谢紊乱形成中的作用，以及反过来，胰岛素抵抗和糖尿病如何影响线粒体生物学。我也关注提高线粒体功能的策略，及其作为代谢综合征潜在治疗方法的可能性。"
+          },
+          {
+            "source_block": 10,
+            "text": "To study the peroxisome biology, particularly the biosynthesis of etherlipids in the context of obesity and insulin resistance.",
+            "source_text": "3) To study the peroxisome biology, particularly the biosynthesis of etherlipids in the context of obesity and insulin resistance.",
+            "text_zh": "研究过氧化物酶体生物学，尤其是肥胖和胰岛素抵抗背景下醚脂的生物合成。"
+          },
+          {
+            "source_block": 11,
+            "text": "To gain knowledge about the molecular mechanisms controlling lipolysis and lipid droplet biology in obesity and insulin resistance states.",
+            "source_text": "4) To gain knowledge about the molecular mechanisms controlling lipolysis and lipid droplet biology in obesity and insulin resistance states.",
+            "text_zh": "理解在肥胖和胰岛素抵抗状态下调控脂解与脂滴生物学的分子机制。"
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "heading": "Key publications",
+        "heading_zh": "代表性论文与成果",
+        "items": [
+          {
+            "source_block": 13,
+            "text": "Dysregulation of macrophage PEPD in obesity determines adipose tissue fibro-inflammation and insulin resistance. V Pellegrinelli, S Rodriguez-Cuenca, C Rouault, E Figueroa-Juarez, H Schilbert, S Virtue , JM Moreno-Navarrete, G Bidault, MC Vázquez Borrego, AR Dias , B. Pucker, M Dale, M Campbell, S Carobbio, YH Lin, M. Vacca, J Aron-Wisnewsky, S Mora, MM Masiero, A Emmanouilidou, S Mukhopadhyay, G Dougan, M den Hoed, R JF Loos, JM Fernández-Real, D Chiarugi, K Clément A Vidal-Puig. Nature Metabolism 2022 ;4(4):476-494.",
+            "source_text": "Dysregulation of macrophage PEPD in obesity determines adipose tissue fibro-inflammation and insulin resistance. V Pellegrinelli, S Rodriguez-Cuenca, C Rouault, E Figueroa-Juarez, H Schilbert, S Virtue , JM Moreno-Navarrete, G Bidault, MC Vázquez Borrego, AR Dias , B. Pucker, M Dale, M Campbell, S Carobbio, YH Lin, M. Vacca, J Aron-Wisnewsky, S Mora, MM Masiero, A Emmanouilidou, S Mukhopadhyay, G Dougan, M den Hoed, R JF Loos, JM Fernández-Real, D Chiarugi, K Clément A Vidal-Puig. Nature Metabolism 2022 ;4(4):476-494."
+          },
+          {
+            "source_block": 14,
+            "text": "Allostatic hypermetabolic response in PGC1α/β heterozygote mouse despite mitochondrial defects. Rodriguez-Cuenca S, Lelliot CJ, Campbell M, Peddinti G3, Martinez-Uña M, Ingvorsen C, Dias AR, Relat J, Mora S, Hyötyläinen T, Zorzano A, Oresic M, Bjursell M, Bohlooly-Y M, Lindén D and Vidal-Puig, A. FASEB J. 2021 Sep;35(9):e21752.",
+            "source_text": "Allostatic hypermetabolic response in PGC1α/β heterozygote mouse despite mitochondrial defects. Rodriguez-Cuenca S, Lelliot CJ, Campbell M, Peddinti G3, Martinez-Uña M, Ingvorsen C, Dias AR, Relat J, Mora S, Hyötyläinen T, Zorzano A, Oresic M, Bjursell M, Bohlooly-Y M, Lindén D and Vidal-Puig, A. FASEB J. 2021 Sep;35(9):e21752."
+          },
+          {
+            "source_block": 15,
+            "text": "P465L-PPARγ mutation confers partial resistance to the hypolipidaemic action of fibrates. Rodriguez-Cuenca S, Carobbio S, Barceló-Coblijn G, Prieur X, Relat J, Amat R, Campbell M, Dias AR, Bahri M, Gray SL, Vidal-Puig A. Diabetes Obes Metab. 2018;20(10):2339-2350.",
+            "source_text": "P465L-PPARγ mutation confers partial resistance to the hypolipidaemic action of fibrates. Rodriguez-Cuenca S, Carobbio S, Barceló-Coblijn G, Prieur X, Relat J, Amat R, Campbell M, Dias AR, Bahri M, Gray SL, Vidal-Puig A. Diabetes Obes Metab. 2018;20(10):2339-2350."
+          },
+          {
+            "source_block": 16,
+            "text": "Defective glucose and lipid metabolism in rheumatoid arthritis is determined by chronic inflammation in metabolic tissues. Arias de la Rosa I*, Escudero-Contreras A*, Rodríguez-Cuenca S*, Ruiz-Ponce M, Jiménez-Gómez Y, Ruiz-Limón P, Pérez-Sánchez C, Ábalos-Aguilera MC, Cecchi I, Ortega R, Calvo J, Guzmán-Ruiz R, Malagón MM, Collantes-Estevez E, Vidal-Puig A, López-Pedrera C, Barbarroja N. J Intern Med. 2018;284(1):61-77. * First co-author.",
+            "source_text": "Defective glucose and lipid metabolism in rheumatoid arthritis is determined by chronic inflammation in metabolic tissues. Arias de la Rosa I*, Escudero-Contreras A*, Rodríguez-Cuenca S*, Ruiz-Ponce M, Jiménez-Gómez Y, Ruiz-Limón P, Pérez-Sánchez C, Ábalos-Aguilera MC, Cecchi I, Ortega R, Calvo J, Guzmán-Ruiz R, Malagón MM, Collantes-Estevez E, Vidal-Puig A, López-Pedrera C, Barbarroja N. J Intern Med. 2018;284(1):61-77. * First co-author."
+          },
+          {
+            "source_block": 17,
+            "text": "Sphingolipids and glycerophospholipids - The \"yin and yang\" of lipotoxicity in metabolic diseases. Rodriguez-Cuenca S, Pellegrinelli V, Campbell M, Oresic M, Vidal-Puig A.Prog Lipid Res. 2017;66:14-29.",
+            "source_text": "Sphingolipids and glycerophospholipids - The \"yin and yang\" of lipotoxicity in metabolic diseases. Rodriguez-Cuenca S, Pellegrinelli V, Campbell M, Oresic M, Vidal-Puig A.Prog Lipid Res. 2017;66:14-29."
+          }
+        ]
+      }
+    ]
+  },
+  "sonia": {
+    "source": "https://www.tvplab-cambridge.com/srf",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "sr942@medschl.cam.ac.uk"
+    ],
+    "links": [
+      {
+        "label": "Google Scholar",
+        "label_zh": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=uB6urAkAAAAJ"
+      }
+    ],
+    "sections": [
+      {
+        "id": "focus",
+        "heading": "Research focus",
+        "heading_zh": "研究方向",
+        "items": [
+          {
+            "source_block": 6,
+            "text": "My primary research aim is to characterize the stepwise molecular mechanisms that regulate brown adipocyte differentiation and activation in humans. We hope to identify novel targets and pathways that could promote adipocyte recruitment and enhance thermogenesis in obese patients, ultimately contributing to the development of more effective metabolic therapies.",
+            "source_text": "My primary research aim is to characterize the stepwise molecular mechanisms that regulate brown adipocyte differentiation and activation in humans. We hope to identify novel targets and pathways that could promote adipocyte recruitment and enhance thermogenesis in obese patients, ultimately contributing to the development of more effective metabolic therapies.",
+            "text_zh": "我的主要研究目标是逐步解析调控人类棕色脂肪细胞分化与激活的分子机制。我们希望发现能够促进肥胖患者脂肪细胞募集并增强产热的新靶点与通路，最终为开发更有效的代谢疾病治疗方法作出贡献。"
+          }
+        ]
+      },
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "I obtained a Bachelor's degree in Biology with Honours from the University of Santiago de Compostela, Spain in 2013. I then completed a Master’s in Biology and Clinical Oncology at the University of Salamanca (2014), followed by a PhD in Biosciences at the same institution. I joined TVPlab at the end of 2019 thanks to a fellowship from the Ramon Areces Foundation (Spain) and currently as a Sir Henry Wellcome Postdoctoral Fellow.",
+            "source_text": "I obtained a Bachelor's degree in Biology with Honours from the University of Santiago de Compostela, Spain in 2013. I then completed a Master’s in Biology and Clinical Oncology at the University of Salamanca (2014), followed by a PhD in Biosciences at the same institution. I joined TVPlab at the end of 2019 thanks to a fellowship from the Ramon Areces Foundation (Spain) and currently as a Sir Henry Wellcome Postdoctoral Fellow.",
+            "text_zh": "2013 年，我在西班牙圣地亚哥德孔波斯特拉大学以荣誉成绩取得生物学学士学位。随后，我于 2014 年在萨拉曼卡大学完成生物学与临床肿瘤学硕士学位，并在同一所大学获得生物科学博士学位。2019 年底，我获得西班牙 Ramon Areces 基金会奖学金资助加入 TVPlab，目前担任 Sir Henry Wellcome 博士后研究员。"
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "heading": "Key publications",
+        "heading_zh": "代表性论文与成果",
+        "items": [
+          {
+            "source_block": 9,
+            "text": "Rodríguez-Fdez, S.*, Lorenzo-Martín, L.F., Fernández-Pisonero, I., Porteiro, B., Veyrat-Durebex, C., Beiroa, D., Al-Massadi, O., Abad, A., Diéguez, C., Coppari, R., Nogueiras, R., and Bustelo, X.R. (2020). Vav2 catalysis-dependent pathways contribute to skeletal muscle growth and glucose homeostasis. Nat Commun 11, 5808 (2020). https://doi.org/10.1038/s41467-020-19489-z",
+            "source_text": "Rodríguez-Fdez, S.*, Lorenzo-Martín, L.F., Fernández-Pisonero, I., Porteiro, B., Veyrat-Durebex, C., Beiroa, D., Al-Massadi, O., Abad, A., Diéguez, C., Coppari, R., Nogueiras, R., and Bustelo, X.R. (2020). Vav2 catalysis-dependent pathways contribute to skeletal muscle growth and glucose homeostasis. Nat Commun 11, 5808 (2020). https://doi.org/10.1038/s41467-020-19489-z"
+          },
+          {
+            "source_block": 10,
+            "text": "Lorenzo-Martín, L.F.*, Rodríguez-Fdez, S.*, Fabbiano, S.*, Abad, A., Garcia-Macias, M., Dosil, M., Cuadrado, M., Robles-Valero, J., and Bustelo, X.R. (2020). Vav2 pharmaco-mimetic mice reveal the therapeutic value and caveats of the catalytic inactivation of a Rho exchange factor. Oncogene 39: 5098-5111.",
+            "source_text": "Lorenzo-Martín, L.F.*, Rodríguez-Fdez, S.*, Fabbiano, S.*, Abad, A., Garcia-Macias, M., Dosil, M., Cuadrado, M., Robles-Valero, J., and Bustelo, X.R. (2020). Vav2 pharmaco-mimetic mice reveal the therapeutic value and caveats of the catalytic inactivation of a Rho exchange factor. Oncogene 39: 5098-5111."
+          },
+          {
+            "source_block": 11,
+            "text": "Rodríguez-Fdez, S.*, Nevado, L.F, Lorenzo-Martín, L.F. and Bustelo, X.R. (2020). Lysine acetylation reshapes the downstream signaling landscape of Vav1 in lymphocytes. Cells 9: 609.",
+            "source_text": "Rodríguez-Fdez, S.*, Nevado, L.F, Lorenzo-Martín, L.F. and Bustelo, X.R. (2020). Lysine acetylation reshapes the downstream signaling landscape of Vav1 in lymphocytes. Cells 9: 609."
+          },
+          {
+            "source_block": 12,
+            "text": "Rodríguez-Fdez, S.*, Citterio, C., Lorenzo-Martín, L.F., Baltanás-Copado, J., Llorente-González, C., Corbalán-García, S., Vicente-Manzanares, M., and Bustelo, X.R. (2019). Phosphatidylinositol monophosphates regulate optimal Vav1 signaling output. Cells 8: 1649.",
+            "source_text": "Rodríguez-Fdez, S.*, Citterio, C., Lorenzo-Martín, L.F., Baltanás-Copado, J., Llorente-González, C., Corbalán-García, S., Vicente-Manzanares, M., and Bustelo, X.R. (2019). Phosphatidylinositol monophosphates regulate optimal Vav1 signaling output. Cells 8: 1649."
+          },
+          {
+            "source_block": 13,
+            "text": "Barreira, M., Rodríguez-Fdez, S.*, and Bustelo, X.R. (2018). New Insights into the Vav1 Activation Cycle in Lymphocytes. Cell Signal 45: 132–144",
+            "source_text": "Barreira, M., Rodríguez-Fdez, S.*, and Bustelo, X.R. (2018). New Insights into the Vav1 Activation Cycle in Lymphocytes. Cell Signal 45: 132–144"
+          },
+          {
+            "source_block": 14,
+            "text": "Rodríguez-Fdez, S.*, and Bustelo, X.R. (2019). The Vav GEF family: an evolutionary and functional perspective. Cells 8: 465",
+            "source_text": "Rodríguez-Fdez, S.*, and Bustelo, X.R. (2019). The Vav GEF family: an evolutionary and functional perspective. Cells 8: 465"
+          }
+        ]
+      }
+    ]
+  },
+  "guillaume": {
+    "source": "https://www.tvplab-cambridge.com/gb",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "gb483@medschl.cam.ac.uk"
+    ],
+    "links": [],
+    "sections": [
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "I am a postdoctoral researcher who joined the TVP lab in 2013. I have a particular interest in understanding the contribution of the immune system and macrophages in the development of cardiometabolic complications of obesity. In particular, my research focusses on lipid biosynthesis and remodelling, aiming to decipher how macrophages intrinsic lipid metabolism modulates inflammation in obesity.",
+            "source_text": "I am a postdoctoral researcher who joined the TVP lab in 2013. I have a particular interest in understanding the contribution of the immune system and macrophages in the development of cardiometabolic complications of obesity. In particular, my research focusses on lipid biosynthesis and remodelling, aiming to decipher how macrophages intrinsic lipid metabolism modulates inflammation in obesity.",
+            "text_zh": "我是一名于 2013 年加入 TVP Lab 的博士后研究员，尤其关注免疫系统与巨噬细胞在肥胖相关心脏代谢并发症形成中的作用。我的研究重点是脂质生物合成与重塑，旨在阐明巨噬细胞内在的脂质代谢如何调节肥胖中的炎症。"
+          }
+        ]
+      },
+      {
+        "id": "interests",
+        "heading": "Current research interests",
+        "heading_zh": "具体研究兴趣",
+        "items": [
+          {
+            "source_block": 6,
+            "text": "Metabolism, Immunology, Macrophages, Lipids, Obesity, Cardiovascular diseases.",
+            "source_text": "Metabolism, Immunology, Macrophages, Lipids, Obesity, Cardiovascular diseases.",
+            "text_zh": "代谢、免疫学、巨噬细胞、脂质、肥胖和心血管疾病。"
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "heading": "Key publications",
+        "heading_zh": "代表性论文与成果",
+        "items": [
+          {
+            "source_block": 8,
+            "text": "Bidault G, Garcia M, Capeau J, Morichon R, Vigouroux C, Béréziat V. Progerin expression induces inflammation, oxidative stress and senescence in human coronary endothelial cells. Cells. 2020 May 12;9(5):1201. doi: 10.3390/cells9051201. PMID: 32408587",
+            "source_text": "Bidault G, Garcia M, Capeau J, Morichon R, Vigouroux C, Béréziat V. Progerin expression induces inflammation, oxidative stress and senescence in human coronary endothelial cells. Cells. 2020 May 12;9(5):1201. doi: 10.3390/cells9051201. PMID: 32408587"
+          },
+          {
+            "source_block": 9,
+            "text": "Petkevicius K, Virtue S, Bidault G, Jenkins B, Çubuk C, Morgantini C, Aouadi M, Dopazo J, Serlie MJ, Koulman A, Vidal-Puig A. Accelerated phosphatidylcholine turnover in macrophages promotes adipose tissue inflammation in obesity. Elife. 2019 Aug 16;8. pii: e47990. doi: 10.7554/eLife.47990. PubMed PMID: 31418690; PubMed Central PMCID: PMC6748830.",
+            "source_text": "Petkevicius K, Virtue S, Bidault G, Jenkins B, Çubuk C, Morgantini C, Aouadi M, Dopazo J, Serlie MJ, Koulman A, Vidal-Puig A. Accelerated phosphatidylcholine turnover in macrophages promotes adipose tissue inflammation in obesity. Elife. 2019 Aug 16;8. pii: e47990. doi: 10.7554/eLife.47990. PubMed PMID: 31418690; PubMed Central PMCID: PMC6748830."
+          },
+          {
+            "source_block": 10,
+            "text": "Patel V, Bidault G, Chambers JE, Carobbio S, Everden AJT, Garcés C, Dalton LE, Gribble FM, Vidal-Puig A, Marciniak SJ. Inactivation of Ppp1r15a minimises weight gain and insulin resistance during caloric excess in female mice. Sci Rep. 2019 Feb 27;9(1):2903. doi: 10.1038/s41598-019-39562-y. PubMed PMID: 30814564; PubMed Central PMCID: PMC6393541.",
+            "source_text": "Patel V, Bidault G, Chambers JE, Carobbio S, Everden AJT, Garcés C, Dalton LE, Gribble FM, Vidal-Puig A, Marciniak SJ. Inactivation of Ppp1r15a minimises weight gain and insulin resistance during caloric excess in female mice. Sci Rep. 2019 Feb 27;9(1):2903. doi: 10.1038/s41598-019-39562-y. PubMed PMID: 30814564; PubMed Central PMCID: PMC6393541."
+          },
+          {
+            "source_block": 11,
+            "text": "Pellegrinelli V, Peirce VJ, Howard L, Virtue S, Türei D, Senzacqua M, Frontini A, Dalley JW, Horton AR, Bidault G, Severi I, Whittle A, Rahmouni K, Saez-Rodriguez J, Cinti S, Davies AM, Vidal-Puig A. Adipocyte-secreted BMP8b mediates adrenergic-induced remodeling of the neuro-vascular network in adipose tissue. Nat Commun. 2018 Nov 26;9(1):4974. doi: 10.1038/s41467-018-07453-x. PubMed PMID: 30478315; PubMed Central PMCID: PMC6255810.",
+            "source_text": "Pellegrinelli V, Peirce VJ, Howard L, Virtue S, Türei D, Senzacqua M, Frontini A, Dalley JW, Horton AR, Bidault G, Severi I, Whittle A, Rahmouni K, Saez-Rodriguez J, Cinti S, Davies AM, Vidal-Puig A. Adipocyte-secreted BMP8b mediates adrenergic-induced remodeling of the neuro-vascular network in adipose tissue. Nat Commun. 2018 Nov 26;9(1):4974. doi: 10.1038/s41467-018-07453-x. PubMed PMID: 30478315; PubMed Central PMCID: PMC6255810."
+          },
+          {
+            "source_block": 12,
+            "text": "Vigouroux C, Guénantin AC, Vatier C, Capel E, Le Dour C, Afonso P, Bidault G, Béréziat V, Lascols O, Capeau J, Briand N, Jéru I. Lipodystrophic syndromes due to LMNA mutations: recent developments on biomolecular aspects, pathophysiological hypotheses and therapeutic perspectives. Nucleus. 2018 Jan 1;9(1):235-248. doi: 10.1080/19491034.2018.1456217. Review. PubMed PMID: 29578370; PubMed Central PMCID: PMC5973242.",
+            "source_text": "Vigouroux C, Guénantin AC, Vatier C, Capel E, Le Dour C, Afonso P, Bidault G, Béréziat V, Lascols O, Capeau J, Briand N, Jéru I. Lipodystrophic syndromes due to LMNA mutations: recent developments on biomolecular aspects, pathophysiological hypotheses and therapeutic perspectives. Nucleus. 2018 Jan 1;9(1):235-248. doi: 10.1080/19491034.2018.1456217. Review. PubMed PMID: 29578370; PubMed Central PMCID: PMC5973242."
+          },
+          {
+            "source_block": 13,
+            "text": "Mele L, Bidault G, Mena P, Crozier A, Brighenti F, Vidal-Puig A, Del Rio D. Dietary (Poly)phenols, Brown Adipose Tissue Activation, and Energy Expenditure: A Narrative Review. Adv Nutr. 2017 Sep 15;8(5):694-704. doi: 10.3945/an.117.015792. Print 2017 Sep. Review. PubMed PMID: 28916570; PubMed Central PMCID: PMC5593103.",
+            "source_text": "Mele L, Bidault G, Mena P, Crozier A, Brighenti F, Vidal-Puig A, Del Rio D. Dietary (Poly)phenols, Brown Adipose Tissue Activation, and Energy Expenditure: A Narrative Review. Adv Nutr. 2017 Sep 15;8(5):694-704. doi: 10.3945/an.117.015792. Print 2017 Sep. Review. PubMed PMID: 28916570; PubMed Central PMCID: PMC5593103."
+          },
+          {
+            "source_block": 14,
+            "text": "Mele L, Carobbio S, Brindani N, Curti C, Rodriguez-Cuenca S, Bidault G, Mena P, Zanotti I, Vacca M, Vidal-Puig A, Del Rio D. Phenyl-γ-valerolactones, flavan-3-ol colonic metabolites, protect brown adipocytes from oxidative stress without affecting their differentiation or function. Mol Nutr Food Res. 2017 Sep;61(9). doi: 10.1002/mnfr.201700074. Epub 2017 Apr 12. PubMed PMID: 28276197.",
+            "source_text": "Mele L, Carobbio S, Brindani N, Curti C, Rodriguez-Cuenca S, Bidault G, Mena P, Zanotti I, Vacca M, Vidal-Puig A, Del Rio D. Phenyl-γ-valerolactones, flavan-3-ol colonic metabolites, protect brown adipocytes from oxidative stress without affecting their differentiation or function. Mol Nutr Food Res. 2017 Sep;61(9). doi: 10.1002/mnfr.201700074. Epub 2017 Apr 12. PubMed PMID: 28276197."
+          },
+          {
+            "source_block": 15,
+            "text": "Tan CY, Virtue S, Bidault G, Dale M, Hagen R, Griffin JL, Vidal-Puig A. Brown Adipose Tissue Thermogenic Capacity Is Regulated by Elovl6. Cell Rep. 2015 Dec 15;13(10):2039-47. doi: 10.1016/j.celrep.2015.11.004. Epub 2015 Nov 25. PubMed PMID: 26628376; PubMed Central PMCID: PMC4688035.",
+            "source_text": "Tan CY, Virtue S, Bidault G, Dale M, Hagen R, Griffin JL, Vidal-Puig A. Brown Adipose Tissue Thermogenic Capacity Is Regulated by Elovl6. Cell Rep. 2015 Dec 15;13(10):2039-47. doi: 10.1016/j.celrep.2015.11.004. Epub 2015 Nov 25. PubMed PMID: 26628376; PubMed Central PMCID: PMC4688035."
+          },
+          {
+            "source_block": 16,
+            "text": "Guénantin AC, Briand N, Bidault G, Afonso P, Béréziat V, Vatier C, Lascols O, Caron-Debarle M, Capeau J, Vigouroux C. Nuclear envelope-related lipodystrophies. Semin Cell Dev Biol. 2014 May;29:148-57. doi: 10.1016/j.semcdb.2013.12.015. Epub 2013 Dec 30. Review. PubMed PMID: 24384368.",
+            "source_text": "Guénantin AC, Briand N, Bidault G, Afonso P, Béréziat V, Vatier C, Lascols O, Caron-Debarle M, Capeau J, Vigouroux C. Nuclear envelope-related lipodystrophies. Semin Cell Dev Biol. 2014 May;29:148-57. doi: 10.1016/j.semcdb.2013.12.015. Epub 2013 Dec 30. Review. PubMed PMID: 24384368."
+          },
+          {
+            "source_block": 17,
+            "text": "Vatier C, Bidault G, Briand N, Guénantin AC, Teyssières L, Lascols O, Capeau J, Vigouroux C. What the genetics of lipodystrophy can teach us about insulin resistance and diabetes. Curr Diab Rep. 2013 Dec;13(6):757-67. doi: 10.1007/s11892-013-0431-7. Review. PubMed PMID: 24026869.",
+            "source_text": "Vatier C, Bidault G, Briand N, Guénantin AC, Teyssières L, Lascols O, Capeau J, Vigouroux C. What the genetics of lipodystrophy can teach us about insulin resistance and diabetes. Curr Diab Rep. 2013 Dec;13(6):757-67. doi: 10.1007/s11892-013-0431-7. Review. PubMed PMID: 24026869."
+          },
+          {
+            "source_block": 18,
+            "text": "Bidault G, Garcia M, Vantyghem MC, Ducluzeau PH, Morichon R, Thiyagarajah K, Moritz S, Capeau J, Vigouroux C, Béréziat V. Lipodystrophy-linked LMNA p.R482W mutation induces clinical early atherosclerosis and in vitro endothelial dysfunction. Arterioscler Thromb Vasc Biol. 2013 Sep;33(9):2162-71. doi: 10.1161/ATVBAHA.113.301933. Epub 2013 Jul 11. PubMed PMID: 23846499.",
+            "source_text": "Bidault G, Garcia M, Vantyghem MC, Ducluzeau PH, Morichon R, Thiyagarajah K, Moritz S, Capeau J, Vigouroux C, Béréziat V. Lipodystrophy-linked LMNA p.R482W mutation induces clinical early atherosclerosis and in vitro endothelial dysfunction. Arterioscler Thromb Vasc Biol. 2013 Sep;33(9):2162-71. doi: 10.1161/ATVBAHA.113.301933. Epub 2013 Jul 11. PubMed PMID: 23846499."
+          },
+          {
+            "source_block": 19,
+            "text": "Bidault G, Vatier C, Capeau J, Vigouroux C, Béréziat V. LMNA-linked lipodystrophies: from altered fat distribution to cellular alterations. Biochem Soc Trans. 2011 Dec;39(6):1752-7. doi: 10.1042/BST20110675. Review. PubMed PMID: 22103520.",
+            "source_text": "Bidault G, Vatier C, Capeau J, Vigouroux C, Béréziat V. LMNA-linked lipodystrophies: from altered fat distribution to cellular alterations. Biochem Soc Trans. 2011 Dec;39(6):1752-7. doi: 10.1042/BST20110675. Review. PubMed PMID: 22103520."
+          }
+        ]
+      }
+    ]
+  },
+  "ioannis": {
+    "source": "https://www.tvplab-cambridge.com/gk",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "ik352@cam.ac.uk"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "label_zh": "GitHub",
+        "url": "https://github.com/kamzolas"
+      },
+      {
+        "label": "Google Scholar",
+        "label_zh": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=Z2UZ9v8AAAAJ&hl=en"
+      }
+    ],
+    "sections": [
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 5,
+            "text": "I hold an M.Eng. in Computer Engineering and Informatics (2015) and an M.Sc. in Bioinformatics (2017), both from the University of Patras. During my master’s studies, I joined EMBL Heidelberg, where I contributed to a project exploring the therapeutic potential of RNA-binding proteins across four cancer types.",
+            "source_text": "I hold an M.Eng. in Computer Engineering and Informatics (2015) and an M.Sc. in Bioinformatics (2017), both from the University of Patras. During my master’s studies, I joined EMBL Heidelberg, where I contributed to a project exploring the therapeutic potential of RNA-binding proteins across four cancer types.",
+            "text_zh": "我于 2015 年和 2017 年分别在帕特雷大学取得计算机工程与信息学工程硕士学位，以及生物信息学理学硕士学位。硕士学习期间，我加入海德堡 EMBL，参与探索 RNA 结合蛋白在四种癌症中治疗潜力的项目。"
+          },
+          {
+            "source_block": 6,
+            "text": "I completed my PhD at the University of Cambridge (TVP-Lab; 2017–2021), in collaboration with EMBL-EBI. My doctoral research focused on deciphering the molecular mechanisms underlying the progression of MASLD and identifying the most representative rodent models of human disease. My background is primarily computational, with a strong focus on transcriptomics, machine learning, and integrative multi-omics.",
+            "source_text": "I completed my PhD at the University of Cambridge (TVP-Lab; 2017–2021), in collaboration with EMBL-EBI. My doctoral research focused on deciphering the molecular mechanisms underlying the progression of MASLD and identifying the most representative rodent models of human disease. My background is primarily computational, with a strong focus on transcriptomics, machine learning, and integrative multi-omics.",
+            "text_zh": "2017—2021 年，我在剑桥大学 TVP-Lab 与 EMBL-EBI 合作完成博士研究。我的博士课题聚焦于解析 MASLD 进展的分子机制，并确定最能代表人类疾病的啮齿动物模型。我主要具有计算研究背景，重点关注转录组学、机器学习及多组学整合。"
+          },
+          {
+            "source_block": 7,
+            "text": "Currently, I am a postdoctoral researcher in the TVP-Lab, continuing to work on metabolic diseases. My research aims to translate high-dimensional omics data into mechanistic insights, with a particular interest in liver and adipose tissue dysfunction.",
+            "source_text": "Currently, I am a postdoctoral researcher in the TVP-Lab, continuing to work on metabolic diseases. My research aims to translate high-dimensional omics data into mechanistic insights, with a particular interest in liver and adipose tissue dysfunction.",
+            "text_zh": "目前，我在 TVP-Lab 担任博士后研究员，继续开展代谢疾病研究。我希望将高维组学数据转化为对疾病机制的认识，尤其关注肝脏和脂肪组织功能障碍。"
+          }
+        ]
+      },
+      {
+        "id": "interests",
+        "heading": "Current research interests",
+        "heading_zh": "具体研究兴趣",
+        "items": [
+          {
+            "source_block": 9,
+            "text": "Bioinformatics · Metabolic diseases (MASLD/MASH) · Machine Learning · Multi-omics data integration · Adipose tissue and liver biology · Biomarker discovery",
+            "source_text": "Bioinformatics · Metabolic diseases (MASLD/MASH) · Machine Learning · Multi-omics data integration · Adipose tissue and liver biology · Biomarker discovery",
+            "text_zh": "生物信息学 · 代谢疾病（MASLD／MASH）· 机器学习 · 多组学数据整合 · 脂肪组织与肝脏生物学 · 生物标志物发现"
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "heading": "Key publications",
+        "heading_zh": "代表性论文与成果",
+        "items": [
+          {
+            "source_block": 12,
+            "text": "Carobbio S, Guenantin AC, Bahri M, Samuelson I, Honig F, Rodriguez-Fdez S, Long K, Kamzolas I, Chiarugi D, Vidal-Puig A, Unraveling the Developmental Roadmap toward Human Brown Adipose Tissue, bioRxiv, 2020, doi: 10.1101/2020.07.09.194886.",
+            "source_text": "1. Carobbio S, Guenantin AC, Bahri M, Samuelson I, Honig F, Rodriguez-Fdez S, Long K, Kamzolas I, Chiarugi D, Vidal-Puig A, Unraveling the Developmental Roadmap toward Human Brown Adipose Tissue, bioRxiv, 2020, doi: 10.1101/2020.07.09.194886."
+          },
+          {
+            "source_block": 13,
+            "text": "Carobbio S, Guenantin AC, Bahri M, Rodriguez-Fdez S, Honig F, Kamzolas I, Chiarugi D, Vidal-Puig A, Unraveling the Developmental Roadmap toward Human Brown Adipose Tissue, Stem Cell Reports, 2021, 16(4), 641-655, doi: 10.1016/j.stemcr.2021.03.009.",
+            "source_text": "2. Carobbio S, Guenantin AC, Bahri M, Rodriguez-Fdez S, Honig F, Kamzolas I, Chiarugi D, Vidal-Puig A, Unraveling the Developmental Roadmap toward Human Brown Adipose Tissue, Stem Cell Reports, 2021, 16(4), 641-655, doi: 10.1016/j.stemcr.2021.03.009."
+          },
+          {
+            "source_block": 14,
+            "text": "Azzu V, Vacca M, Kamzolas I, Hall Z, Leslie J, Carobbio S, Petsalaki E, Griffin J, Oakley F, Allison M, Vidal-Puig A, Suppression of insulin-induced gene 1 (INSIG1) function promotes hepatic lipid remodelling and restrains NASH progression, Molecular Metabolism, 2021, 48, doi: 10.1016/j.molmet.2021.101210.",
+            "source_text": "3. Azzu V, Vacca M, Kamzolas I, Hall Z, Leslie J, Carobbio S, Petsalaki E, Griffin J, Oakley F, Allison M, Vidal-Puig A, Suppression of insulin-induced gene 1 (INSIG1) function promotes hepatic lipid remodelling and restrains NASH progression, Molecular Metabolism, 2021, 48, doi: 10.1016/j.molmet.2021.101210."
+          },
+          {
+            "source_block": 15,
+            "text": "Mózes FE, Lee JA & LITMUS Investigators, Diagnostic accuracy of non-invasive tests for advanced fibrosis in patients with NAFLD: an individual patient data meta-analysis, Gut, 2021, 71(5):1006-1019, doi: 10.1136/gutjnl-2021-324243.",
+            "source_text": "4. Mózes FE, Lee JA & LITMUS Investigators, Diagnostic accuracy of non-invasive tests for advanced fibrosis in patients with NAFLD: an individual patient data meta-analysis, Gut, 2021, 71(5):1006-1019, doi: 10.1136/gutjnl-2021-324243."
+          },
+          {
+            "source_block": 16,
+            "text": "Selvaraj EA, Mózes FE, & LITMUS Investigators, Diagnostic accuracy of elastography and magnetic resonance imaging in patients with NAFLD: A systematic review and meta-analysis. Journal of Hepatology, 2021, 75(4):770-785. doi: 10.1016/j.jhep.2021.04.044.",
+            "source_text": "5. Selvaraj EA, Mózes FE, & LITMUS Investigators, Diagnostic accuracy of elastography and magnetic resonance imaging in patients with NAFLD: A systematic review and meta-analysis. Journal of Hepatology, 2021, 75(4):770-785. doi: 10.1016/j.jhep.2021.04.044."
+          },
+          {
+            "source_block": 17,
+            "text": "Tan J, Virtue S, …, Kamzolas I, et al, Limited oxygen availability in standard cell culture alters metabolism and function in terminally-differentiated cells. bioRxiv, 2022, doi: 10.1101/2022.11.29.516437.",
+            "source_text": "6. Tan J, Virtue S, …, Kamzolas I, et al, Limited oxygen availability in standard cell culture alters metabolism and function in terminally-differentiated cells. bioRxiv, 2022, doi: 10.1101/2022.11.29.516437."
+          },
+          {
+            "source_block": 18,
+            "text": "Figueroa-Juarez E, Pellegrinelli V, Kamzolas I, et al, Extracellular Matrix Remodelling in Brown Adipose Tissue Adipogenesis and Activation: Role of Cyr61, Current Developments in Nutrition, 2023, 7 (1), doi:10.1016/j.cdnut.2023.100769.",
+            "source_text": "7. Figueroa-Juarez E, Pellegrinelli V, Kamzolas I, et al, Extracellular Matrix Remodelling in Brown Adipose Tissue Adipogenesis and Activation: Role of Cyr61, Current Developments in Nutrition, 2023, 7 (1), doi:10.1016/j.cdnut.2023.100769."
+          },
+          {
+            "source_block": 19,
+            "text": "Tan J, Virtue S, …, Kamzolas I, et al, Limited oxygen availability in standard cell culture alters metabolism and function of differentiated cells. EMBO J, 2024, https://doi.org/10.1038/s44318-024-00084-7.",
+            "source_text": "8. Tan J, Virtue S, …, Kamzolas I, et al, Limited oxygen availability in standard cell culture alters metabolism and function of differentiated cells. EMBO J, 2024, https://doi.org/10.1038/s44318-024-00084-7."
+          },
+          {
+            "source_block": 20,
+            "text": "Vacca M*, Kamzolas I*, Harder L.M. et al, An unbiased ranking of murine dietary models based on their proximity to human metabolic dysfunction-associated steatotic liver disease (MASLD), Nature Metabolism, 2024, 6 (6), 1178–1196, https://doi.org/10.1038/s42255-024-01043-6.",
+            "source_text": "9. Vacca M*, Kamzolas I*, Harder L.M. et al, An unbiased ranking of murine dietary models based on their proximity to human metabolic dysfunction-associated steatotic liver disease (MASLD), Nature Metabolism, 2024, 6 (6), 1178–1196, https://doi.org/10.1038/s42255-024-01043-6."
+          },
+          {
+            "source_block": 21,
+            "text": "Hvid H, Hjuler S, Bedossa P, Tiniakos D, Kamzolas I, Harder L.M, & LITMUS Investigators, Choline-deficient, high-fat diet-induced MASH in Göttingen Minipigs: characterization and effects of a chow reversal period. 2024, American Journal of Physiology-Gastrointestinal and Liver Physiology, 327 (4), https://doi.org/10.1152/ajpgi.00120.2024.",
+            "source_text": "10. Hvid H, Hjuler S, Bedossa P, Tiniakos D, Kamzolas I, Harder L.M, & LITMUS Investigators, Choline-deficient, high-fat diet-induced MASH in Göttingen Minipigs: characterization and effects of a chow reversal period. 2024, American Journal of Physiology-Gastrointestinal and Liver Physiology, 327 (4), https://doi.org/10.1152/ajpgi.00120.2024."
+          },
+          {
+            "source_block": 22,
+            "text": "Nielsen M.H, Nøhr-Meldgaard J, Møllerhøj M.B, Oró D, Pors S.E., Andersen M.W., Kamzolas I, Petsalaki E, Vacca M, Harder L.M, Perfield J.W, Veidal S, Hansen H.H, & Feigh M, Characterization of six clinical drugs and dietary intervention in the nonobese CDAA-HFD mouse model of MASH and progressive fibrosis. 2024, American Journal of Physiology-Gastrointestinal and Liver Physiology, 327 (4), G338–G355. https://doi.org/10.1152/ajpgi.00110.2024.",
+            "source_text": "11. Nielsen M.H, Nøhr-Meldgaard J, Møllerhøj M.B, Oró D, Pors S.E., Andersen M.W., Kamzolas I, Petsalaki E, Vacca M, Harder L.M, Perfield J.W, Veidal S, Hansen H.H, & Feigh M, Characterization of six clinical drugs and dietary intervention in the nonobese CDAA-HFD mouse model of MASH and progressive fibrosis. 2024, American Journal of Physiology-Gastrointestinal and Liver Physiology, 327 (4), G338–G355. https://doi.org/10.1152/ajpgi.00110.2024."
+          },
+          {
+            "source_block": 23,
+            "text": "Kamzolas I, Koutsandreas T, …, Vidal-Puig A, Petsalaki E, Decoding MASLD Progression: A Molecular Trajectory-Based Framework for Modelling Disease Dynamics. bioRxiv, 2025, 2025.01. 14.632908, doi: https://doi.org/10.1101/2025.01.14.632908.",
+            "source_text": "12. Kamzolas I, Koutsandreas T, …, Vidal-Puig A, Petsalaki E, Decoding MASLD Progression: A Molecular Trajectory-Based Framework for Modelling Disease Dynamics. bioRxiv, 2025, 2025.01. 14.632908, doi: https://doi.org/10.1101/2025.01.14.632908."
+          },
+          {
+            "source_block": 24,
+            "text": "Constant B*, Kamzolas I*, Yang X, Guo J, Rodriguez-Fernandez S, Mali I, Rodriguez-Cuenca S, Petsalaki E, Vidal-Puig A, & Li W, Distinct signalling dynamics of BMP4 and BMP9 in brown versus white adipocytes. 2025, Scientific Reports, 15, 15971, https://doi.org/10.1038/s41598-025-99122-5.",
+            "source_text": "13. Constant B*, Kamzolas I*, Yang X, Guo J, Rodriguez-Fernandez S, Mali I, Rodriguez-Cuenca S, Petsalaki E, Vidal-Puig A, & Li W, Distinct signalling dynamics of BMP4 and BMP9 in brown versus white adipocytes. 2025, Scientific Reports, 15, 15971, https://doi.org/10.1038/s41598-025-99122-5."
+          }
+        ]
+      }
+    ]
+  },
+  "isabel": {
+    "source": "https://www.tvplab-cambridge.com/copy-of-sonia",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "if293@cam.ac.uk"
+    ],
+    "links": [],
+    "sections": [
+      {
+        "id": "focus",
+        "heading": "Research focus",
+        "heading_zh": "研究方向",
+        "items": [
+          {
+            "source_block": 6,
+            "text": "My research focuses on the physiological and molecular mechanisms of metabolic syndrome, a highly prevalent condition encompassing several disorders including obesity, MASLD, diabetes and cardiovascular complications. My current projects specifically explore the role of macrophages, key immune cells involved in the progression of metabolic syndrome. These cells contribute to various aspects of disease pathogenesis, such as inflammation, fibrosis, metabolic dysregulation, and tissue regeneration. I am investigating how macrophages sense excess lipids, how they adapt metabolically, and how these processes might be targeted through therapeutic interventions to treat metabolic syndrome.",
+            "source_text": "My research focuses on the physiological and molecular mechanisms of metabolic syndrome, a highly prevalent condition encompassing several disorders including obesity, MASLD, diabetes and cardiovascular complications. My current projects specifically explore the role of macrophages, key immune cells involved in the progression of metabolic syndrome. These cells contribute to various aspects of disease pathogenesis, such as inflammation, fibrosis, metabolic dysregulation, and tissue regeneration. I am investigating how macrophages sense excess lipids, how they adapt metabolically, and how these processes might be targeted through therapeutic interventions to treat metabolic syndrome.",
+            "text_zh": "我的研究关注代谢综合征的生理与分子机制。代谢综合征是一种高发状态，涵盖肥胖、MASLD、糖尿病及心血管并发症等多种疾病。我目前的项目重点研究巨噬细胞——参与代谢综合征进展的重要免疫细胞。这些细胞参与炎症、纤维化、代谢失调和组织再生等疾病过程。我正在研究巨噬细胞如何感知过量脂质、如何进行代谢适应，以及如何通过治疗干预靶向这些过程来治疗代谢综合征。"
+          }
+        ]
+      },
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "I studied Biochemistry and Biomedical Sciences (2014-2018) at the University of Valencia, where I also completed my PhD (FPU-funded, 2019-2024). During my doctoral studies, I undertook an EMBO-supported internship at the University of Cambridge (2022). My PhD thesis investigated the effects of various treatments on mouse models of metabolic dysfunction-associated steatotic liver disease (MASLD). This study revealed common patterns among these drugs, contributing to a better understanding of their mechanisms of action and identifying potential therapeutic targets and biomarkers for the disease. In 2024, I joined Professor Antonio Vidal-Puig's laboratory (TVP's lab) at the Institute of Metabolic Sciences as a research associate, a position I still hold today.",
+            "source_text": "I studied Biochemistry and Biomedical Sciences (2014-2018) at the University of Valencia, where I also completed my PhD (FPU-funded, 2019-2024). During my doctoral studies, I undertook an EMBO-supported internship at the University of Cambridge (2022). My PhD thesis investigated the effects of various treatments on mouse models of metabolic dysfunction-associated steatotic liver disease (MASLD). This study revealed common patterns among these drugs, contributing to a better understanding of their mechanisms of action and identifying potential therapeutic targets and biomarkers for the disease. In 2024, I joined Professor Antonio Vidal-Puig's laboratory (TVP's lab) at the Institute of Metabolic Sciences as a research associate, a position I still hold today.",
+            "text_zh": "2014—2018 年，我在瓦伦西亚大学学习生物化学与生物医学科学，随后于 2019—2024 年在该校获得 FPU 资助并完成博士学位。博士期间，我于 2022 年在 EMBO 支持下赴剑桥大学实习。我的博士论文研究不同治疗方法对代谢功能障碍相关脂肪性肝病（MASLD）小鼠模型的影响，发现了这些药物之间的共同作用模式，有助于更深入地理解其作用机制，并识别潜在治疗靶点和疾病生物标志物。2024 年，我以 Research Associate 身份加入代谢科学研究所 Antonio Vidal-Puig 教授的实验室（TVP Lab），并任职至今。"
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "heading": "Key publications",
+        "heading_zh": "代表性论文与成果",
+        "items": [
+          {
+            "source_block": 8,
+            "text": "Isabel Fuster-Martínez; José F. Català-Senent; Marta R- Hidalgo; Francisco J. Roig; Juan Esplugues; Nadezda Apostolova; Francisco García-García; Ana Blas-Garcia. 2024. Integrated transcriptomic landscape of the effect of anti-steatotic treatments in high-fat diet mouse models of non-alcoholic fatty liver disease. Journal of Pathology.",
+            "source_text": "Isabel Fuster-Martínez; José F. Català-Senent; Marta R- Hidalgo; Francisco J. Roig; Juan Esplugues; Nadezda Apostolova; Francisco García-García; Ana Blas-Garcia. 2024. Integrated transcriptomic landscape of the effect of anti-steatotic treatments in high-fat diet mouse models of non-alcoholic fatty liver disease. Integrated transcriptomic landscape of the effect of anti-steatotic treatments in high-fat diet mouse models of non-alcoholic fatty liver disease. Journal of Pathology."
+          },
+          {
+            "source_block": 9,
+            "text": "Isabel Fuster-Martínez; Sara Calatayud. 2024. The current landscape of antifibrotic therapy across different organs: A systematic approach. Pharmacological Research. 205-107245.",
+            "source_text": "Isabel Fuster-Martínez; Sara Calatayud. 2024. The current landscape of antifibrotic therapy across different organs: A systematic approach. The current landscape of antifibrotic therapy across different organs: A systematic approach. Pharmacological Research. 205-107245."
+          },
+          {
+            "source_block": 10,
+            "text": "Ana Benedicto; Federico Lucantoni; Isabel Fuster-Martínez; et al; Nadezda Apostolova. 2024. Interference with mitochondrial function as part of the antifibrogenic effect of Rilpivirine: A step towards novel targets in hepatic stellate cell activation. Biomedicine & pharmacotherapy.",
+            "source_text": "Ana Benedicto; Federico Lucantoni; Isabel Fuster-Martínez; et al; Nadezda Apostolova. 2024. Interference with mitochondrial function as part of the antifibrogenic effect of Rilpivirine: A step towards novel targets in hepatic stellate cell activation. Interference with mitochondrial function as part of the antifibrogenic effect of Rilpivirine: A step towards novel targets in hepatic stellate cell activation. Biomedicine & pharmacotherapy."
+          },
+          {
+            "source_block": 11,
+            "text": "178-117206, pp.1-13. Ángela Moragrega; Aleksandra Gruevska; Isabel Fuster-Martínez; et al; Nadezda Apostolova; Joan Tosca. 2023. Anti-inflammatory and immunomodulating effects of rilpivirine: Relevance for the therapeutics of chronic liver disease. Biomedicine & Pharmacotherapy. 169-115537.",
+            "source_text": "178-117206, pp.1-13. Ángela Moragrega; Aleksandra Gruevska; Isabel Fuster-Martínez; et al; Nadezda Apostolova; Joan Tosca. 2023. Anti-inflammatory and immunomodulating effects of rilpivirine: Relevance for the therapeutics of chronic liver disease. Anti-inflammatory and immunomodulating effects of rilpivirine: Relevance for the therapeutics of chronic liver disease. Biomedicine & Pharmacotherapy. 169-115537."
+          },
+          {
+            "source_block": 12,
+            "text": "Federico Lucantoni; Ana Benedicto; Aleksandra Gruevska; Ángela Moragrega; Isabel Fuster-Martínez; Juan Esplugues; Ana Blas-Garcia; Nadezda Apostolova. 2022. Implication of autophagy in the antifibrogenic effect of Rilpivirine: when more is less. Cell Death & Disease. 13-385, pp.1-13.",
+            "source_text": "Federico Lucantoni; Ana Benedicto; Aleksandra Gruevska; Ángela Moragrega; Isabel Fuster-Martínez; Juan Esplugues; Ana Blas-Garcia; Nadezda Apostolova. 2022. Implication of autophagy in the antifibrogenic effect of Rilpivirine: when more is less. Implication of autophagy in the antifibrogenic effect of Rilpivirine: when more is less. Cell Death & Disease. 13-385, pp.1-13."
+          },
+          {
+            "source_block": 13,
+            "text": "Ana M. Benedicto; Isabel Fuster-Martínez; Joan Tosca; Juan V. Esplugues; Ana Blas-García; Nadezda Apostolova. 2021. NNRTI and Liver Damage: Evidence of Their Association and the Mechanisms Involved. Cells. 10-7, pp.1687.",
+            "source_text": "Ana M. Benedicto; Isabel Fuster-Martínez; Joan Tosca; Juan V. Esplugues; Ana Blas-García; Nadezda Apostolova. 2021. NNRTI and Liver Damage: Evidence of Their Association and the Mechanisms Involved. NNRTI and Liver Damage: Evidence of Their Association and the Mechanisms Involved. Cells. 10-7, pp.1687."
+          }
+        ]
+      }
+    ]
+  },
+  "hao": {
+    "source": "https://www.tvplab-cambridge.com/copy-of-sonia-1",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "hj409@cam.ac.uk"
+    ],
+    "links": [],
+    "sections": [
+      {
+        "id": "focus",
+        "heading": "Research focus",
+        "heading_zh": "研究方向",
+        "items": [
+          {
+            "source_block": 6,
+            "text": "My research looks into how changes in lipid metabolism early in the disease can either speed up or slow the progression from mild liver conditions to more severe MASH. My goal is to understand these mechanisms better, which could help find new ways to treat or prevent liver disease.",
+            "source_text": "My research looks into how changes in lipid metabolism early in the disease can either speed up or slow the progression from mild liver conditions to more severe MASH. My goal is to understand these mechanisms better, which could help find new ways to treat or prevent liver disease.",
+            "text_zh": "我的研究探索疾病早期的脂质代谢变化如何加速或减缓轻度肝脏病变向更严重的 MASH 进展。我希望更深入地理解这些机制，为治疗或预防肝病寻找新方法。"
+          },
+          {
+            "source_block": 7,
+            "text": "Metabolic dysfunction-associated steatohepatitis (MASH) represents the inflammatory variant of metabolic dysfunction-associated steatotic liver disease (MASLD), characterised by steatosis and hepatocellular damage. This condition involves the activation of liver-resident macrophages (Kupffer cells) and the recruiting of monocyte-derived macrophages, which exacerbate inflammation through the secretion of inflammatory cytokines. The intrinsic lipid metabolism of macrophages is critical in determining their inflammatory status. However, the impact of alterations in lipid metabolism across different macrophage subsets within the context of fatty liver diseases remains poorly understood. Considering these observations, we aim to investigate the lipid metabolism of macrophages, focusing on membrane lipid remodelling and de novo lipogenesis across various macrophage phenotypes in MASLD and its progression to MASH. Our project will integrate data from MASLD/MASH human liver biopsies analyses and liver tissues from mouse models. This comprehensive approach aims to shed light on the potential transition from MASL to MASH. This project will address a critical gap in understanding liver disease progression, with significant implications for public health.",
+            "source_text": "Metabolic dysfunction-associated steatohepatitis (MASH) represents the inflammatory variant of metabolic dysfunction-associated steatotic liver disease (MASLD), characterised by steatosis and hepatocellular damage. This condition involves the activation of liver-resident macrophages (Kupffer cells) and the recruiting of monocyte-derived macrophages, which exacerbate inflammation through the secretion of inflammatory cytokines. The intrinsic lipid metabolism of macrophages is critical in determining their inflammatory status. However, the impact of alterations in lipid metabolism across different macrophage subsets within the context of fatty liver diseases remains poorly understood. Considering these observations, we aim to investigate the lipid metabolism of macrophages, focusing on membrane lipid remodelling and de novo lipogenesis across various macrophage phenotypes in MASLD and its progression to MASH. Our project will integrate data from MASLD/MASH human liver biopsies analyses and liver tissues from mouse models. This comprehensive approach aims to shed light on the potential transition from MASL to MASH. This project will address a critical gap in understanding liver disease progression, with significant implications for public health.",
+            "text_zh": "代谢功能障碍相关脂肪性肝炎（MASH）是代谢功能障碍相关脂肪性肝病（MASLD）的炎症性类型，以肝脂肪变性和肝细胞损伤为特征。这一过程涉及肝驻留巨噬细胞（Kupffer 细胞）的激活，以及单核细胞来源巨噬细胞的募集；它们通过分泌炎症细胞因子加剧炎症。巨噬细胞内在的脂质代谢对其炎症状态具有重要影响，但在脂肪性肝病中，不同巨噬细胞亚群的脂质代谢改变会产生怎样的影响，仍不清楚。基于这些认识，我们将研究 MASLD 及其向 MASH 进展过程中不同巨噬细胞表型的脂质代谢，重点关注细胞膜脂质重塑和从头脂肪生成。项目将整合 MASLD／MASH 患者肝活检分析数据与小鼠模型肝组织数据，以全面理解从 MASL 向 MASH 的潜在转变。这项研究将填补对肝病进展机制认识的重要空白，并具有公共卫生意义。"
+          }
+        ]
+      },
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "I obtained my bachelor’s degrees in electronic information engineering at Beijing Information Science and Technology University in 2018, China. In 2024, I completed my PhD in Biomedical Engineering at Beihang University, China. At the same year, I was awarded a Royal Society Newton International Fellowship and joined the TVP Lab as a Postdoctoral Research Associate.",
+            "source_text": "I obtained my bachelor’s degrees in electronic information engineering at Beijing Information Science and Technology University in 2018, China. In 2024, I completed my PhD in Biomedical Engineering at Beihang University, China. At the same year, I was awarded a Royal Society Newton International Fellowship and joined the TVP Lab as a Postdoctoral Research Associate.",
+            "text_zh": "2018 年，我在中国北京信息科技大学取得电子信息工程学士学位；2024 年，在北京航空航天大学完成生物医学工程博士学位。同年，我获得英国皇家学会牛顿国际奖学金，并以博士后 Research Associate 身份加入 TVP Lab。"
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "heading": "Key publications",
+        "heading_zh": "代表性论文与成果",
+        "items": [
+          {
+            "source_block": 9,
+            "text": "Jia H#, Liu J#, Fang T, Zhou Z, Li R, Yin W, Qian Y, Wang Q, Zhou W, Liu C, Sun D, Chen X, Ouyang Z, Dong J, Wang Y*, Yue S*. The role of altered lipid composition and distribution in liver fibrosis revealed by multimodal nonlinear optical microscopy. Sci Adv. 2023 Jan 13;9(2):eabq2937.",
+            "source_text": "Jia H#, Liu J#, Fang T, Zhou Z, Li R, Yin W, Qian Y, Wang Q, Zhou W, Liu C, Sun D, Chen X, Ouyang Z, Dong J, Wang Y*, Yue S*. The role of altered lipid composition and distribution in liver fibrosis revealed by multimodal nonlinear optical microscopy. Sci Adv. 2023 Jan 13;9(2):eabq2937."
+          },
+          {
+            "source_block": 10,
+            "text": "Jia H, Yue S*. Stimulated Raman scattering imaging sheds new light on lipid droplet biology. J Phys Chem B (Sunney Xie Festschrift). 2023 Mar 23;127(11):2381-2394.",
+            "source_text": "Jia H, Yue S*. Stimulated Raman scattering imaging sheds new light on lipid droplet biology. J Phys Chem B (Sunney Xie Festschrift). 2023 Mar 23;127(11):2381-2394."
+          },
+          {
+            "source_block": 11,
+            "text": "Jia H, Chen X*, Shen J, Liu R, Hou P*, Yue S*. Label-free fiber-optic Raman spectroscopy for intravascular coronary atherosclerosis and plaques detection. ACS Omega. 2024 Jun 20;9(26):27789-27797.",
+            "source_text": "Jia H, Chen X*, Shen J, Liu R, Hou P*, Yue S*. Label-free fiber-optic Raman spectroscopy for intravascular coronary atherosclerosis and plaques detection. ACS Omega. 2024 Jun 20;9(26):27789-27797."
+          }
+        ]
+      }
+    ]
+  },
+  "ruoqi": {
+    "source": "https://www.tvplab-cambridge.com/copy-of-possawee-prasertsuk",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "rd658@cam.ac.uk"
+    ],
+    "links": [],
+    "sections": [
+      {
+        "id": "focus",
+        "heading": "Research focus",
+        "heading_zh": "研究方向",
+        "items": [
+          {
+            "source_block": 8,
+            "text": "My research focuses on understanding the mechanisms controlling adipose tissue expansion and lipotoxicity. Particularly I am interested in exploring the role of Zinc-finger protein family members (ZFP) in adipogenesis and assessing their value as therapeutical targets against obesity and its metabolic comorbidities.",
+            "source_text": "My research focuses on understanding the mechanisms controlling adipose tissue expansion and lipotoxicity. Particularly I am interested in exploring the role of Zinc-finger protein family members (ZFP) in adipogenesis and assessing their value as therapeutical targets against obesity and its metabolic comorbidities.",
+            "text_zh": "我的研究致力于理解调控脂肪组织扩增与脂毒性的机制，尤其关注锌指蛋白家族（ZFP）成员在脂肪细胞生成中的作用，并评估其作为肥胖及相关代谢合并症治疗靶点的价值。"
+          }
+        ]
+      },
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "2015-2020: Bachelor of Medicine, Fudan University",
+            "source_text": "2015-2020: Bachelor of Medicine, Fudan University",
+            "text_zh": "2015—2020 年：复旦大学医学学士"
+          },
+          {
+            "source_block": 5,
+            "text": "2020-2021: Research Assistant, Qi-qun Tang Lab, Fudan University",
+            "source_text": "2020-2021: Research Assistant, Qi-qun Tang Lab, Fudan University",
+            "text_zh": "2020—2021 年：复旦大学唐其群实验室科研助理"
+          },
+          {
+            "source_block": 6,
+            "text": "2021: Began PhD studies, TVP Lab, University of Cambridge. Now a Research Associate in the team.",
+            "source_text": "2021-present: PhD student, TVP Lab, University of Cambridge",
+            "text_zh": "2021 年：开始在剑桥大学 TVP Lab 攻读博士。现任团队 Research Associate。"
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "heading": "Key publications",
+        "heading_zh": "代表性论文与成果",
+        "items": [
+          {
+            "source_block": 10,
+            "text": "Du, R.Q., Vidal-Puig, A., Rodriguez-Cuenca, S (2022). miRNAs provide mechanisms for integrated control of endocrine pancreas homeostasis and metabolic disease pathogenesis: a narrative review. ExRNA, 4(24). https://doi.org/10.21037/exrna-22-17",
+            "source_text": "Du, R.Q., Vidal-Puig, A., Rodriguez-Cuenca, S (2022). miRNAs provide mechanisms for integrated control of endocrine pancreas homeostasis and metabolic disease pathogenesis: a narrative review. ExRNA, 4(24). https://dx.doi.org/10.21037/e",
+            "correction_source": "https://exrna.amegroups.org/article/view/70128/html"
+          },
+          {
+            "source_block": 11,
+            "text": "Ding, M., Ma, Y. J., Du, R. Q., Zhou, W. Y., Dou, X., Yang, Q. Q., Tang, Y., Qian, S. W., Liu, Y., Pan, D. N., Tang, Q. Q., & Liu, Y. (2022). CHCHD10 Modulates Thermogenesis of Adipocytes by Regulating Lipolysis. Diabetes, 71(9), 1862–1879. https://doi.org/10.2337/db21-0999",
+            "source_text": "Ding, M., Ma, Y. J., Du, R. Q., Zhou, W. Y., Dou, X., Yang, Q. Q., Tang, Y., Qian, S. W., Liu, Y., Pan, D. N., Tang, Q. Q., & Liu, Y. (2022). CHCHD10 Modulates Thermogenesis of Adipocytes by Regulating Lipolysis. Diabetes, 71(9), 1862–1879. https://doi.org/10.2337/db21-0999"
+          },
+          {
+            "source_block": 12,
+            "text": "Liu, Y., Dou, X., Zhou, W. Y., Ding, M., Liu, L., Du, R. Q., Guo, L., Qian, S. W., Tang, Y., Yang, Q. Q., Pan, D. N., Li, X. Y., Lu, Y., Cheng, J. K., & Tang, Q. Q. (2021). Hepatic Small Ubiquitin-Related Modifier (SUMO)-Specific Protease 2 Controls Systemic Metabolism Through SUMOylation-Dependent Regulation of Liver-Adipose Tissue Crosstalk. Hepatology (Baltimore, Md.), 74(4), 1864–1883. https://doi.org/10.1002/hep.31881",
+            "source_text": "Liu, Y., Dou, X., Zhou, W. Y., Ding, M., Liu, L., Du, R. Q., Guo, L., Qian, S. W., Tang, Y., Yang, Q. Q., Pan, D. N., Li, X. Y., Lu, Y., Cheng, J. K., & Tang, Q. Q. (2021). Hepatic Small Ubiquitin-Related Modifier (SUMO)-Specific Protease 2 Controls Systemic Metabolism Through SUMOylation-Dependent Regulation of Liver-Adipose Tissue Crosstalk. Hepatology (Baltimore, Md.), 74(4), 1864–1883. https://doi.org/10.1002/hep.31881"
+          }
+        ]
+      }
+    ]
+  },
+  "nazuk": {
+    "source": "https://www.tvplab-cambridge.com/copy-of-nazuk",
+    "reviewed": "2026-10-10",
+    "emails": [],
+    "links": [],
+    "sections": [
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "I am a Research Assistant in the TVP Lab, where I contribute to research investigating the molecular mechanisms underlying metabolic dysfunction and its role in the development of chronic diseases. My current work focuses on dissecting nutrient signalling pathways and metabolic processes, with the aim of identifying therapeutic targets and informing prevention strategies.",
+            "source_text": "I am a Research Assistant in the TVP Lab, where I contribute to research investigating the molecular mechanisms underlying metabolic dysfunction and its role in the development of chronic diseases. My current work focuses on dissecting nutrient signalling pathways and metabolic processes, with the aim of identifying therapeutic targets and informing prevention strategies.",
+            "text_zh": "我是 TVP Lab 的一名科研助理，参与研究代谢功能障碍的分子机制及其在慢性疾病形成中的作用。我目前的工作重点是解析营养信号通路与代谢过程，以识别治疗靶点，并为预防策略提供依据。"
+          },
+          {
+            "source_block": 5,
+            "text": "My academic journey began with a Bachelor's degree in Biotechnology from Northumbria University, followed by a Master's in Molecular Biomedicine at the University of Copenhagen. Throughout my studies and research, I have been driven by a deep interest in the connection between diet and health. This has led me to explore how dietary patterns influence metabolic and immune function, with particular attention to nutritional immunology and host-microbe interactions in the gut.",
+            "source_text": "My academic journey began with a Bachelor's degree in Biotechnology from Northumbria University, followed by a Master's in Molecular Biomedicine at the University of Copenhagen. Throughout my studies and research, I have been driven by a deep interest in the connection between diet and health. This has led me to explore how dietary patterns influence metabolic and immune function, with particular attention to nutritional immunology and host-microbe interactions in the gut.",
+            "text_zh": "我的学术经历始于诺森比亚大学的生物技术学士学位，随后在哥本哈根大学完成分子生物医学硕士学位。在学习和研究过程中，我始终对饮食与健康之间的联系抱有浓厚兴趣，因此不断探索饮食模式如何影响代谢和免疫功能，尤其关注营养免疫学，以及肠道中宿主与微生物的相互作用。"
+          },
+          {
+            "source_block": 6,
+            "text": "I bring expertise in animal models—especially mouse models of gut-related diseases—and a strong foundation in molecular biology techniques. My goal is to bridge metabolic science and human health by contributing to diet-centred approaches that address the root causes of chronic disease.",
+            "source_text": "I bring expertise in animal models—especially mouse models of gut-related diseases—and a strong foundation in molecular biology techniques. My goal is to bridge metabolic science and human health by contributing to diet-centred approaches that address the root causes of chronic disease.",
+            "text_zh": "我具有动物模型研究经验，尤其熟悉肠道相关疾病的小鼠模型，并具备扎实的分子生物学技术基础。我的目标是连接代谢科学与人类健康，为从慢性疾病根源入手的饮食干预方法作出贡献。"
+          }
+        ]
+      }
+    ]
+  },
+  "milidili": {
+    "source": "https://www.tvplab-cambridge.com/copy-of-martin",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "mm2945@cam.ac.uk"
+    ],
+    "links": [],
+    "sections": [
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "I am a Research Assistant at the IMS-MRL (Institute of Metabolic Science – Metabolic Research Laboratories), where I support ongoing projects in adipose tissue biology and lipid metabolism. My background is in Biomedical Sciences, with hands-on experience in stem cell culture, molecular biology, ELISA, microscopy, and metabolic phenotyping. I am particularly interested in the molecular mechanisms governing lipid droplet dynamics, mitochondrial function, and macrophage lipid remodelling in obesity and type 2 diabetes. At the TVP Lab, I contribute to experiments that investigate how systemic and cellular lipid flux impacts metabolic disease progression.",
+            "source_text": "I am a Research Assistant at the IMS-MRL (Institute of Metabolic Science – Metabolic Research Laboratories), where I support ongoing projects in adipose tissue biology and lipid metabolism. My background is in Biomedical Sciences, with hands-on experience in stem cell culture, molecular biology, ELISA, microscopy, and metabolic phenotyping. I am particularly interested in the molecular mechanisms governing lipid droplet dynamics, mitochondrial function, and macrophage lipid remodelling in obesity and type 2 diabetes. At the TVP Lab, I contribute to experiments that investigate how systemic and cellular lipid flux impacts metabolic disease progression.",
+            "text_zh": "我是 IMS-MRL（代谢科学研究所—代谢研究实验室）的一名科研助理，支持脂肪组织生物学与脂质代谢方面的研究项目。我具有生物医学科学背景，以及干细胞培养、分子生物学、ELISA、显微成像和代谢表型分析的实际操作经验。我尤其关注肥胖和 2 型糖尿病中调控脂滴动态、线粒体功能及巨噬细胞脂质重塑的分子机制。在 TVP Lab，我参与研究全身与细胞层面的脂质流动如何影响代谢疾病进展。"
+          }
+        ]
+      }
+    ]
+  },
+  "kaida": {
+    "source": "https://www.tvplab-cambridge.com/copy-of-petra",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "kw619@cam.ac.uk",
+      "cherubholmes@gmail.com"
+    ],
+    "links": [],
+    "sections": [
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "I am a PhD student in TVP lab at the University of Cambridge, where my research focuses on the mechanisms of brown adipose tissue dysfunction in obesity. I am driven by curiosity and a deep passion for biology, which have guided me through a broad and interdisciplinary scientific journey.",
+            "source_text": "I am a PhD student in TVP lab at the University of Cambridge, where my research focuses on the mechanisms of brown adipose tissue dysfunction in obesity. I am driven by curiosity and a deep passion for biology, which have guided me through a broad and interdisciplinary scientific journey.",
+            "text_zh": "我是剑桥大学 TVP Lab 的一名博士生，研究肥胖中棕色脂肪组织功能障碍的发生机制。好奇心和对生物学的热爱，一直引领着我走过广泛而跨学科的科研历程。"
+          },
+          {
+            "source_block": 5,
+            "text": "Over the years, I have been involved in research across diverse fields, including neuroscience, molecular and cellular immunology, autoimmune diseases, and nanotechnology in phytoremediation. Engaging with such varied areas has given me a broad foundation in biological science and strengthened my commitment to pursuing biomedical research.",
+            "source_text": "Over the years, I have been involved in research across diverse fields, including neuroscience, molecular and cellular immunology, autoimmune diseases, and nanotechnology in phytoremediation. Engaging with such varied areas has given me a broad foundation in biological science and strengthened my commitment to pursuing biomedical research.",
+            "text_zh": "这些年来，我参与过多个领域的研究，包括神经科学、分子与细胞免疫学、自身免疫疾病，以及纳米技术在植物修复中的应用。涉足不同研究领域，使我建立了广泛的生物科学基础，也坚定了我投身生物医学研究的志向。"
+          },
+          {
+            "source_block": 6,
+            "text": "Through my PhD, I aim to deepen my understanding of metabolism, contribute to uncovering new insights into health and disease, and grow as a scientist within a collaborative and challenging academic environment.",
+            "source_text": "Through my PhD, I aim to deepen my understanding of metabolism, contribute to uncovering new insights into health and disease, and grow as a scientist within a collaborative and challenging academic environment.",
+            "text_zh": "通过博士阶段的研究，我希望加深对代谢的理解，为揭示健康与疾病的新机制贡献力量，并在富有合作精神和挑战性的学术环境中成长为一名科学家。"
+          }
+        ]
+      },
+      {
+        "id": "interests",
+        "heading": "Current research interests",
+        "heading_zh": "具体研究兴趣",
+        "items": [
+          {
+            "source_block": 8,
+            "text": "I believe that to truly understand life, we must approach it from the bottom up—beginning with how organisms generate and use energy. Life emerges from these fundamental processes, yet it extends beyond them: billions of cells organize and communicate to create the extraordinary complexity, intelligence, and adaptability of human beings.",
+            "source_text": "I believe that to truly understand life, we must approach it from the bottom up—beginning with how organisms generate and use energy. Life emerges from these fundamental processes, yet it extends beyond them: billions of cells organize and communicate to create the extraordinary complexity, intelligence, and adaptability of human beings.",
+            "text_zh": "我相信，要真正理解生命，我们需要自下而上地探索，首先理解生物体如何产生和利用能量。生命由这些基本过程孕育而生，却又远不止于此：数十亿细胞通过有序组织与相互交流，共同塑造了人类非凡的复杂性、智慧和适应能力。"
+          },
+          {
+            "source_block": 9,
+            "text": "My research interests lie in exploring these principles of energy metabolism and cellular organization, with the broader goal of understanding what makes life possible and how such knowledge can shape the future of science and medicine.",
+            "source_text": "My research interests lie in exploring these principles of energy metabolism and cellular organization, with the broader goal of understanding what makes life possible and how such knowledge can shape the future of science and medicine.",
+            "text_zh": "我的研究兴趣在于探索能量代谢与细胞组织的这些基本原理，并进一步理解是什么使生命成为可能，以及这些知识如何塑造未来的科学与医学。"
+          }
+        ]
+      }
+    ]
+  },
+  "possawee": {
+    "source": "https://www.tvplab-cambridge.com/copy-of-renata-risi",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "pp538@medschl.cam.ac.uk"
+    ],
+    "links": [],
+    "sections": [
+      {
+        "id": "focus",
+        "heading": "Research focus",
+        "heading_zh": "研究方向",
+        "items": [
+          {
+            "source_block": 8,
+            "text": "My PhD research focuses on elucidating the molecular mechanisms that orchestrate brown adipocyte differentiation in humans. Specifically, I aim to identify targetable signalling pathways that can be modulated to enhance human brown adipogenesis. I am particularly inspired by this project because of its strong translational potential to extend human metabolic healthspan and contribute to the development of new cures for metabolic conditions in the near future.",
+            "source_text": "My PhD research focuses on elucidating the molecular mechanisms that orchestrate brown adipocyte differentiation in humans. Specifically, I aim to identify targetable signalling pathways that can be modulated to enhance human brown adipogenesis. I am particularly inspired by this project because of its strong translational potential to extend human metabolic healthspan and contribute to the development of new cures for metabolic conditions in the near future.",
+            "text_zh": "我的博士研究致力于阐明调控人类棕色脂肪细胞分化的分子机制，具体目标是寻找能够通过干预增强人类棕色脂肪细胞生成的信号通路。这一项目具有延长人类代谢健康寿命、并在不久的将来推动代谢疾病新疗法开发的转化潜力，这一点尤其激励着我。"
+          }
+        ]
+      },
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 6,
+            "text": "I have been inspired to study life sciences because of my scientific curiosity about molecular mechanisms that govern cellular processes in both physiological and pathological conditions. I initially studied for a BSc in Chemistry, Mahidol University, Thailand (2014-2018) and then learned more about stem cell biology and gene therapy (MSc in Novel Therapies, Imperial College London, 2019-2020). This led me to pursue PhD study at the Institute of Metabolic Science at the University of Cambridge, which I started in 2021.",
+            "source_text": "I have been inspired to study life sciences because of my scientific curiosity about molecular mechanisms that govern cellular processes in both physiological and pathological conditions. I initially studied for a BSc in Chemistry, Mahidol University, Thailand (2014-2018) and then learned more about stem cell biology and gene therapy (MSc in Novel Therapies, Imperial College London, 2019-2020). This led me to pursue PhD study at the Institute of Metabolic Science at the University of Cambridge, which I started in 2021.",
+            "text_zh": "我对生理及病理状态下调控细胞过程的分子机制充满好奇，这激励我选择生命科学研究。我首先于 2014—2018 年在泰国玛希隆大学攻读化学理学学士，随后于 2019—2020 年在伦敦帝国理工学院攻读新型疗法理学硕士，进一步学习干细胞生物学与基因治疗。这些经历促使我于 2021 年开始在剑桥大学代谢科学研究所攻读博士。"
+          }
+        ]
+      }
+    ]
+  },
+  "iman": {
+    "source": "https://www.tvplab-cambridge.com/dea",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "im483@medschl.cam.ac.uk"
+    ],
+    "links": [],
+    "sections": [
+      {
+        "id": "focus",
+        "heading": "Research focus",
+        "heading_zh": "研究方向",
+        "items": [
+          {
+            "source_block": 2,
+            "text": "The overall aim of my research is to use human induced pluripotent stem cells-derived brown adipose tissue to understand human brown adipogenesis and to develop potential therapies for the treatment of metabolic complications associated with obesity.",
+            "source_text": "The overall aim of my research is to use human induced pluripotent stem cells-derived brown adipose tissue to understand human brown adipogenesis and to develop potential therapies for the treatment of metabolic complications associated with obesity.",
+            "text_zh": "我的研究总体目标是利用人诱导多能干细胞来源的棕色脂肪组织，理解人类棕色脂肪细胞的生成过程，并开发治疗肥胖相关代谢并发症的潜在疗法。"
+          }
+        ]
+      },
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "I previously worked at the Sanger Institute and have experience with cancer cell lines and organoid models, high throughput drug screening, and automation platforms. I moved to the IMS-MRL to further develop skills in the field of stem cell biology. I am also extremely interested in data science.",
+            "source_text": "I previously worked at the Sanger Institute and have experience with cancer cell lines and organoid models, high throughput drug screening, and automation platforms. I moved to the IMS-MRL to further develop skills in the field of stem cell biology. I am also extremely interested in data science.",
+            "text_zh": "我曾在 Sanger 研究所工作，具有癌细胞系与类器官模型、高通量药物筛选和自动化平台的经验。随后，我来到 IMS-MRL，希望进一步发展干细胞生物学领域的技能。我也对数据科学有着浓厚兴趣。"
+          }
+        ]
+      },
+      {
+        "id": "interests",
+        "heading": "Current research interests",
+        "heading_zh": "具体研究兴趣",
+        "items": [
+          {
+            "source_block": 5,
+            "text": "My current project is to improve the differentiation efficiency and characterisation of stem cell-derived brown adipocytes. This will be achieved by comparing the transcriptomic signature from these culture model to existing RNAseq data set. To complement our approach, we will also perform cellular and structural studies of these brown adipocytes using biological cryoimaging.",
+            "source_text": "My current project is to improve the differentiation efficiency and characterisation of stem cell-derived brown adipocytes. This will be achieved by comparing the transcriptomic signature from these culture model to existing RNAseq data set. To complement our approach, we will also perform cellular and structural studies of these brown adipocytes using biological cryoimaging.",
+            "text_zh": "我目前的项目旨在提高干细胞来源棕色脂肪细胞的分化效率，并完善其特征鉴定。我们将比较这些培养模型的转录组特征与现有 RNA 测序数据集，并结合生物冷冻成像，对棕色脂肪细胞开展细胞与结构层面的研究。"
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "heading": "Key publications",
+        "heading_zh": "代表性论文与成果",
+        "items": [
+          {
+            "source_block": 7,
+            "text": "Jaaks, P., Coker, E.A., …, Mali, I et al., Effective drug combinations in breast, colon and pancreatic cancer cells. Nature 603, 166–173 (2022). https://doi.org/10.1038/s41586-022-04437-2",
+            "source_text": "Jaaks, P., Coker, E.A., …, Mali, I et al., Effective drug combinations in breast, colon and pancreatic cancer cells. Nature 603, 166–173 (2022). https://doi.org/10.1038/s41586-022-04437-2"
+          },
+          {
+            "source_block": 8,
+            "text": "Gonçalves, E., Poulos, R., Cai, Z., …, Mali, I et al., Pan-cancer cell line proteomic atlas reveals principles of cancer vulnerabilities. Cancer Cell. 2022 Jul 13:S1535-6108(22)00274-4. doi: 10.1016/j.ccell.2022.06.010",
+            "source_text": "Gonçalves, E., Poulos, R., Cai, Z., …, Mali, I et al., Pan-cancer cell line proteomic atlas reveals principles of cancer vulnerabilities. Cancer Cell. 2022 Jul 13:S1535-6108(22)00274-4. doi: 10.1016/j.ccell.2022.06.010"
+          },
+          {
+            "source_block": 9,
+            "text": "Gonçalves, E., Segura-Cabrera, A., …, Mali, I et al., Drug mechanism-of-action discovery through the integration of pharmacological and CRISPR screens. Mol Syst Biol. (2020) 16: e9405. https://doi.org/10.15252/msb.20199405",
+            "source_text": "Gonçalves, E., Segura-Cabrera, A., …, Mali, I et al., Drug mechanism-of-action discovery through the integration of pharmacological and CRISPR screens. Mol Syst Biol. (2020) 16: e9405. https://doi.org/10.15252/msb.20199405"
+          },
+          {
+            "source_block": 10,
+            "text": "Song, M., Mali, I., Pisupati, V., and Merkle, FT., 2021. Live Cell Quantification using Image Analysis V.2, Protocols.io. DOI: 10.17504/protocols.io.bzgep3te.",
+            "source_text": "Song, M., Mali, I., Pisupati, V., and Merkle, FT., 2021. Live Cell Quantification using Image Analysis V.2, Protocols.io. DOI: 10.17504/protocols.io.bzgep3te."
+          },
+          {
+            "source_block": 11,
+            "text": "Chen, C., MALI, I., and Merkle, FT., 2021. Differentiation of hPSCs to hypothalamic neurons V.2, Protocols.io. DOI: 10.17504/protocols.io.bzghp3t6.",
+            "source_text": "Chen, C., MALI, I., and Merkle, FT., 2021. Differentiation of hPSCs to hypothalamic neurons V.2, Protocols.io. DOI: 10.17504/protocols.io.bzghp3t6."
+          }
+        ]
+      }
+    ]
+  },
+  "rodrigo": {
+    "source": "https://www.tvplab-cambridge.com/copy-of-ruoqi-du",
+    "reviewed": "2026-10-10",
+    "emails": [],
+    "links": [],
+    "sections": [
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 2,
+            "text": "Dr Rodrigo Santos is a Visiting Entrepreneur at the TVP Lab with the goal to identify commercial and translation opportunities within the group. He has deep expertise in cell biology and the development and application of innovative cell technologies across biotech and pharma.",
+            "source_text": "Dr Rodrigo Santos is a Visiting Entrepreneur at the TVP Lab with the goal to identify commercial and translation opportunities within the group. He has deep expertise in cell biology and the development and application of innovative cell technologies across biotech and pharma.",
+            "text_zh": "Rodrigo Santos 博士是 TVP Lab 的访问创业者，致力于发掘团队研究中的商业化与成果转化机会。他在细胞生物学，以及生物技术和制药领域创新细胞技术的开发与应用方面具有深厚经验。"
+          },
+          {
+            "source_block": 3,
+            "text": "Rodrigo is an Entrepreneur in Residence (EiR) at Cambridge Innovation Capital (CIC). Prior to joining CIC as an EiR in 2026, Rodrigo was CTO of clock.bio. His biotech experience spans roles including EiR at Novo Holdings, Director of Cell Technologies at Mogrify, Head of Technology at bit.bio, and Principal Scientist at Horizon Discovery.",
+            "source_text": "Rodrigo is an Entrepreneur in Residence (EiR) at Cambridge Innovation Capital (CIC). Prior to joining CIC as an EiR in 2026, Rodrigo was CTO of clock.bio. His biotech experience spans roles including EiR at Novo Holdings, Director of Cell Technologies at Mogrify, Head of Technology at bit.bio, and Principal Scientist at Horizon Discovery.",
+            "text_zh": "Rodrigo 是 Cambridge Innovation Capital（CIC）的驻场创业者（Entrepreneur in Residence，EiR）。2026 年加入 CIC 之前，他担任 clock.bio 首席技术官。他在生物技术领域的经历还包括 Novo Holdings 驻场创业者、Mogrify 细胞技术总监、bit.bio 技术负责人，以及 Horizon Discovery 首席科学家。"
+          },
+          {
+            "source_block": 4,
+            "text": "He actively contributes to the scientific community through multiple Scientific Advisory Boards and entrepreneurship mentoring programmes.",
+            "source_text": "He actively contributes to the scientific community through multiple Scientific Advisory Boards and entrepreneurship mentoring programmes.",
+            "text_zh": "他还通过参与多个科学顾问委员会及创业辅导项目，积极服务于科学界。"
+          },
+          {
+            "source_block": 5,
+            "text": "Rodrigo completed his PhD at the Stem Cell Institute, University of Cambridge.",
+            "source_text": "Rodrigo completed his PhD at the Stem Cell Institute, University of Cambridge.",
+            "text_zh": "Rodrigo 在剑桥大学干细胞研究所完成博士学位。"
+          }
+        ]
+      }
+    ]
+  },
+  "elizabeth-figueroa-juarez": {
+    "source": "https://www.tvplab-cambridge.com/is",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "eif20@medschl.cam.ac.uk"
+    ],
+    "links": [],
+    "sections": [
+      {
+        "id": "focus",
+        "heading": "Research focus",
+        "heading_zh": "研究方向",
+        "items": [
+          {
+            "source_block": 6,
+            "text": "Brown adipose tissue (BAT) is particularly relevant due to its capacity to perform non-shivering thermogenesis through the oxidation of nutrients. For this reason, promoting BAT thermogenesis is one of the potential therapeutic approaches to treat human obesity-related metabolic disturbances. However, obese and diabetic patients have a limited amount of brown adipose tissue.",
+            "source_text": "Brown adipose tissue (BAT) is particularly relevant due to its capacity to perform non-shivering thermogenesis through the oxidation of nutrients. For this reason, promoting BAT thermogenesis is one of the potential therapeutic approaches to treat human obesity-related metabolic disturbances. However, obese and diabetic patients have a limited amount of brown adipose tissue.",
+            "text_zh": "棕色脂肪组织（BAT）能够通过氧化营养物质进行非颤抖性产热，因此具有重要意义。促进 BAT 产热，是治疗人类肥胖相关代谢紊乱的潜在途径之一。然而，肥胖和糖尿病患者的棕色脂肪组织含量有限。"
+          },
+          {
+            "source_block": 7,
+            "text": "BAT activation is sustained by the recruitment of progenitor cells, their activation and a permissive/enabling extracellular matrix (ECM). Hyperplastic changes in BAT require adequate ECM remodelling. Recent publications and preliminary data suggest that ECM remodelling is a relevant process for BAT activation. Also, defects in ECM remodelling, as occurs in obesity and ageing, may contribute to BAT atrophy.",
+            "source_text": "BAT activation is sustained by the recruitment of progenitor cells, their activation and a permissive/enabling extracellular matrix (ECM). Hyperplastic changes in BAT require adequate ECM remodelling. Recent publications and preliminary data suggest that ECM remodelling is a relevant process for BAT activation. Also, defects in ECM remodelling, as occurs in obesity and ageing, may contribute to BAT atrophy.",
+            "text_zh": "BAT 的激活依赖于祖细胞的募集与激活，以及有利于这些过程的细胞外基质（ECM）。BAT 的增生性变化需要适当的 ECM 重塑。近期发表的研究和初步数据表明，ECM 重塑是 BAT 激活的重要过程。此外，肥胖和衰老中出现的 ECM 重塑缺陷，也可能促成 BAT 萎缩。"
+          },
+          {
+            "source_block": 8,
+            "text": "For this reason, as a PhD student, my project is focused on finding new candidates from extracellular matrix remodelling involved in the regulation of brown adipose tissue functions and activation.",
+            "source_text": "For this reason, as a PhD student, my project is focused on finding new candidates from extracellular matrix remodelling involved in the regulation of brown adipose tissue functions and activation.",
+            "text_zh": "因此，我的博士项目聚焦于在细胞外基质重塑过程中寻找参与调控棕色脂肪组织功能与激活的新候选因子。"
+          }
+        ]
+      },
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 3,
+            "text": "I studied food chemistry as an undergraduate course at the National Autonomous University of Mexico (Mexico city, Mexico), where I later obtained a M. Sc. degree with honors in Biological sciences (Biomedicine). I developed both of my experimental thesis projects, masters and undergraduate studies, at the National Institute of Medical Sciences and Nutrition Salvador Zubiran in Mexico city. Additionally, I was awarded with an NDM scholarship at the University of Oxford to perform a research internship at the Ludwig Institute for Cancer Research. And I was also granted with a Carl Duisberg Bayer Fellowship to perform a research internship at the University Hospital of Marburg and Giessen (UKGM) in Marburg, Germany.",
+            "source_text": "I studied food chemistry as an undergraduate course at the National Autonomous University of Mexico (Mexico city, Mexico), where I later obtained a M. Sc. degree with honors in Biological sciences (Biomedicine). I developed both of my experimental thesis projects, masters and undergraduate studies, at the National Institute of Medical Sciences and Nutrition Salvador Zubiran in Mexico city. Additionally, I was awarded with an NDM scholarship at the University of Oxford to perform a research internship at the Ludwig Institute for Cancer Research. And I was also granted with a Carl Duisberg Bayer Fellowship to perform a research internship at the University Hospital of Marburg and Giessen (UKGM) in Marburg, Germany.",
+            "text_zh": "我在墨西哥国立自治大学（墨西哥城）本科阶段学习食品化学，随后在该校以荣誉成绩获得生物科学（生物医学）理学硕士学位。本科和硕士的实验论文项目均在墨西哥城 Salvador Zubiran 国立医学科学与营养研究所完成。此外，我获得牛津大学 NDM 奖学金，赴 Ludwig 癌症研究所开展科研实习；也获得 Carl Duisberg Bayer Fellowship，赴德国马尔堡的马尔堡与吉森大学医院（UKGM）开展科研实习。"
+          },
+          {
+            "source_block": 4,
+            "text": "At the University of Cambridge, I am part of the graduate program in Metabolic and Cardiovascular disease for which I have already obtained the degree of Masters in Research and I am currently a PhD student.",
+            "source_text": "At the University of Cambridge, I am part of the graduate program in Metabolic and Cardiovascular disease for which I have already obtained the degree of Masters in Research and I am currently a PhD student.",
+            "text_zh": "在剑桥大学，我参加代谢与心血管疾病研究生项目，已取得研究型硕士学位，目前正在攻读博士。"
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "heading": "Key publications",
+        "heading_zh": "代表性论文与成果",
+        "items": [
+          {
+            "source_block": 10,
+            "text": "Torre-Villalvazo I, Bunt AE, Alemán G, Marquez-Mota CC, Diaz-Villaseñor A, Noriega LG, Estrada I, Figueroa-Juárez E, Tovar-Palacio C, Rodriguez-López LA, López-Romero P, Torres N, Tovar AR. Adiponectin synthesis and secretion by subcutaneous adipose tissue is impaired during obesity by endoplasmic reticulum stress. J Cell Biochem. 2018 Jul;119(7):5970-5984. doi: 10.1002/jcb.26794. Epub 2018 Mar 25. PMID: 29575057.",
+            "source_text": "Torre-Villalvazo I, Bunt AE, Alemán G, Marquez-Mota CC, Diaz-Villaseñor A, Noriega LG, Estrada I, Figueroa-Juárez E, Tovar-Palacio C, Rodriguez-López LA, López-Romero P, Torres N, Tovar AR. Adiponectin synthesis and secretion by subcutaneous adipose tissue is impaired during obesity by endoplasmic reticulum stress. J Cell Biochem. 2018 Jul;119(7):5970-5984. doi: 10.1002/jcb.26794. Epub 2018 Mar 25. PMID: 29575057."
+          },
+          {
+            "source_block": 11,
+            "text": "Wirries A, Jabari S, Jansen EP, Roth S, Figueroa-Juárez E, Wissniowski TT, Neureiter D, Klieser E, Lechler P, Ruchholtz S, Bartsch DK, Boese CK, Di Fazio P. Panobinostat mediated cell death: a novel therapeutic approach for osteosarcoma. Oncotarget. 2018 Aug 31;9(68):32997-33010. doi: 10.18632/oncotarget.26038. PMID: 30250645; PMCID: PMC6152475.",
+            "source_text": "Wirries A, Jabari S, Jansen EP, Roth S, Figueroa-Juárez E, Wissniowski TT, Neureiter D, Klieser E, Lechler P, Ruchholtz S, Bartsch DK, Boese CK, Di Fazio P. Panobinostat mediated cell death: a novel therapeutic approach for osteosarcoma. Oncotarget. 2018 Aug 31;9(68):32997-33010. doi: 10.18632/oncotarget.26038. PMID: 30250645; PMCID: PMC6152475."
+          },
+          {
+            "source_block": 12,
+            "text": "Torres-Villalobos G, Hamdan-Pérez N, Díaz-Villaseñor A, Tovar AR, Torre-Villalvazo I, Ordaz-Nava G, Morán-Ramos S, Noriega LG, Martínez-Benítez B, López-Garibay A, Torres-Landa S, Ceballos-Cantú JC, Tovar-Palacio C, Figueroa-Juárez E, Hiriart M, Medina-Santillán R, Castillo-Hernández C, Torres N. Autologous subcutaneous adipose tissue transplants improve adipose tissue metabolism and reduce insulin resistance and fatty liver in diet-induced obesity rats. Physiol Rep. 2016 Sep;4(17):e12909. doi: 10.14814/phy2.12909. PMID: 27582062; PMCID: PMC5027344",
+            "source_text": "Torres-Villalobos G, Hamdan-Pérez N, Díaz-Villaseñor A, Tovar AR, Torre-Villalvazo I, Ordaz-Nava G, Morán-Ramos S, Noriega LG, Martínez-Benítez B, López-Garibay A, Torres-Landa S, Ceballos-Cantú JC, Tovar-Palacio C, Figueroa-Juárez E, Hiriart M, Medina-Santillán R, Castillo-Hernández C, Torres N. Autologous subcutaneous adipose tissue transplants improve adipose tissue metabolism and reduce insulin resistance and fatty liver in diet-induced obesity rats. Physiol Rep. 2016 Sep;4(17):e12909. doi: 10.14814/phy2.12909. PMID: 27582062; PMCID: PMC5027344"
+          }
+        ]
+      }
+    ]
+  },
+  "eunyoung-lee": {
+    "source": "https://www.tvplab-cambridge.com/el",
+    "reviewed": "2026-10-10",
+    "emails": [
+      "eyl23@medschl.cam.ac.uk"
+    ],
+    "links": [],
+    "sections": [
+      {
+        "id": "focus",
+        "heading": "Research focus",
+        "heading_zh": "研究方向",
+        "items": [
+          {
+            "source_block": 6,
+            "text": "My research has focused mainly on mouse studies clarifying how our body handles multi-tissue interplay, such as brain-liver-pancreas-adipose tissue-muscle-gut axis for maintaining glucose- and energy-homeostasis, and how it is dysregulated under pathophysiological conditions, such as obesity and diabetes mellitus. These crosstalk among tissues would be mediated by some metabolites including fatty acids, lipids and hormones secreted by tissue, or through sympathetic nervous system. My aim is to search for such metabolites and to clarify their physiological importance. In addition, I would like to pursuit their molecular mechanism at the cellular level using in vitro approaches.",
+            "source_text": "My research has focused mainly on mouse studies clarifying how our body handles multi-tissue interplay, such as brain-liver-pancreas-adipose tissue-muscle-gut axis for maintaining glucose- and energy-homeostasis, and how it is dysregulated under pathophysiological conditions, such as obesity and diabetes mellitus. These crosstalk among tissues would be mediated by some metabolites including fatty acids, lipids and hormones secreted by tissue, or through sympathetic nervous system. My aim is to search for such metabolites and to clarify their physiological importance. In addition, I would like to pursuit their molecular mechanism at the cellular level using in vitro approaches.",
+            "text_zh": "我的研究主要通过小鼠实验，阐明身体如何协调多组织之间的相互作用，例如脑—肝—胰腺—脂肪组织—肌肉—肠道轴，以维持葡萄糖与能量稳态，以及这些过程如何在肥胖和糖尿病等病理生理状态下失调。组织间的交流可能由脂肪酸、脂质、组织分泌的激素等代谢物介导，也可能通过交感神经系统进行。我的目标是寻找这些代谢物，阐明其生理学意义，并进一步通过体外实验在细胞层面探索相关分子机制。"
+          }
+        ]
+      },
+      {
+        "id": "background",
+        "heading": "Background and experience",
+        "heading_zh": "背景与经历",
+        "items": [
+          {
+            "source_block": 4,
+            "text": "I am a visiting researcher from Japan. I joined the TVP lab in 2018. I am interested in understanding how glucose- and energy-homeostasis is regulated under physiological conditions.",
+            "source_text": "I am a visiting researcher from Japan. I joined the TVP lab in 2018. I am interested in understanding how glucose- and energy-homeostasis is regulated under physiological conditions.",
+            "text_zh": "我是一名来自日本的访问研究人员，于 2018 年加入 TVP Lab。我关注在生理条件下葡萄糖与能量稳态如何受到调控。"
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "heading": "Key publications",
+        "heading_zh": "代表性论文与成果",
+        "items": [
+          {
+            "source_block": 8,
+            "text": "Lee, E.Y., L. Miedzybrodzka, E., Zhang, X., Hatano, R., Miyamoto, J., Kimura, I., Fujimoto, K., Uematsu, S., Rodriguez-Cuenca, S., Vidal-Puig, A., M.Gribble, F., Reimann, F., Miki, T. (2019) Diet-induced obese mice and leptin-deficient Lepob/ob mice exhibit increased circulating GIP levels produced by different mechanisms.Int.J.Mol.Sci. 4448.",
+            "source_text": "Lee, E.Y., L. Miedzybrodzka, E., Zhang, X., Hatano, R., Miyamoto, J., Kimura, I., Fujimoto, K., Uematsu, S., Rodriguez-Cuenca, S., Vidal-Puig, A., M.Gribble, F., Reimann, F., Miki, T. (2019) Diet-induced obese mice and leptin-deficient Lepob/ob mice exhibit increased circulating GIP levels produced by different mechanisms.Int.J.Mol.Sci. 4448."
+          },
+          {
+            "source_block": 9,
+            "text": "Lee, E.Y., Zhang, X., Miyamoto, J., Kimura, I., Tanaka, T., Furusawa, K., Jomori, T., Fujimoto, K., Uematsu, S., Miki, T. (2018) Gut carbohydrate inhibits GIP secretion via a microbiota/SCFA/FFAR3 pathway. J Endocrinol 239:267-76.",
+            "source_text": "Lee, E.Y., Zhang, X., Miyamoto, J., Kimura, I., Tanaka, T., Furusawa, K., Jomori, T., Fujimoto, K., Uematsu, S., Miki, T. (2018) Gut carbohydrate inhibits GIP secretion via a microbiota/SCFA/FFAR3 pathway. J Endocrinol 239:267-76."
+          },
+          {
+            "source_block": 10,
+            "text": "Kitamoto, T., Sakurai, K., Lee, E.Y.,Yokote, K., Accili, D., Miki, T. (2018) Distinct roles of systemic and local actions of insulin on pancreatic β-cells. Metabolism 81:100-10.",
+            "source_text": "Kitamoto, T., Sakurai, K., Lee, E.Y.,Yokote, K., Accili, D., Miki, T. (2018) Distinct roles of systemic and local actions of insulin on pancreatic β-cells. Metabolism 81:100-10."
+          },
+          {
+            "source_block": 11,
+            "text": "Miki, T., Lee, E.Y., Eguchi, A., Sakurai, K., Sawabe, Y., Yoshida, T., Saito, K., Yokoh, H., Ishikawa, K., Yokote, K., Kuzuya, T., Miki, E., Mori, C., Nomura, F. (2017) Accelerated oligosaccharide absorption and altered serum metabolites during oral glucose tolerance test in young Japanese with impaired glucose tolerance. J Diabetes Investig 9: 512-521.",
+            "source_text": "Miki, T., Lee, E.Y., Eguchi, A., Sakurai, K., Sawabe, Y., Yoshida, T., Saito, K., Yokoh, H., Ishikawa, K., Yokote, K., Kuzuya, T., Miki, E., Mori, C., Nomura, F. (2017) Accelerated oligosaccharide absorption and altered serum metabolites during oral glucose tolerance test in young Japanese with impaired glucose tolerance. J Diabetes Investig 9: 512-521."
+          },
+          {
+            "source_block": 12,
+            "text": "Morimoto, M.*, Lee, E.Y.* (* co-first authors), Zhang, X., Inaba, Y., Inoue, H., Ogawa, M., Shirasawa, T., Yokosuka, O., Miki, T. (2016) Eicosapentaenoic acid ameliorates hyperglycemia in high-fat diet-sensitive diabetes mice in conjunction with restoration of hypoadiponectinemia. Nutr Diabetes 6, e213.",
+            "source_text": "Morimoto, M.*, Lee, E.Y.* (* co-first authors), Zhang, X., Inaba, Y., Inoue, H., Ogawa, M., Shirasawa, T., Yokosuka, O., Miki, T. (2016) Eicosapentaenoic acid ameliorates hyperglycemia in high-fat diet-sensitive diabetes mice in conjunction with restoration of hypoadiponectinemia. Nutr Diabetes 6, e213."
+          },
+          {
+            "source_block": 13,
+            "text": "Morita, A., Mukai, E., Hiratsuka, A., Takatani, T., Iwanaga, T., Lee, EY., Miki T. (2016) Distinct effects of dipeptidyl peptidase-4 inhibitor and glucagon-like peptide-1 receptor agonist on islet morphology and function. Endocrine 51:429-39.",
+            "source_text": "Morita, A., Mukai, E., Hiratsuka, A., Takatani, T., Iwanaga, T., Lee, EY., Miki T. (2016) Distinct effects of dipeptidyl peptidase-4 inhibitor and glucagon-like peptide-1 receptor agonist on islet morphology and function. Endocrine 51:429-39."
+          },
+          {
+            "source_block": 14,
+            "text": "Hirono, S.*, Lee, E.Y.* (* co-first authors), Kuribayashi, S., Fukuda, T., Saeki, N., Minokoshi, Y., Iwanaga, T., Miki, T. (2016) Importance of adult Dmbx1 in long-lasting orexigenic effect of agouti-related peptide. Endocrinology 157:245-57.",
+            "source_text": "Hirono, S.*, Lee, E.Y.* (* co-first authors), Kuribayashi, S., Fukuda, T., Saeki, N., Minokoshi, Y., Iwanaga, T., Miki, T. (2016) Importance of adult Dmbx1 in long-lasting orexigenic effect of agouti-related peptide. Endocrinology 157:245-57."
+          },
+          {
+            "source_block": 15,
+            "text": "Lee, E.Y., Sakurai, K., Zhang, X., Toda, C., Tanaka, T., Jiang, M., Shirasawa, T., Tachibana, K., Yokote, K., Vidal-Puig, A., Minokoshi, Y., Miki, T. (2015) Unsuppressed lipolysis in adipocytes is linked with enhanced gluconeogenesis and altered bile acid physiology in InsrP1195L/+ mice fed high-fat-diet. Scientific Reports 5:17565.",
+            "source_text": "Lee, E.Y., Sakurai, K., Zhang, X., Toda, C., Tanaka, T., Jiang, M., Shirasawa, T., Tachibana, K., Yokote, K., Vidal-Puig, A., Minokoshi, Y., Miki, T. (2015) Unsuppressed lipolysis in adipocytes is linked with enhanced gluconeogenesis and altered bile acid physiology in InsrP1195L/+ mice fed high-fat-diet. Scientific Reports 5:17565."
+          },
+          {
+            "source_block": 16,
+            "text": "Lee, E.Y., Kaneko, S., Jutabha, P., Zhang, X., Seino, S., Jomori, T., Anzai, N., Miki, T. (2015) Distinct action of the α-glucosidase inhibitor miglitol on SGLT3, enteroendocrine cells, and GLP1 secretion. J Endocrinol 224:205-14",
+            "source_text": "Lee, E.Y., Kaneko, S., Jutabha, P., Zhang, X., Seino, S., Jomori, T., Anzai, N., Miki, T. (2015) Distinct action of the α-glucosidase inhibitor miglitol on SGLT3, enteroendocrine cells, and GLP1 secretion. J Endocrinol 224:205-14"
+          },
+          {
+            "source_block": 17,
+            "text": "Mukaia, E., Ohta T., Kawamura H., Lee, E.Y., Morita A., Sasase T., Miyajima K., Inagaki N., Iwanaga T., Miki T. (2014) Enhanced vascular endothelial growth factor signaling in islets contributes to β cell injury and consequential diabetes in spontaneously diabetic Torii rats. Diabetes Research and Clinical Practice 106:303-11.",
+            "source_text": "Mukaia, E., Ohta T., Kawamura H., Lee, E.Y., Morita A., Sasase T., Miyajima K., Inagaki N., Iwanaga T., Miki T. (2014) Enhanced vascular endothelial growth factor signaling in islets contributes to β cell injury and consequential diabetes in spontaneously diabetic Torii rats. Diabetes Research and Clinical Practice 106:303-11."
+          },
+          {
+            "source_block": 18,
+            "text": "Seino Y, Miki M, Fujimoto W, Lee, E.Y.,Takahashi Y, Minami K, Oiso Y, Seino S (2013) Cephalic phase insulin secretion is KATP channel-independent. J Endocrinol 218:25-33.",
+            "source_text": "Seino Y, Miki M, Fujimoto W, Lee, E.Y.,Takahashi Y, Minami K, Oiso Y, Seino S (2013) Cephalic phase insulin secretion is KATP channel-independent. J Endocrinol 218:25-33."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,5 +1,46 @@
 # People biography sources
 
+## Full biography migration — 10 October 2026
+
+Re-read all 18 current-member source pages plus the individual pages for
+Elizabeth Figueroa-Juarez and Eun Young Lee. `data/profile-details.json` now
+retains 69 source narrative blocks and all 76 listed publication/patent records,
+with original source-block text, source URLs and paragraph-by-paragraph Chinese
+translations. These supersede the short summaries as the profile body; the
+summaries remain directory and hero overviews. Bibliographic records stay in
+English in both language versions. Original first-person voice is preserved.
+
+Consistent sections: Research focus; Background and experience; Current research
+interests; Key publications; Professional links. Only sections actually supplied
+by each member are shown. Email and section-navigation links are provided.
+
+Editorial decisions:
+
+- Sergio: full research focus, full background, four numbered research interests,
+  all five references, and `sr441@medschl.cam.ac.uk` retained.
+- Katie and Martin: the source supplies a role/contact but no substantive bio.
+  No biography or publication list has been invented.
+- Nazuk: full three-paragraph biography retained. The source's `md215@cam.ac.uk`
+  duplicates Martin's address; it is withheld pending confirmation.
+- Cherub: email link corrected to match its visible source text,
+  `kw619@cam.ac.uk`; the source href incorrectly pointed to `ztc22@cam.ac.uk`.
+  The explicitly listed Gmail contact is also retained.
+- Ruoqi: the owner's Research Associate correction still takes precedence over
+  the old source's PhD-student heading. The background records the 2021 PhD start
+  without inventing an end date. The truncated first-publication DOI is repaired
+  to `10.21037/exrna-22-17`, checked against the publisher:
+  https://exrna.amegroups.org/article/view/70128/html.
+- Isabel: exactly repeated publication titles are deduplicated; source text is
+  kept separately. No authors, dates or bibliographic values were guessed.
+- Alumni biographies and contacts are explicitly historical. The other 18
+  alumni only have directory records in the supplied source mapping; their
+  existing information remains, without fabricated long biographies.
+- Navigation, footer text, empty headings and the unrelated feedback widget on
+  Cherub's source page are excluded from biography content.
+- Explicit source URLs and checked professional links are retained; tracking
+  wrappers are not copied. English citation wording is otherwise preserved,
+  including incomplete references rather than invented missing information.
+
 ## Local member homepages — 10 October 2026
 
 All 18 current members and 20 alumni now have static English and Chinese

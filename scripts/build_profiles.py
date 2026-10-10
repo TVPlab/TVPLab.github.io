@@ -14,6 +14,7 @@ ORIGIN = 'https://tvplab.github.io/'
 MEMBERS = json.loads((ROOT / 'data/member-profiles.json').read_text())
 SUMMARIES = {p['id']: p for p in json.loads((ROOT / 'data/people-summaries.json').read_text())}
 ALUMNI = json.loads((ROOT / 'data/alumni.json').read_text())
+DETAILS = json.loads((ROOT / 'data/profile-details.json').read_text())
 
 
 def local(p, field, zh):
@@ -53,6 +54,55 @@ def rebase(fragment):
     return re.sub(r'(href|src)="([^"]*)"', rewrite, fragment)
 
 
+def linked_text(text):
+    """Render source text safely; link explicit URLs, never infer destinations."""
+    pieces = []
+    position = 0
+    for match in re.finditer(r'https?://[^\s<>]+', text):
+        url = match.group().rstrip('.,;)')
+        pieces.append(escape(text[position:match.start()]))
+        # The original Ruoqi page has a truncated DOI, not a usable destination.
+        if url == 'https://dx.doi.org/10.21037/e':
+            pieces.append(escape(url))
+        else:
+            pieces.append(f'<a href="{escape(url, quote=True)}" target="_blank" rel="noopener">{escape(url)}</a>')
+        position = match.start() + len(url)
+    pieces.append(escape(text[position:]))
+    return ''.join(pieces)
+
+
+def full_details(person_id, cn):
+    data = DETAILS.get(person_id)
+    if not data:
+        return '', '', ''
+    contact = ''
+    if data['emails']:
+        emails = ''.join(f'<a href="mailto:{escape(email)}">{escape(email)}</a>' for email in data['emails'])
+        contact = f'<div class="profile-contact"><span>{tr("Email", "电子邮箱", cn)}</span>{emails}</div>'
+    sections, navigation = [], []
+    for section in data['sections']:
+        key = section['id']
+        heading = local(section, 'heading', cn)
+        navigation.append(f'<a href="#{key}">{escape(heading)}</a>')
+        items = [linked_text(local(item, 'text', cn)) for item in section['items']]
+        if key == 'publications':
+            content = '<ol class="profile-publications" lang="en">' + ''.join('<li>' + item + '</li>' for item in items) + '</ol>'
+        elif key == 'interests' and person_id == 'sergio':
+            content = '<ol class="profile-interests">' + ''.join('<li>' + item + '</li>' for item in items) + '</ol>'
+        elif key == 'interests' and person_id == 'mark':
+            content = '<p>' + items[0] + '</p><ul>' + ''.join('<li>' + item + '</li>' for item in items[1:]) + '</ul>'
+        else:
+            content = ''.join('<p>' + item + '</p>' for item in items)
+        sections.append(f'<section class="profile-detail-section" id="{key}" aria-labelledby="{key}-heading"><h2 id="{key}-heading">{escape(heading)}</h2>{content}</section>')
+    if data['links']:
+        navigation.append(f'<a href="#professional-links">{tr("Professional links", "学术与专业链接", cn)}</a>')
+        links = ''.join(f'<li><a href="{escape(link["url"], quote=True)}" target="_blank" rel="noopener">{escape(local(link, "label", cn))} <span aria-hidden="true">↗</span></a></li>' for link in data['links'])
+        sections.append(f'<section class="profile-detail-section" id="professional-links" aria-labelledby="professional-links-heading"><h2 id="professional-links-heading">{tr("Professional links", "学术与专业链接", cn)}</h2><ul class="profile-professional-links">{links}</ul></section>')
+    nav = f'<nav class="profile-contents" aria-label="{tr("On this page", "本页目录", cn)}"><span>{tr("On this page", "本页目录", cn)}</span>{"".join(navigation)}</nav>' if navigation else ''
+    body = '<div class="profile-full-details">' + ''.join(sections) + '</div>' if sections else ''
+    return contact, nav, body
+
+
 def render_profile(p, cn, header, footer, previous, following, alumni=False):
     slug = p['id'] if alumni else p['slug']
     base = ROOT / 'zh' if cn else ROOT
@@ -62,7 +112,7 @@ def render_profile(p, cn, header, footer, previous, following, alumni=False):
     name = local(p, 'name', cn)
     role = tr('Former TVPlab member', 'TVPlab 往届成员', cn) if alumni else local(p, 'role', cn)
     summary = local(p, 'details', cn) if alumni else local(SUMMARIES[p['id']], 'summary', cn)
-    bio = '' if alumni else local(SUMMARIES[p['id']], 'bio', cn)
+    contact, contents, full_body = full_details(p['id'], cn)
     en = rel(f'people/{slug}.html')
     zh = rel(f'zh/people/{slug}.html')
     header = rebase(header)
@@ -73,10 +123,8 @@ def render_profile(p, cn, header, footer, previous, following, alumni=False):
     back = '../people.html' + ('#role-alumni' if alumni else '#' + p['id'])
     label = tr('Alumni', '往届成员', cn) if alumni else tr('Our people', '团队成员', cn)
     sections = ''
-    if bio:
-        sections = f'<section class="profile-biography" aria-labelledby="biography-heading"><h2 id="biography-heading">{tr("Background", "学术与专业背景", cn)}</h2><p>{escape(bio)}</p></section>'
     if alumni:
-        sections += f'<p class="profile-archive-note">{tr("This alumni profile preserves roles and affiliations recorded on the original lab website; they may not reflect current appointments.", "本页保留原实验室网站记录的职务与机构信息，不代表最新任职情况。", cn)}</p>'
+        sections += f'<p class="profile-archive-note">{tr("This is an archived member profile. The biography, roles, affiliations and contact details reflect the original lab website and may not be current.", "这是往届成员的历史资料。简介、职务、机构与联系方式反映原网站记录，可能并非当前情况。", cn)}</p>'
     extras = ''
     if p['id'] == 'toni':
         extras = f'<a href="../antonio-vidal-puig.html">{tr("Full academic biography", "完整学术履历", cn)} <span aria-hidden="true">→</span></a>'
@@ -91,7 +139,7 @@ def render_profile(p, cn, header, footer, previous, following, alumni=False):
         related += f'<a href="{other_slug}.html"><span>{direction_text}</span><strong>{escape(local(other, "name", cn))}</strong></a>'
     title = escape(name + ' — TVPlab')
     canonical = ORIGIN + output.relative_to(ROOT).as_posix()
-    css = ''.join(f'<link rel="stylesheet" href="{rel(f + ".css")}?v=profiles-20261010" />' for f in ['styles', 'refresh', 'controls', 'navigation', 'profiles'])
+    css = ''.join(f'<link rel="stylesheet" href="{rel(f + ".css")}?v=profiles-full-20261010" />' for f in ['styles', 'refresh', 'controls', 'navigation', 'profiles'])
     js = ''.join(f'<script src="{rel(f + ".js")}?v=20260921-2" defer></script>' for f in ['site', 'navigation'])
     page = f'''<!DOCTYPE html>
 <html lang="{'zh-CN' if cn else 'en'}"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -103,8 +151,9 @@ def render_profile(p, cn, header, footer, previous, following, alumni=False):
 <article class="profile-layout">
 <figure class="profile-portrait{' profile-portrait-alumni' if alumni else ''}"><img src="{rel(p['photo'])}" alt="{escape(name)}" width="{p['width']}" height="{p['height']}" fetchpriority="high" decoding="async" /></figure>
 <div class="profile-copy"><p class="profile-eyebrow">{tr('Our wider community', '我们共同的科研历程', cn) if alumni else 'TVPlab · Cambridge'}</p><h1>{escape(name)}</h1><p class="profile-role">{escape(role)}</p>
-<div class="profile-overview"><h2>{tr('Profile', '个人简介', cn)}</h2><p>{escape(summary)}</p></div>{sections}
+{contact}<div class="profile-overview"><h2>{tr('Profile', '个人简介', cn)}</h2><p>{escape(summary)}</p></div>{sections}
 <div class="profile-actions">{extras}{actions}<a href="{back}">{tr('Back to ', '返回', cn)}{label} <span aria-hidden="true">↗</span></a></div></div></article>
+{contents}{full_body}
 <nav class="profile-adjacent" aria-label="{tr('Browse member profiles', '浏览成员主页', cn)}">{related}</nav>
 </main>{rebase(footer)}</body></html>'''
     output.write_text(page)

@@ -31,3 +31,29 @@
 @media(max-width:800px){.profile-main{padding:24px 24px 56px}.profile-layout{grid-template-columns:1fr;gap:32px}.profile-breadcrumb{margin-bottom:28px}.profile-portrait{width:min(100%,380px);min-height:0;margin:0 auto}.profile-portrait img{max-height:400px}.profile-portrait-alumni{min-height:230px}.profile-copy h1{max-width:650px}.profile-adjacent{margin-top:44px}.profile-role{margin-bottom:24px}}
 @media(max-width:420px){.profile-main{padding:20px 18px 40px}.profile-portrait{width:85%}.profile-portrait img{max-height:300px}.profile-overview>p{font-size:1.0625rem}.profile-adjacent{gap:22px}.profile-adjacent strong{font-size:1.125rem}}
 @media print{.profile-main{max-width:none;padding:0}.profile-actions,.profile-adjacent,.profile-breadcrumb{display:none}.profile-layout{grid-template-columns:1fr 2fr}.profile-portrait img{max-height:260px}.member-profile-page{background:white}}
+
+/* Full member-authored biographies, with consistent section and reference styles. */
+.profile-contact{display:flex;flex-wrap:wrap;gap:8px 16px;margin:-12px 0 28px;font-size:.9375rem;line-height:1.7}
+.profile-contact>span{color:var(--muted)}
+.profile-contact a{color:var(--ink);text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+.profile-contents{display:flex;flex-wrap:wrap;align-items:center;gap:12px 26px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0;margin-top:54px}
+.profile-contents>span{font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:600}
+.profile-contents a{color:var(--ink);font-size:.9375rem;text-decoration:underline;text-underline-offset:5px;padding:5px 0}
+.profile-full-details{max-width:880px;margin:0 auto}
+.profile-detail-section{padding:42px 0;scroll-margin-top:140px;border-bottom:1px solid var(--line)}
+.profile-detail-section:last-child{border-bottom:0;padding-bottom:0}
+.profile-detail-section h2{font:400 clamp(1.6rem,2.5vw,2rem)/1.25 Georgia,'Times New Roman',serif;letter-spacing:-.025em;color:var(--ink);margin:0 0 25px}
+.profile-detail-section p,.profile-detail-section li{font-size:1.0625rem;line-height:1.9;color:var(--ink);overflow-wrap:anywhere}
+.profile-detail-section p{margin:0 0 20px}
+.profile-detail-section p:last-child{margin-bottom:0}
+.profile-detail-section ul,.profile-detail-section ol{padding-left:26px;margin:0}
+.profile-detail-section li{padding-left:8px;margin-bottom:20px}
+.profile-detail-section li:last-child{margin-bottom:0}
+.profile-detail-section a{color:inherit;text-decoration:underline;text-underline-offset:4px}
+.profile-publications li{font-size:1rem;line-height:1.85;padding-bottom:22px;margin-bottom:22px;border-bottom:1px solid var(--line)}
+.profile-publications li:last-child{border-bottom:0;padding-bottom:0}
+.profile-publications li::marker{font-size:.8125rem;color:var(--muted)}
+.profile-professional-links{display:flex;flex-wrap:wrap;gap:14px 28px;list-style:none;padding:0!important}
+.profile-professional-links li{margin:0;padding:0}
+@media(max-width:600px){.profile-contents{margin-top:36px;gap:10px 20px;padding:18px 0}.profile-contents>span{flex-basis:100%}.profile-detail-section{padding:32px 0}.profile-detail-section p,.profile-detail-section li{font-size:1rem}.profile-publications li{font-size:.9375rem}.profile-contact{flex-direction:column;gap:4px}.profile-contact>span{font-size:.8125rem}}
+@media print{.profile-contents{display:none}.profile-full-details{max-width:none}.profile-detail-section{padding:24px 0}.profile-detail-section h2{break-after:avoid}.profile-publications li{break-inside:avoid}}
