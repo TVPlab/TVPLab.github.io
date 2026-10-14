@@ -120,3 +120,8 @@ explicitly dated Cambridge professorship. Historical training counts are dated.
 ## Mark Campbell — member-requested update (14 October 2026)
 
 Title changed to Scientific Management Lead (科研管理负责人) across navigation, directory and profile sources. Three user-supplied references (Cell Reports 2023; Nature Metabolism 2022; FASEB Journal 2021) added at the top of Key publications in the requested order, retaining existing entries. Citations remain in English in both language versions; only spacing and punctuation were normalised.
+
+
+## Toni — selective public biography (14 October 2026)
+
+At the user’s request, removed training/mentoring statistics, bibliometrics, patent, and all reader-facing CV references. Condensed the public biography to background, research focus, international appointments, qualifications and selected honours. The career milestones remain in the background paragraph; omitted exhaustive career, funding and service lists. Source provenance remains here and in data metadata only.
