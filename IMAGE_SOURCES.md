@@ -42,3 +42,6 @@ Shared prompt specification: Remove background only, preserving the photographed
 | `images/team/rodrigo.webp` | DR. RODRIGO SANTOS | https://static.wixstatic.com/media/7bd939_d161bb9d573f4cecb6245259487ded70~mv2.png |
 
 Cherub's replacement uses the same built-in background-removal edit mode and WebP export settings. Prompt: extract the photographed woman in her white laboratory coat, preserving identity, expression, hair, earrings, clothing, warm lighting, posture and proportions; remove laboratory scenery and retain true alpha transparency, full head and available upper torso.
+
+
+Guillaume Bidault: `images/team/guillaume-20261014.png` — replacement portrait supplied by the user on 14 October 2026. Original PNG preserved without image edits.
