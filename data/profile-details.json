@@ -1,7 +1,7 @@
 {
   "toni": {
-    "source": "https://www.tvplab-cambridge.com/tvp",
-    "reviewed": "2026-10-10",
+    "source": "Author-provided CV, June 2025",
+    "reviewed": "2026-10-14",
     "emails": [
       "ajv22@medschl.cam.ac.uk"
     ],
@@ -19,98 +19,229 @@
     ],
     "sections": [
       {
-        "id": "focus",
-        "heading": "Research focus",
-        "heading_zh": "研究方向",
-        "items": [
-          {
-            "source_block": 13,
-            "text": "The research of my laboratory, the TVPLab (TVPLab, http://tvp.mrl.ims.cam.ac.uk/) focuses on elucidating the molecular mechanisms linking obesity with insulin resistance, diabetes and cardiometabolic complications and on the development of related therapeutic strategies.",
-            "source_text": "The research of my laboratory, the TVPLab (TVPLab, http://tvp.mrl.ims.cam.ac.uk/) focuses on elucidating the molecular mechanisms linking obesity with insulin resistance, diabetes and cardiometabolic complications and on the development of related therapeutic strategies.",
-            "text_zh": "我的实验室 TVPLab（http://tvp.mrl.ims.cam.ac.uk/）致力于阐明连接肥胖与胰岛素抵抗、糖尿病及心脏代谢并发症的分子机制，并开发相关治疗策略。"
-          },
-          {
-            "source_block": 14,
-            "text": "The Vision of the group is to lead the discovery of “the new biological concepts/molecular mechanism s that are going to transform the treatment of obesity and diabetes”.",
-            "source_text": "The Vision of the group is to lead the discovery of “the new biological concepts/molecular mechanism s that are going to transform the treatment of obesity and diabetes”.",
-            "text_zh": "团队的愿景是引领发现“将改变肥胖与糖尿病治疗方式的新生物学概念与分子机制”。"
-          },
-          {
-            "source_block": 15,
-            "text": "Our Mission is to unravel the mechanisms controlling energy homeostasis and understand how they fail and cause obesity and diabetes. Our mission is not to find specific drugs. The reason for our existence is to identify the biochemical paths that these drugs should target.",
-            "source_text": "Our Mission is to unravel the mechanisms controlling energy homeostasis and understand how they fail and cause obesity and diabetes. Our mission is not to find specific drugs. The reason for our existence is to identify the biochemical paths that these drugs should target.",
-            "text_zh": "我们的使命是揭示调控能量稳态的机制，并理解这些机制如何失效、进而引发肥胖与糖尿病。我们的使命并不是寻找某一种特定药物，而是确定这些药物应当作用的生化通路。"
-          },
-          {
-            "source_block": 16,
-            "text": "The group is well known by its creativity reflected in the “adipose tissue expandability hypothesis” and the concept of “lipotoxicity” to explain the association between obesity and insulin resistance. We are also leaders in the field of thermogenesis and brown adipose tissue. Here at the Sanger Institute we will be working on a project related to Brown adipose tissue and human iPs cells, funded by an ERC advanced award and will also contribute to the characterization of animal models related to obesity and diabetes modelling human and systems biology derived data.",
-            "source_text": "The group is well known by its creativity reflected in the “adipose tissue expandability hypothesis” and the concept of “lipotoxicity” to explain the association between obesity and insulin resistance. We are also leaders in the field of thermogenesis and brown adipose tissue. Here at the Sanger Institute we will be working on a project related to Brown adipose tissue and human iPs cells, funded by an ERC advanced award and will also contribute to the characterization of animal models related to obesity and diabetes modelling human and systems biology derived data.",
-            "text_zh": "团队以创造性提出“脂肪组织扩增能力假说”及“脂毒性”概念而闻名，用以解释肥胖与胰岛素抵抗之间的联系。我们也在产热和棕色脂肪组织研究领域处于领先位置。在 Sanger 研究所，我们将开展由 ERC 高级研究资助支持的棕色脂肪组织与人类诱导多能干细胞项目，并参与肥胖及糖尿病动物模型的特征鉴定，以模拟人类研究与系统生物学数据所反映的疾病过程。"
-          },
-          {
-            "source_block": 17,
-            "text": "Our research strategies include a combination of hypothesis driven and non-biased systems approaches that make use of purposely genetically modified animal models, stem cell biology, human biological samples (including induced pluripotent stem cells), and sophisticated omics technologies and bioinformatics integration of large datasets.",
-            "source_text": "Our research strategies include a combination of hypothesis driven and non-biased systems approaches that make use of purposely genetically modified animal models, stem cell biology, human biological samples (including induced pluripotent stem cells), and sophisticated omics technologies and bioinformatics integration of large datasets.",
-            "text_zh": "我们的研究策略结合假说驱动与无偏倚的系统研究方法，使用专门构建的基因修饰动物模型、干细胞生物学、人类生物样本（包括诱导多能干细胞）、先进组学技术，以及大型数据集的生物信息学整合分析。"
-          },
-          {
-            "source_block": 18,
-            "text": "Besides doing research I am also interested in management of talent in research intensive institutions. Over the years I have become fascinated by the highly talented PhD students and post docs I came across and on many occasions how their talent was wasted. So I believe a major problem in academic science is the poor management of this great talent to realise its value. Thus I am interested in better understanding and developing innovative approaches to talent management in academic research-intensive institutions. How it is best to manage the talent of academic scientists is an area under researched. However I am confident that some of the insights I have gained from current business management practices may be transferable and contribute to obtain the full value of science.",
-            "source_text": "Besides doing research I am also interested in management of talent in research intensive institutions. Over the years I have become fascinated by the highly talented PhD students and post docs I came across and on many occasions how their talent was wasted. So I believe a major problem in academic science is the poor management of this great talent to realise its value. Thus I am interested in better understanding and developing innovative approaches to talent management in academic research-intensive institutions. How it is best to manage the talent of academic scientists is an area under researched. However I am confident that some of the insights I have gained from current business management practices may be transferable and contribute to obtain the full value of science.",
-            "text_zh": "除科学研究之外，我也关注研究密集型机构的人才管理。多年来，我接触到许多极具才华的博士生和博士后，他们的才能令我着迷，但我也多次看到这些才能未能得到充分发挥。因此，我认为学术科学面临的重要问题之一，是未能通过有效管理充分实现优秀人才的价值。我希望更深入地理解并发展适用于研究密集型学术机构的创新人才管理方法。如何更好地管理科研人员的才能，仍是研究不足的领域。不过，我相信从现代商业管理实践中获得的一些认识可以迁移到学术环境，并有助于充分实现科学的价值。"
-          }
-        ]
-      },
-      {
         "id": "background",
         "heading": "Background and experience",
         "heading_zh": "背景与经历",
         "items": [
           {
-            "source_block": 5,
-            "text": "Prof Vidal-Puig obtained his medical degree from Valencia Medical School before training in clinical endocrinology at Granada Medical School, where he obtained his PhD based on clinical and physiological studies of the relationship between insulin resistance and hyperandrogenism. The award of the Paul Dudley White Fellowship from the American Heart Association funded postdoctoral training at Harvard University. In 2000 he moved to the University of Cambridge, where he developed the obesity, diabetes and cardiometabolic complications programme.",
-            "source_text": "Prof Vidal-Puig obtained his medical degree from Valencia Medical School before training in clinical endocrinology at Granada Medical School, where he obtained his PhD based on clinical and physiological studies of the relationship between insulin resistance and hyperandrogenism. The award of the Paul Dudley White Fellowship from the American Heart Association funded postdoctoral training at Harvard University. In 2000 he moved to the University of Cambridge, where he developed the obesity, diabetes and cardiometabolic complications programme.",
-            "text_zh": "Vidal-Puig 教授在瓦伦西亚医学院取得医学学位，随后在格拉纳达医学院接受临床内分泌学训练，并通过胰岛素抵抗与高雄激素血症关系的临床及生理学研究取得博士学位。他获得美国心脏协会 Paul Dudley White 奖学金，赴哈佛大学接受博士后训练。2000 年，他加入剑桥大学，建立了肥胖、糖尿病及心脏代谢并发症研究项目。"
+            "text": "Antonio (Toni) Vidal-Puig is Professor of Molecular Nutrition and Metabolism at the University of Cambridge, a position he has held since October 2009. He is Associate Director of the MRC Metabolic Disease Unit, an MRC Investigator, Lead of Cardiometabolic Medicine at the Cambridge Heart and Lung Research Institute, Honorary Consultant in Metabolic Medicine at Addenbrooke’s Hospital, and Scientific Director of the Cambridge Phenomics Centre.",
+            "text_zh": "Antonio（Toni）Vidal-Puig 自 2009 年 10 月起担任剑桥大学分子营养与代谢学教授。他还担任 MRC 代谢疾病研究部副主任、MRC 研究员、剑桥心肺研究所心脏代谢医学负责人、Addenbrooke’s 医院代谢医学荣誉顾问医师及剑桥表型组学中心科学主任。"
           },
           {
-            "source_block": 6,
-            "text": "Prof Vidal-Puig is currently the Professor of Molecular Nutrition and Metabolism at Cambridge University and Honorary Consultant in Metabolic Medicine at Addenbrooke’s Hospital, Cambridge. Deputy Director of the Wellcome Trust-MRC Institute of Metabolic Science Director of the Cambridge Phenomics Centre, and Scientific Director of cardiometabolic medicine at Cambridge Heart and Lung Research Institute.",
-            "source_text": "Prof Vidal-Puig is currently the Professor of Molecular Nutrition and Metabolism at Cambridge University and Honorary Consultant in Metabolic Medicine at Addenbrooke’s Hospital, Cambridge. Deputy Director of the Wellcome Trust-MRC Institute of Metabolic Science Director of the Cambridge Phenomics Centre, and Scientific Director of cardiometabolic medicine at Cambridge Heart and Lung Research Institute.",
-            "text_zh": "Vidal-Puig 教授现任剑桥大学分子营养与代谢学教授，以及剑桥 Addenbrooke’s 医院代谢医学荣誉顾问医师，并担任 Wellcome Trust–MRC 代谢科学研究所副所长、剑桥表型组学中心主任，以及剑桥心肺研究所心脏代谢医学科学主任。"
+            "text": "He obtained his medical degree at the University of Valencia in 1986 and his PhD at the University of Granada in 1992. After clinical training in Granada and research appointments at Harvard Medical School, he joined Cambridge as a Senior Research Associate in 1999. He became Lecturer in 2003 and Reader in 2006 before his appointment as Professor.",
+            "text_zh": "他于 1986 年获得瓦伦西亚大学医学学位，1992 年获得格拉纳达大学博士学位。在格拉纳达接受临床培训、在哈佛医学院从事研究后，他于 1999 年加入剑桥，担任高级研究员，2003 年任讲师，2006 年任 Reader，随后晋升教授。"
           },
           {
-            "source_block": 7,
-            "text": "Vidal-Puig maintains a close relationship with Spain, as a researcher at the Príncipe Felipe Research Center in Valencia (Spain) and Rey Juan Carlos University collaborator. He is a member of the SABs of CIBERob, CIBERDem, and Health Research Institutes in Spain. He serves as Chair of the ERC Medicine LS4 panel and participated in evaluation committees of Severo Ochoa, and Jaime I awards.",
-            "source_text": "Vidal-Puig maintains a close relationship with Spain, as a researcher at the Príncipe Felipe Research Center in Valencia (Spain) and Rey Juan Carlos University collaborator. He is a member of the SABs of CIBERob, CIBERDem, and Health Research Institutes in Spain. He serves as Chair of the ERC Medicine LS4 panel and participated in evaluation committees of Severo Ochoa, and Jaime I awards.",
-            "text_zh": "Vidal-Puig 与西班牙保持密切联系，在瓦伦西亚 Príncipe Felipe 研究中心从事研究，并与胡安卡洛斯国王大学合作。他是 CIBERob、CIBERDem 及西班牙多家健康研究机构科学顾问委员会的成员，担任欧洲研究理事会（ERC）医学 LS4 评审组主席，并参与 Severo Ochoa 和 Jaime I 奖的评审工作。"
+            "text": "This biography is based on his June 2025 CV. Appointments and bibliometric figures reflect that document.",
+            "text_zh": "本履历依据其 2025 年 6 月简历更新；职务与文献计量数据以该简历为准。"
+          }
+        ]
+      },
+      {
+        "id": "focus",
+        "heading": "Research focus",
+        "heading_zh": "研究方向",
+        "items": [
+          {
+            "text": "His research elucidates the molecular mechanisms linking obesity with insulin resistance, diabetes and cardiometabolic complications, and develops related therapeutic strategies. The laboratory combines hypothesis-driven research with unbiased systems approaches, using animal models, stem cell biology, human biological samples (including induced pluripotent stem cells), advanced omics technologies and bioinformatics integration.",
+            "text_zh": "他的研究解析肥胖与胰岛素抵抗、糖尿病及心脏代谢并发症之间的分子联系，并探索相关治疗策略。实验室结合假说驱动研究与无偏的系统研究方法，运用动物模型、干细胞生物学、人体生物样本（包括诱导多能干细胞）、先进组学技术及生物信息学整合分析。"
           },
           {
-            "source_block": 8,
-            "text": "Vidal-Puig directs the biomedicine program at the Center for Technology and Innovation at the University of Cambridge in Nanjing. Vidal-Puig is a concurrent professor at Nanjing University (China), Soochow University (China), and Chiba University (Japan). Vidal-Puig is a member of the Center for AI Technology of Humankind at the National University of Singapore Business School.",
-            "source_text": "Vidal-Puig directs the biomedicine program at the Center for Technology and Innovation at the University of Cambridge in Nanjing. Vidal-Puig is a concurrent professor at Nanjing University (China), Soochow University (China), and Chiba University (Japan). Vidal-Puig is a member of the Center for AI Technology of Humankind at the National University of Singapore Business School.",
-            "text_zh": "Vidal-Puig 负责剑桥大学南京科技创新中心的生物医学项目，并兼任南京大学、中国苏州大学及日本千叶大学教授。他也是新加坡国立大学商学院人类人工智能技术中心的成员。"
+            "text": "His contributions include the adipose tissue expandability hypothesis and the concept of lipotoxicity; energy-dissipating strategies involving mitochondrial biogenesis, mitochondrial uncoupling and brown fat differentiation and activation; hypothalamic lipid metabolism and the roles of thyroid hormone and BMP8b in energy homeostasis and brown fat activation; and systems biology and stem cell approaches to lipid networks in cardiometabolic disease.",
+            "text_zh": "他的科学贡献包括脂肪组织扩增能力假说与脂毒性概念；通过线粒体生物发生、线粒体解偶联及棕色脂肪分化与激活促进能量消耗的策略；下丘脑脂质代谢以及甲状腺激素、BMP8b 在能量稳态和棕色脂肪激活中的作用；以及利用系统生物学和干细胞方法研究心脏代谢疾病中的脂质网络。"
+          }
+        ]
+      },
+      {
+        "id": "appointments",
+        "heading": "International appointments",
+        "heading_zh": "国际任职",
+        "items": [
+          {
+            "text": "Principal Investigator, Principe Felipe Research Center (CIPF), Valencia; Associate Research Scientist, Cambridge University Nanjing Centre of Technology and Innovation (CUNJC); Honorary Professor, University of Nanjing; Visiting Professor, Chiba University; and Honorary Professor, Soochow University (appointments listed in the June 2025 CV).",
+            "text_zh": "2025 年 6 月简历所列职务包括：瓦伦西亚菲利佩王子研究中心（CIPF）课题组负责人、剑桥大学南京科技创新中心（CUNJC）副研究员、南京大学荣誉教授、千叶大学访问教授及苏州大学荣誉教授。"
           },
           {
-            "source_block": 9,
-            "text": "His research program focuses on the molecular mechanisms of lipid-induced insulin resistance and lipotoxicity modulating fatty acid oxidation and thermogenic mechanisms. Prof. Vidal-Puig is the author of 260 scientific articles and has trained many PhDs, and postdoctoral, many of them established in Spain",
-            "source_text": "His research program focuses on the molecular mechanisms of lipid-induced insulin resistance and lipotoxicity modulating fatty acid oxidation and thermogenic mechanisms. Prof. Vidal-Puig is the author of 260 scientific articles and has trained many PhDs, and postdoctoral, many of them established in Spain",
-            "text_zh": "他的研究围绕脂质诱导的胰岛素抵抗与脂毒性的分子机制，关注脂肪酸氧化及产热机制的调控。Vidal-Puig 教授已发表 260 篇科学论文，并培养了多名博士生和博士后，其中许多人已在西班牙建立自己的科研事业。"
+            "text": "Additional appointments and affiliations include International Research Affiliate at the Centre on AI Technology for Humankind, National University of Singapore (2019); Toh Chin Chye Visiting Professorship, National University of Singapore (2024); Distinguished Visiting Professor, School of Life & Health Sciences, Fuyao University of Science and Technology (2024); and Fudan Scholar, Fudan University (2025).",
+            "text_zh": "其他任职与学术关联包括：新加坡国立大学人类人工智能技术中心国际研究成员（2019 年）、新加坡国立大学杜进才访问教授（2024 年）、福耀科技大学生命与健康科学学院杰出访问教授（2024 年）及复旦大学复旦学者（2025 年）。"
+          }
+        ]
+      },
+      {
+        "id": "career",
+        "heading": "Professional history",
+        "heading_zh": "职业经历",
+        "items": [
+          {
+            "text": "October 2009 onwards — Professor of Molecular Nutrition and Metabolism, University of Cambridge.",
+            "text_zh": "2009 年 10 月起——剑桥大学分子营养与代谢学教授。"
           },
           {
-            "source_block": 10,
-            "text": "Vidal-Puig has received important awards such as the International Hippocrates Award for Research in Nutrition (RAM Principality Asturias), FEBS National Lecturer, Medal of the British Endocrinology Society and the Lilly Foundation Distinguished Career Award. Sir Philip Randle Lecture Award from the British Biochemical Society, among others.",
-            "source_text": "Vidal-Puig has received important awards such as the International Hippocrates Award for Research in Nutrition (RAM Principality Asturias), FEBS National Lecturer, Medal of the British Endocrinology Society and the Lilly Foundation Distinguished Career Award. Sir Philip Randle Lecture Award from the British Biochemical Society, among others.",
-            "text_zh": "Vidal-Puig 获得的重要奖项包括国际希波克拉底营养研究奖（阿斯图里亚斯公国皇家医学科学院）、FEBS National Lecturer、英国内分泌学会奖章、Lilly 基金会杰出职业成就奖，以及英国生物化学学会 Sir Philip Randle 讲座奖等。"
+            "text": "2006–2009 — Reader in Metabolism and Biochemistry, University of Cambridge; Honorary Consultant in Metabolic Medicine; Director of the Wellcome Trust Integrative Physiology Mouse Program; Deputy Director of CORD-MRL (Centre for Obesity and Related Disorders); and Scientific Director of the Cambridge Phenomics Centre.",
+            "text_zh": "2006–2009 年——剑桥大学代谢与生物化学 Reader；代谢医学荣誉顾问医师；Wellcome Trust 整合生理学小鼠项目主任；肥胖及相关疾病研究中心 CORD-MRL 副主任；剑桥表型组学中心科学主任。"
           },
           {
-            "source_block": 11,
-            "text": "In his current role as a member of the Scientific Advisory Board of Argonaute RNA, Prof. Vidal-Puig continues to advance the translation of molecular discoveries into novel therapeutic approaches for cardiometabolic disorders.",
-            "source_text": "In his current role as a member of the Scientific Advisory Board of Argonaute RNA, Prof. Vidal-Puig continues to advance the translation of molecular discoveries into novel therapeutic approaches for cardiometabolic disorders.",
-            "text_zh": "作为 Argonaute RNA 科学顾问委员会成员，Vidal-Puig 教授继续推动分子研究发现向心脏代谢疾病新型治疗方法的转化。"
+            "text": "2003–2006 — Lecturer in Clinical Biochemistry and Metabolic Medicine, University of Cambridge; Honorary Consultant in Clinical Biochemistry and Metabolic Medicine; and Director of the Wellcome Trust Integrative Physiology Mouse Program.",
+            "text_zh": "2003–2006 年——剑桥大学临床生物化学与代谢医学讲师；临床生物化学与代谢医学荣誉顾问医师；Wellcome Trust 整合生理学小鼠项目主任。"
+          },
+          {
+            "text": "1999–2002 — Senior Research Associate, Departments of Clinical Biochemistry and Medicine, University of Cambridge; Honorary Specialist Registrar in Metabolic Medicine, Addenbrooke’s Hospital.",
+            "text_zh": "1999–2002 年——剑桥大学临床生物化学系及医学系高级研究员；Addenbrooke’s 医院代谢医学荣誉专科培训医师。"
+          },
+          {
+            "text": "1997–1999 — Instructor, Department of Medicine, Beth Israel Deaconess Medical Center, Harvard Medical School, supported by a Boston Obesity Nutrition Career Development Award.",
+            "text_zh": "1997–1999 年——哈佛医学院 Beth Israel Deaconess Medical Center 医学系 Instructor，获波士顿肥胖与营养职业发展奖支持。"
+          },
+          {
+            "text": "1993–1997 — Research Associate, Department of Medicine, Beth Israel Deaconess Medical Center, Harvard Medical School, with support from the American Heart Association Paul Dudley White Fellowship.",
+            "text_zh": "1993–1997 年——哈佛医学院 Beth Israel Deaconess Medical Center 医学系研究员，获美国心脏协会 Paul Dudley White 研究员奖支持。"
+          },
+          {
+            "text": "1992–1993 — Postdoctoral Fellow, Department of Medicine, Massachusetts General Hospital, Harvard Medical School, supported by the Spanish Ministry of Health.",
+            "text_zh": "1992–1993 年——哈佛医学院麻省总医院医学系博士后，获西班牙卫生部资助。"
+          },
+          {
+            "text": "1988–1991 — Intern and Resident in Endocrinology and Metabolism, Granada University Hospital, Spain.",
+            "text_zh": "1988–1991 年——西班牙格拉纳达大学医院内分泌与代谢科实习及住院医师。"
+          }
+        ]
+      },
+      {
+        "id": "education",
+        "heading": "Education and qualifications",
+        "heading_zh": "教育背景与专业资格",
+        "items": [
+          {
+            "text": "1986 — MD, Valencia University School of Medicine, Spain (Magna Cum Laude).",
+            "text_zh": "1986 年——西班牙瓦伦西亚大学医学院医学学位（优等荣誉）。"
+          },
+          {
+            "text": "1992 — PhD, Granada University School of Medicine, Spain; specialist qualification in Endocrinology, Metabolism and Nutrition, Spanish Ministry of Health.",
+            "text_zh": "1992 年——西班牙格拉纳达大学医学院博士学位；西班牙卫生部内分泌、代谢与营养专科医师资格。"
+          },
+          {
+            "text": "Fellow of the Royal College of Physicians (FRCP).",
+            "text_zh": "英国皇家内科医师学会会士（FRCP）。"
+          },
+          {
+            "text": "2014 — Fellow of the Academy of Medical Sciences (FMedSci).",
+            "text_zh": "2014 年——英国医学科学院院士（FMedSci）。"
+          },
+          {
+            "text": "2015 — Executive MBA, Cambridge Judge Business School, University of Cambridge (studied 2013–2015).",
+            "text_zh": "2015 年——剑桥大学嘉治商学院高管工商管理硕士（EMBA），就读时间为 2013–2015 年。"
+          },
+          {
+            "text": "2019 — Executive education in Artificial Intelligence: Implications for Business Strategy, MIT Sloan School of Management.",
+            "text_zh": "2019 年——麻省理工学院斯隆管理学院高管教育课程：人工智能对商业战略的影响。"
+          },
+          {
+            "text": "2024 — Honorary Doctorate, Universidad Rey Juan Carlos, Madrid.",
+            "text_zh": "2024 年——马德里胡安卡洛斯国王大学荣誉博士。"
+          },
+          {
+            "text": "2025 — Elected Member of the Academia Europaea.",
+            "text_zh": "2025 年——当选欧洲科学院院士。"
+          }
+        ]
+      },
+      {
+        "id": "awards",
+        "heading": "Selected fellowships and honours",
+        "heading_zh": "部分奖项与荣誉",
+        "items": [
+          {
+            "text": "1992 — Spanish Ministry of Health Fellowship. 1995 — Paul Dudley White Fellowship Award, American Heart Association. 1998 — Boston Obesity Nutrition Career Development Award.",
+            "text_zh": "1992 年——西班牙卫生部研究员资助。1995 年——美国心脏协会 Paul Dudley White 研究员奖。1998 年——波士顿肥胖与营养职业发展奖。"
+          },
+          {
+            "text": "2013 — Pat Usher Memorial Lecturer, Beth Israel Endocrine Grand Rounds, Harvard Medical School; Fellowship Award for the Executive MBA, University of Cambridge.",
+            "text_zh": "2013 年——哈佛医学院 Beth Israel 内分泌大查房 Pat Usher 纪念讲座主讲人；剑桥大学高管 MBA 奖学金。"
+          },
+          {
+            "text": "2015 — Hippocrates International Award for Nutrition Research, Royal Academy of Medicine of the Principality of Asturias; FEBS National Lecturer; and Career Distinguished Award, Lilly Foundation.",
+            "text_zh": "2015 年——阿斯图里亚斯皇家医学院希波克拉底国际营养研究奖；FEBS National Lecturer；Lilly 基金会杰出职业成就奖。"
+          },
+          {
+            "text": "2016 — VI Maimonides Lecture Award, “Managing for competitive advantage in biomedical research”. 2017 — British Endocrine Society Medal. 2019 — Sir Philip Randle Lecture, Biochemical Society.",
+            "text_zh": "2016 年——第六届 Maimonides 讲座奖，主题为“通过管理提升生物医学研究竞争优势”。2017 年——英国内分泌学会奖章。2019 年——英国生物化学学会 Sir Philip Randle 讲座荣誉。"
+          },
+          {
+            "text": "2024 — President’s International Fellowship Initiative (PIFI), Chinese Academy of Sciences; Toh Chin Chye Visiting Professorship, National University of Singapore; and Honorary Doctorate, Universidad Rey Juan Carlos. 2025 — Fudan Scholar and election to the Academia Europaea.",
+            "text_zh": "2024 年——中国科学院国际人才计划（PIFI）；新加坡国立大学杜进才访问教授；胡安卡洛斯国王大学荣誉博士。2025 年——复旦学者及当选欧洲科学院院士。"
+          }
+        ]
+      },
+      {
+        "id": "funding",
+        "heading": "Selected research funding",
+        "heading_zh": "部分科研资助",
+        "items": [
+          {
+            "text": "2024–2029 — MRC MDU Programme Grant: “Adipose Tissue Dysfunction and Lipotoxicity: Uncoupling Obesity from associated metabolic comorbidities”.",
+            "text_zh": "2024–2029 年——MRC MDU 项目资助：“脂肪组织功能障碍与脂毒性：解耦肥胖及其相关代谢合并症”。"
+          },
+          {
+            "text": "2024–2028 — Spanish Science Ministry, MetaboNASH: development of novel tools to prevent the progression of fatty liver disease; and La Caixa Foundation: mechanisms and therapeutic approaches to prevent or reverse the MASLD-to-MASH transition.",
+            "text_zh": "2024–2028 年——西班牙科学部 MetaboNASH 项目：开发预防脂肪肝进展的新工具；La Caixa 基金会项目：探索 MASLD 向 MASH 转变的机制及预防或逆转的治疗方法。"
+          },
+          {
+            "text": "2023–2027 — British Heart Foundation Programme Grant on lipid-mediated metabolic inflammation in adipose tissue macrophages (Vidal-Puig/Bidault). 2023–2026 — BBSRC project on lipid remodelling in human brown adipogenesis using a stem cell-based system.",
+            "text_zh": "2023–2027 年——英国心脏基金会项目，研究脂肪组织巨噬细胞中脂质介导的代谢炎症（Vidal-Puig/Bidault）。2023–2026 年——BBSRC 项目，利用干细胞系统研究脂质重塑对人类棕色脂肪生成的调控。"
+          },
+          {
+            "text": "2015–2020 — European Research Council Senior Investigator award, StemBAT: new players in human brown adipose tissue differentiation and activation, combining human pluripotent stem cell-derived brown fat, genome engineering and omics methodologies.",
+            "text_zh": "2015–2020 年——欧洲研究理事会高级研究员资助 StemBAT：结合人类多能干细胞来源的棕色脂肪、基因组工程及组学方法，研究人类棕色脂肪组织分化与激活的新调控因子。"
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "heading": "Scientific service and teaching",
+        "heading_zh": "学术服务与教学",
+        "items": [
+          {
+            "text": "He chaired the ERC Physiology and Endocrinology award panel (2018–2023) and represented the University of Cambridge Clinical School on the Research Policy Committee (2023–2025). The CV also lists membership of the BHF Chairs and Programme Grants Committee (2025–2028) and chairmanship of the European Atherosclerosis Society Working Group for Educational Programme Development (2022).",
+            "text_zh": "他曾担任 ERC 生理学与内分泌学评审组主席（2018–2023 年），并代表剑桥大学临床医学院参与研究政策委员会（2023–2025 年）。简历还列有英国心脏基金会讲席与项目资助委员会成员（2025–2028 年）及欧洲动脉粥样硬化学会教育项目发展工作组主席（2022 年）等职务。"
+          },
+          {
+            "text": "His scientific advisory service includes CIBERDEM, IDIBAPS, INCLIVA, EASO, IDIBGI, the Danish Academy of Diabetes, the University of Copenhagen’s rodent metabolic phenotyping platform, IDIS and Fundación Gadea Ciencia. Editorial work includes PLoS Biology, Biochemical Journal, Diabetes, Trends in Endocrinology and Metabolism, Biochimica et Biophysica Acta and Life Metabolism.",
+            "text_zh": "他的科学咨询服务涉及 CIBERDEM、IDIBAPS、INCLIVA、EASO、IDIBGI、丹麦糖尿病学院、哥本哈根大学啮齿动物代谢表型平台、IDIS 及 Fundación Gadea Ciencia。编辑工作涉及 PLoS Biology、Biochemical Journal、Diabetes、Trends in Endocrinology and Metabolism、Biochimica et Biophysica Acta 及 Life Metabolism。"
+          },
+          {
+            "text": "He teaches obesity, diabetes and cardiovascular topics on Cambridge’s Master’s in Bioscience Enterprise. TVPlab organises the Cardiometabolic Phenotyping in Rodents course, combining expertise at the Institute of Metabolic Science and BHF Cardiovascular Centre with a Sanger/EBI workshop.",
+            "text_zh": "他为剑桥大学生物科学企业硕士课程讲授肥胖、糖尿病及心血管主题。TVPlab 举办啮齿动物心脏代谢表型分析课程，结合代谢科学研究所和英国心脏基金会心血管中心的专业资源，并设有 Sanger/EBI 工作坊。"
+          }
+        ]
+      },
+      {
+        "id": "mentoring",
+        "heading": "Research training and mentoring",
+        "heading_zh": "科研培训与指导",
+        "items": [
+          {
+            "text": "The June 2025 CV reports training 18 PhD students and 27 postdoctoral fellows supported by competitive national and international funding. His interests include innovative management in research-intensive institutions, talent development, scientific guidance, career advice and networking. He supports mentoring initiatives for women in STEM through the Academy of Medical Sciences, British Heart Foundation and Wellcome Trust DBT India Alliance.",
+            "text_zh": "2025 年 6 月简历记载，实验室培养了 18 名博士生及 27 名博士后，他们获得了国内外竞争性资助。他关注研究密集型机构的创新管理、人才培养、科研指导、职业建议及学术网络建设，并通过英国医学科学院、英国心脏基金会及 Wellcome Trust DBT India Alliance 支持面向 STEM 领域女性的指导计划。"
+          }
+        ]
+      },
+      {
+        "id": "output",
+        "heading": "Publications and patent",
+        "heading_zh": "论文与专利",
+        "items": [
+          {
+            "text": "The June 2025 CV records an h-index of 117 and 48,563 citations. These are historical figures from the CV, rather than live bibliometric counts. Publications are available through the laboratory’s publications page and his Google Scholar profile.",
+            "text_zh": "2025 年 6 月简历记录的 h 指数为 117，总引用次数为 48,563。这些是简历中的历史数据。论文可通过实验室论文页面及其 Google Scholar 主页查阅。"
+          },
+          {
+            "text": "Patent: Hart KA, Montague CT, Vidal-Puig A. Human and rat PGC-3, PPAR-gamma coactivations and splice variants. United States Patent 7306922.",
+            "text_zh": "专利：Hart KA, Montague CT, Vidal-Puig A. Human and rat PGC-3, PPAR-gamma coactivations and splice variants. 美国专利 7306922。"
           }
         ]
       }
-    ]
+    ],
+    "source_date": "2025-06"
   },
   "katie": {
     "source": "https://www.tvplab-cambridge.com/kf",

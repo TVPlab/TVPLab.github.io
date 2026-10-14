@@ -93,3 +93,25 @@ Reviewed 21 September 2026. Every linked individual page was opened and its disp
 | possawee | [possawee](https://www.tvplab-cambridge.com/copy-of-renata-risi) |
 | iman | [iman](https://www.tvplab-cambridge.com/dea) |
 | rodrigo | [rodrigo](https://www.tvplab-cambridge.com/copy-of-ruoqi-du) |
+
+
+## Toni Vidal-Puig — author-provided CV correction (14 October 2026)
+
+Authority: `CV - June 2025new.docx`, supplied by the user, dated June 2025.
+The document is not published; public biographical content is transcribed and
+translated into `data/profile-details.json`. Both academic and member biographies
+now use this shared data (`scripts/build_toni.py` and `scripts/build_profiles.py`).
+
+Corrections: Cambridge Senior Research Associate begins in 1999 (not 2000);
+professorship begins October 2009. Other current appointments are not assigned
+an unsupported 2009 start date. Removed the unsupported current Sanger PI claim
+and stale 260-publication count. StemBAT funding is 2015–2020, not a 2020 award.
+Metrics are explicitly historical: h-index 117, 48,563 citations (June 2025).
+Expanded career history, education, international appointments, honours, research,
+funding, service, teaching and mentoring; corrected the academic-page Scholar URL.
+
+Source ambiguity: the CV's Education/Degrees section gives FRCP as 2008, while
+Personal Fellowships and Awards gives 2007. Retain FRCP without a year pending
+author clarification; do not silently choose either date. The CV groups multiple
+current positions beneath October 2009–present, which is used only for the
+explicitly dated Cambridge professorship. Historical training counts are dated.

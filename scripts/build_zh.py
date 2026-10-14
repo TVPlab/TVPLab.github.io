@@ -137,6 +137,14 @@ EXACT.update({
  'If you are interested in joining our lab as a PhD student or postdoctoral researcher, we welcome informal enquiries. Please contact Professor Antonio Vidal-Puig by email to discuss potential future opportunities.':'如果您有意加入实验室攻读博士或开展博士后研究，欢迎通过电子邮件联系 Antonio Vidal-Puig 教授，咨询未来可能的机会。',
  'for information on enquiries.':'了解咨询方式。',
 })
+# Toni's academic and member biographies share the author-provided CV data.
+from build_toni import build as build_toni
+build_toni()
+for section in json.loads((ROOT/'data/profile-details.json').read_text())['toni']['sections']:
+ EXACT.setdefault(section['heading'],section['heading_zh'])
+ for item in section['items']:
+  EXACT[item['text']]=item['text_zh']
+
 ALLOWED={'TVP','lab','☰','↗','EN','中文','TVPlab','X / Twitter','Twitter / X','LinkedIn','Google Scholar','PubMed','Nature Metabolism','Hills Road','Katie Fisher','Mark Campbell','Martin Dale','Nazuk Gupta','Milidili Maimaiti','Ruoqi Du','Possawee Prasertsuk','Iman Mali','Cherub Kaida Wu','.'}
 missing=set()
 def translate(text):
