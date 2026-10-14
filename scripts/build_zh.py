@@ -131,6 +131,12 @@ EXACT.update(NEWS_I18N)
 EXACT.update(json.loads((ROOT/'data/alumni-i18n.json').read_text()))
 ATTRS.update(NEWS_I18N)
 TITLES.update({'nanjing':'TVPlab 南京','valencia':'TVPlab 瓦伦西亚','collaborators':'合作伙伴'})
+EXACT.update({
+ 'There are currently no advertised vacancies in the TVP Lab.':'TVP Lab 目前暂无公开招聘职位。',
+ 'Interested in a PhD or postdoctoral opportunity?':'对博士或博士后机会感兴趣？',
+ 'If you are interested in joining our lab as a PhD student or postdoctoral researcher, we welcome informal enquiries. Please contact Professor Antonio Vidal-Puig by email to discuss potential future opportunities.':'如果您有意加入实验室攻读博士或开展博士后研究，欢迎通过电子邮件联系 Antonio Vidal-Puig 教授，咨询未来可能的机会。',
+ 'for information on enquiries.':'了解咨询方式。',
+})
 ALLOWED={'TVP','lab','☰','↗','EN','中文','TVPlab','X / Twitter','Twitter / X','LinkedIn','Google Scholar','PubMed','Nature Metabolism','Hills Road','Katie Fisher','Mark Campbell','Martin Dale','Nazuk Gupta','Milidili Maimaiti','Ruoqi Du','Possawee Prasertsuk','Iman Mali','Cherub Kaida Wu','.'}
 missing=set()
 def translate(text):
