@@ -115,6 +115,6 @@
     const body = String(values.get('message')) + (isChinese ? '\n\n姓名：' : '\n\nFrom: ') + values.get('name') + (isChinese ? '\n邮箱：' : '\nEmail: ') + values.get('email');
     const recipient = form.getAttribute('action');
     location.href = recipient + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-    document.querySelector('#contact-status').textContent = isChinese ? '邮件应用将打开草稿，请在那里检查并发送。如果没有打开邮件应用，请直接发送至 ajv22@cam.ac.uk。' : 'Your email app will open a draft. Review it and send it there. If no app opens, email ajv22@cam.ac.uk directly.';
+    document.querySelector('#contact-status').textContent = isChinese ? '邮件应用将打开草稿，请在那里检查并发送。如果没有打开邮件应用，请直接发送至 ajv22@medschl.cam.ac.uk。' : 'Your email app will open a draft. Review it and send it there. If no app opens, email ajv22@medschl.cam.ac.uk directly.';
   });
 })();
