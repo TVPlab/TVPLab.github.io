@@ -263,7 +263,7 @@
   },
   "mark": {
     "source": "https://www.tvplab-cambridge.com/mc",
-    "reviewed": "2026-10-10",
+    "reviewed": "2026-10-14",
     "emails": [
       "mjc97@medschl.cam.ac.uk"
     ],
@@ -324,6 +324,21 @@
         "heading": "Key publications",
         "heading_zh": "代表性论文与成果",
         "items": [
+          {
+            "text": "Pellegrinelli, V., Figueroa-Juarez, E., Samuelson, I., U-Din, M., Rodriguez-Fdez, S., Virtue, S., Leggat, J., Cubuk, C., Peirce, V.J., Niemi, T. and Campbell, M., 2023. Defective extracellular matrix remodeling in brown adipose tissue is associated with fibro-inflammation and reduced diet-induced thermogenesis. Cell Reports, 42(6).",
+            "source_text": "Pellegrinelli, V., Figueroa-Juarez, E., Samuelson, I., U-Din, M., Rodriguez-Fdez, S., Virtue, S., Leggat, J., Cubuk, C., Peirce, V.J., Niemi, T. and Campbell, M., 2023. Defective extracellular matrix remodeling in brown adipose tissue is associated with fibro-inflammation and reduced diet-induced thermogenesis. Cell Reports, 42(6).",
+            "source": "Member-requested addition supplied by user, 14 October 2026"
+          },
+          {
+            "text": "Dysregulation of macrophage PEPD in obesity determines adipose tissue fibro-inflammation and insulin resistance. V Pellegrinelli, S Rodriguez-Cuenca, C Rouault, E Figueroa-Juarez, H Schilbert, S Virtue, JM Moreno-Navarrete, G Bidault, MC Vázquez Borrego, AR Dias, B. Pucker, M Dale, M Campbell, S Carobbio, YH Lin, M. Vacca, J Aron-Wisnewsky, S Mora, MM Masiero, A Emmanouilidou, S Mukhopadhyay, G Dougan, M den Hoed, R JF Loos, JM Fernández-Real, D Chiarugi, K Clément, A Vidal-Puig. Nature Metabolism 2022;4(4):476-494.",
+            "source_text": "Dysregulation of macrophage PEPD in obesity determines adipose tissue fibro-inflammation and insulin resistance. V Pellegrinelli, S Rodriguez-Cuenca, C Rouault, E Figueroa-Juarez, H Schilbert, S Virtue, JM Moreno-Navarrete, G Bidault, MC Vázquez Borrego, AR Dias, B. Pucker, M Dale, M Campbell, S Carobbio, YH Lin, M. Vacca, J Aron-Wisnewsky, S Mora, MM Masiero, A Emmanouilidou, S Mukhopadhyay, G Dougan, M den Hoed, R JF Loos, JM Fernández-Real, D Chiarugi, K Clément, A Vidal-Puig. Nature Metabolism 2022;4(4):476-494.",
+            "source": "Member-requested addition supplied by user, 14 October 2026"
+          },
+          {
+            "text": "Allostatic hypermetabolic response in PGC1α/β heterozygote mouse despite mitochondrial defects. Rodriguez-Cuenca S, Lelliot CJ, Campbell M, Peddinti G3, Martinez-Uña M, Ingvorsen C, Dias AR, Relat J, Mora S, Hyötyläinen T, Zorzano A, Oresic M, Bjursell M, Bohlooly-Y M, Lindén D and Vidal-Puig, A. FASEB J. 2021 Sep;35(9):e21752.",
+            "source_text": "Allostatic hypermetabolic response in PGC1α/β heterozygote mouse despite mitochondrial defects. Rodriguez-Cuenca S, Lelliot CJ, Campbell M, Peddinti G3, Martinez-Uña M, Ingvorsen C, Dias AR, Relat J, Mora S, Hyötyläinen T, Zorzano A, Oresic M, Bjursell M, Bohlooly-Y M, Lindén D and Vidal-Puig, A. FASEB J. 2021 Sep;35(9):e21752.",
+            "source": "Member-requested addition supplied by user, 14 October 2026"
+          },
           {
             "source_block": 12,
             "text": "Rodriguez-Cuenca S, Carobbio S, Barceló-Coblijn G, Prieur X, Relat J, Amat R, Campbell M, Dias AR, Bahri M, Gray SL, Vidal-Puig A. P465L-PPARγ mutation confers partial resistance to the hypolipidaemic action of fibrates. Diabetes Obes Metab. 2018",

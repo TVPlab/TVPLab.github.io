@@ -115,3 +115,8 @@ Personal Fellowships and Awards gives 2007. Retain FRCP without a year pending
 author clarification; do not silently choose either date. The CV groups multiple
 current positions beneath October 2009–present, which is used only for the
 explicitly dated Cambridge professorship. Historical training counts are dated.
+
+
+## Mark Campbell — member-requested update (14 October 2026)
+
+Title changed to Scientific Management Lead (科研管理负责人) across navigation, directory and profile sources. Three user-supplied references (Cell Reports 2023; Nature Metabolism 2022; FASEB Journal 2021) added at the top of Key publications in the requested order, retaining existing entries. Citations remain in English in both language versions; only spacing and punctuation were normalised.
