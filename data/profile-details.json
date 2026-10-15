@@ -785,7 +785,7 @@
   },
   "hao": {
     "source": "https://www.tvplab-cambridge.com/copy-of-sonia-1",
-    "reviewed": "2026-10-10",
+    "reviewed": "2026-10-15",
     "emails": [
       "hj409@cam.ac.uk"
     ],
@@ -828,6 +828,11 @@
         "heading": "Key publications",
         "heading_zh": "代表性论文与成果",
         "items": [
+          {
+            "text": "Shi Q#, Jia H#, Dong J#, Li L, Cao J, Chen X, Jia Z, Na J, Yang Z, Chen X, Fan Y*, Yue S*, Zheng L*. Wavelength-Dependent Photobiomodulation Regulates Macrophage Polarization via Mitochondrial Dynamics and Metabolic Reprogramming. Adv Sci (Weinh). 2026 Jun 2:e75920.",
+            "source_text": "Shi Q#, Jia H#, Dong J#, Li L, Cao J, Chen X, Jia Z, Na J, Yang Z, Chen X, Fan Y*, Yue S*, Zheng L*. Wavelength-Dependent Photobiomodulation Regulates Macrophage Polarization via Mitochondrial Dynamics and Metabolic Reprogramming. Adv Sci (Weinh). 2026 Jun 2:e75920.",
+            "source": "User-provided publication, 15 October 2026"
+          },
           {
             "source_block": 9,
             "text": "Jia H#, Liu J#, Fang T, Zhou Z, Li R, Yin W, Qian Y, Wang Q, Zhou W, Liu C, Sun D, Chen X, Ouyang Z, Dong J, Wang Y*, Yue S*. The role of altered lipid composition and distribution in liver fibrosis revealed by multimodal nonlinear optical microscopy. Sci Adv. 2023 Jan 13;9(2):eabq2937.",
