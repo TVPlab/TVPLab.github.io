@@ -192,18 +192,6 @@
     "height": 501
   },
   {
-    "id": "possawee",
-    "slug": "possawee-prasertsuk",
-    "name": "Possawee Prasertsuk",
-    "name_zh": "Possawee Prasertsuk",
-    "role": "PhD",
-    "role_zh": "博士研究生",
-    "category": "students",
-    "photo": "images/team/possawee.webp",
-    "width": 600,
-    "height": 716
-  },
-  {
     "id": "iman",
     "slug": "iman-mali",
     "name": "Iman Mali",

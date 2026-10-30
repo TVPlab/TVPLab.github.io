@@ -1,5 +1,18 @@
 [
   {
+    "id": "possawee",
+    "slug": "possawee-prasertsuk",
+    "name": "Possawee Prasertsuk",
+    "name_zh": "Possawee Prasertsuk",
+    "role": "PhD",
+    "role_zh": "博士研究生",
+    "photo": "images/team/possawee.webp",
+    "width": 600,
+    "height": 716,
+    "details": "Former PhD student at TVPlab.",
+    "details_zh": "TVPlab 往届博士研究生。"
+  },
+  {
     "id": "elizabeth-figueroa-juarez",
     "name": "Elizabeth Figueroa-Juarez",
     "details": "Former PhD researcher; extracellular matrix remodelling and brown adipose tissue activation.",

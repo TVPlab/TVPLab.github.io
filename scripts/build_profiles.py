@@ -37,7 +37,7 @@ def current_card(p, cn):
 
 
 def alumni_card(p, cn):
-    href = f"people/{p['id']}.html"
+    href = f"people/{p.get('slug', p['id'])}.html"
     name = escape(p['name'])
     return f'''<article class="alumni-card" id="alumni-{p['id']}" aria-labelledby="alumni-name-{p['id']}">
 <a class="alumni-portrait-link" href="{href}" aria-label="{name}"><img src="{('../' if cn else '') + p['photo']}" width="{p['width']}" height="{p['height']}" alt="" loading="lazy" decoding="async" /></a>
@@ -106,7 +106,7 @@ def full_details(person_id, cn):
 
 
 def render_profile(p, cn, header, footer, previous, following, alumni=False):
-    slug = p['id'] if alumni else p['slug']
+    slug = p.get('slug', p['id'])
     base = ROOT / 'zh' if cn else ROOT
     output = base / 'people' / (slug + '.html')
     output.parent.mkdir(exist_ok=True)
@@ -136,7 +136,7 @@ def render_profile(p, cn, header, footer, previous, following, alumni=False):
         if other is None:
             related += '<span></span>'
             continue
-        other_slug = other['id'] if alumni else other['slug']
+        other_slug = other.get('slug', other['id'])
         direction_text = tr('Previous profile', '上一位成员', cn) if direction == 'previous' else tr('Next profile', '下一位成员', cn)
         related += f'<a href="{other_slug}.html"><span>{direction_text}</span><strong>{escape(local(other, "name", cn))}</strong></a>'
     title = escape(name + ' — TVPlab')
