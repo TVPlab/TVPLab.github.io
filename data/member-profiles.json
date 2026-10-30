@@ -36,18 +36,6 @@
     "height": 461
   },
   {
-    "id": "vanessa",
-    "slug": "vanessa-pellegrinelli",
-    "name": "Dr. Vanessa Pellegrinelli",
-    "name_zh": "Vanessa Pellegrinelli 博士",
-    "role": "Research Fellow",
-    "role_zh": "研究员（Research Fellow）",
-    "category": "fellows",
-    "photo": "images/team/vanessa.webp",
-    "width": 600,
-    "height": 667
-  },
-  {
     "id": "sergio",
     "slug": "sergio-rodriguez-cuenca",
     "name": "Dr. Sergio Rodriguez-Cuenca",
@@ -58,6 +46,18 @@
     "photo": "images/team/sergio.webp",
     "width": 600,
     "height": 600
+  },
+  {
+    "id": "vanessa",
+    "slug": "vanessa-pellegrinelli",
+    "name": "Dr. Vanessa Pellegrinelli",
+    "name_zh": "Vanessa Pellegrinelli 博士",
+    "role": "Research Fellow",
+    "role_zh": "研究员（Research Fellow）",
+    "category": "fellows",
+    "photo": "images/team/vanessa.webp",
+    "width": 600,
+    "height": 667
   },
   {
     "id": "sonia",
