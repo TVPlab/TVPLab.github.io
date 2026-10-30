@@ -8,6 +8,7 @@ from html import escape
 import json
 import os
 import re
+from cherub_feature import render_cherub_feature
 
 ROOT = Path(__file__).resolve().parent.parent
 ORIGIN = 'https://tvplab.github.io/'
@@ -139,9 +140,11 @@ def render_profile(p, cn, header, footer, previous, following, alumni=False):
         other_slug = other.get('slug', other['id'])
         direction_text = tr('Previous profile', '上一位成员', cn) if direction == 'previous' else tr('Next profile', '下一位成员', cn)
         related += f'<a href="{other_slug}.html"><span>{direction_text}</span><strong>{escape(local(other, "name", cn))}</strong></a>'
+    feature = render_cherub_feature(cn) if p['id'] == 'kaida' else ''
     title = escape(name + ' — TVPlab')
     canonical = ORIGIN + output.relative_to(ROOT).as_posix()
-    css = ''.join(f'<link rel="stylesheet" href="{rel(f + ".css")}?v=profiles-full-20261010" />' for f in ['styles', 'refresh', 'controls', 'navigation', 'profiles'])
+    style_version = 'profiles-full-20261030' if p['id'] == 'kaida' else 'profiles-full-20261010'
+    css = ''.join(f'<link rel="stylesheet" href="{rel(f + ".css")}?v={style_version}" />' for f in ['styles', 'refresh', 'controls', 'navigation', 'profiles'])
     js = ''.join(f'<script src="{rel(f + ".js")}?v=20260921-2" defer></script>' for f in ['site', 'navigation'])
     page = f'''<!DOCTYPE html>
 <html lang="{'zh-CN' if cn else 'en'}"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -155,7 +158,7 @@ def render_profile(p, cn, header, footer, previous, following, alumni=False):
 <div class="profile-copy"><p class="profile-eyebrow">{tr('Our wider community', '我们共同的科研历程', cn) if alumni else 'TVPlab · Cambridge'}</p><h1>{escape(name)}</h1><p class="profile-role">{escape(role)}</p>
 {contact}<div class="profile-overview"><h2>{tr('Profile', '个人简介', cn)}</h2><p>{escape(summary)}</p></div>{sections}
 <div class="profile-actions">{extras}{actions}<a href="{back}">{tr('Back to ', '返回', cn)}{label} <span aria-hidden="true">↗</span></a></div></div></article>
-{contents}{full_body}
+{feature}{contents}{full_body}
 <nav class="profile-adjacent" aria-label="{tr('Browse member profiles', '浏览成员主页', cn)}">{related}</nav>
 </main>{rebase(footer)}</body></html>'''
     output.write_text(page)

@@ -986,7 +986,18 @@
       "kw619@cam.ac.uk",
       "cherubholmes@gmail.com"
     ],
-    "links": [],
+    "links": [
+      {
+        "label": "Circle of Life — science & bioinnovation",
+        "label_zh": "Circle of Life — 科学与生物创新",
+        "url": "https://cherubwu.github.io/Circle-of-Life/"
+      },
+      {
+        "label": "Cherub’s Wonderland — writing, illustration & life",
+        "label_zh": "Cherub 的 Wonderland — 写作、插画与生活",
+        "url": "https://cherubwu.github.io/"
+      }
+    ],
     "sections": [
       {
         "id": "background",
