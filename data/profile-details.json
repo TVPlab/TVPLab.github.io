@@ -1363,5 +1363,69 @@
         ]
       }
     ]
+  },
+  "mohammadhadi": {
+    "source": "User-provided biography, 30 October 2026",
+    "reviewed": "2026-10-30",
+    "emails": [],
+    "links": [
+      {
+        "label": "HLRI — our Cambridge location",
+        "label_zh": "HLRI——我们的剑桥实验室",
+        "url": "https://tvplab.github.io/about.html#location-hlri"
+      },
+      {
+        "label": "Dr. Sonia Rodriguez-Fernandez",
+        "label_zh": "Sonia Rodriguez-Fernandez 博士",
+        "url": "https://tvplab.github.io/people/sonia-rodriguez-fernandez.html"
+      }
+    ],
+    "sections": [
+      {
+        "id": "background",
+        "heading": "Short introduction",
+        "heading_zh": "个人简介",
+        "items": [
+          {
+            "text": "I am a biomedical researcher with experience in cell culture, stem-cell differentiation, organoid models, and molecular biology techniques. My work has involved protein analysis, immunostaining, microscopy, laboratory stock management, and the preparation of SOPs and research documentation. I am particularly interested in applying these skills to research on adipose tissue biology, metabolism, and metabolic disease.",
+            "text_zh": "我是一名生物医学研究人员，具有细胞培养、干细胞分化、类器官模型及分子生物学技术方面的经验。我的工作涉及蛋白质分析、免疫染色、显微成像、实验室库存管理，以及标准操作规程（SOP）和科研文档的编写。我尤其希望将这些技能应用于脂肪组织生物学、代谢及代谢疾病研究。"
+          }
+        ]
+      },
+      {
+        "id": "location",
+        "heading": "Role and location",
+        "heading_zh": "职位与工作地点",
+        "items": [
+          {
+            "text": "I am a Research Assistant based at the Heart & Lung Research Institute (HLRI), working with Dr. Sonia Rodriguez-Fernandez.",
+            "text_zh": "我担任科研助理，工作地点为心肺研究所（HLRI），与 Sonia Rodriguez-Fernandez 博士共事。"
+          }
+        ]
+      },
+      {
+        "id": "interests",
+        "heading": "Research interests",
+        "heading_zh": "研究兴趣",
+        "items": [
+          {
+            "text": "Stem-cell biology and differentiation",
+            "text_zh": "干细胞生物学与分化"
+          },
+          {
+            "text": "Organoid and 3D cell-culture models",
+            "text_zh": "类器官与三维细胞培养模型"
+          },
+          {
+            "text": "Adipose tissue biology and metabolism",
+            "text_zh": "脂肪组织生物学与代谢"
+          },
+          {
+            "text": "Brown adipose tissue, thermogenesis, and energy homeostasis",
+            "text_zh": "棕色脂肪组织、产热与能量稳态"
+          }
+        ]
+      }
+    ]
   }
 }

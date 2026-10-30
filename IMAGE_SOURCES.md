@@ -47,3 +47,5 @@ Cherub's replacement uses the same built-in background-removal edit mode and Web
 Guillaume Bidault: `images/team/guillaume-20261014.png` — replacement portrait supplied by the user on 14 October 2026. Original PNG preserved without image edits.
 
 Guillaume portrait style update (30 October 2026): `images/team/guillaume-cutout-20261030.png`, transparent background extraction with built-in imagegen from the user-supplied monochrome portrait. Prompt: remove laboratory background only; preserve identity, expression, clothing, grayscale tones and framing. Directory framing aligned to the other portraits.
+
+Mohammadhadi Moradi: user-supplied photograph (30 October 2026); built-in imagegen transparent cutout at `images/team/mohammadhadi-moradi.png`. Prompt: remove outdoor background and railing, preserve face, expression, clothes, colours and lighting; retain visible shoulders and torso.

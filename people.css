@@ -76,3 +76,5 @@ body.people-page{background-color:var(--paper);background-image:url('images/pape
 .alumni-card .alumni-portrait-link{display:block;padding:0}
 .alumni-card h3 a{font:inherit;padding:0;text-decoration:none}
 .alumni-card h3 a:hover{text-decoration:underline}
+
+#mohammadhadi{--portrait-height:168.7251%;--portrait-top:-1.9175%;--portrait-x:-53.0000%;}

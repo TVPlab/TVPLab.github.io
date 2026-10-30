@@ -168,6 +168,18 @@
     "height": 665
   },
   {
+    "id": "mohammadhadi",
+    "slug": "mohammadhadi-moradi",
+    "name": "Mohammadhadi Moradi",
+    "name_zh": "Mohammadhadi Moradi",
+    "role": "Research Assistant",
+    "role_zh": "科研助理",
+    "category": "assistants",
+    "photo": "images/team/mohammadhadi-moradi.png",
+    "width": 1186,
+    "height": 1327
+  },
+  {
     "id": "kaida",
     "slug": "cherub-kaida-wu",
     "name": "Cherub Kaida Wu",

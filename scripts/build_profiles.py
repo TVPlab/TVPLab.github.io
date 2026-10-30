@@ -89,6 +89,8 @@ def full_details(person_id, cn):
             content = '<ol class="profile-publications" lang="en">' + ''.join('<li>' + item + '</li>' for item in items) + '</ol>'
         elif key == 'interests' and person_id == 'sergio':
             content = '<ol class="profile-interests">' + ''.join('<li>' + item + '</li>' for item in items) + '</ol>'
+        elif key == 'interests' and person_id == 'mohammadhadi':
+            content = '<ul>' + ''.join('<li>' + item + '</li>' for item in items) + '</ul>'
         elif key == 'interests' and person_id == 'mark':
             content = '<p>' + items[0] + '</p><ul>' + ''.join('<li>' + item + '</li>' for item in items[1:]) + '</ul>'
         else:
@@ -169,7 +171,8 @@ def build():
         assert count == 1, 'Could not find current-member grid'
         text, count = re.subn(r'<div class="alumni-grid">.*?</div></section><!-- alumni:end -->', '<div class="alumni-grid">' + ''.join(alumni_card(p, cn) for p in ALUMNI) + '</div></section><!-- alumni:end -->', text, count=1, flags=re.S)
         assert count == 1, 'Could not find alumni grid'
-        text = re.sub(r'(people\.(?:css|js))\?[^"\s]+', r'\1?v=profiles-20261010', text)
+        text = re.sub(r'(people\.(?:css|js))\?[^"\s]+', r'\1?v=people-20261030-2', text)
+        text = re.sub(r'(<p id="team-count"[^>]*>).*?(</p>)', lambda m: m[1] + (f'{len(MEMBERS)} 位团队成员' if cn else f'{len(MEMBERS)} team members') + m[2], text)
         path.write_text(text)
         header = re.search(r'<header class="site-header">.*?</header>', text, re.S).group()
         footer = re.search(r'<footer class="site-footer">.*?</footer>', text, re.S).group()
