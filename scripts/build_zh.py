@@ -146,6 +146,7 @@ for section in json.loads((ROOT/'data/profile-details.json').read_text())['toni'
   EXACT[item['text']]=item['text_zh']
 
 EXACT.update({'Research Fellow':'研究员（Research Fellow）','Research Fellows':'研究员（Research Fellows）','Dr. Ruoqi Du':'Ruoqi Du 博士'})
+EXACT.update(json.loads((ROOT/'data/locations-i18n.json').read_text()))
 ALLOWED={'TVP','lab','☰','↗','EN','中文','TVPlab','X / Twitter','Twitter / X','LinkedIn','Google Scholar','PubMed','Nature Metabolism','Hills Road','Katie Fisher','Mark Campbell','Martin Dale','Nazuk Gupta','Milidili Maimaiti','Ruoqi Du','Possawee Prasertsuk','Iman Mali','Cherub Kaida Wu','.'}
 missing=set()
 def translate(text):
